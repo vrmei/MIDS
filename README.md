@@ -25,11 +25,12 @@ MIDS/
 │   ├── eval.py         - Standalone evaluation
 │   └── Seo-train.py    - Reproduction of Seo et al. baseline
 ├── scripts/          # Tesla-dataset preprocessing pipeline
+│   ├── process_tesla.sh      - End-to-end batch driver (run this first)
 │   ├── own_data_process.py   - .asc → .csv
 │   ├── modify_data.py        - Controlled tampering injection
 │   ├── reshape.py            - Window grouping
+│   ├── merge.py              - Per-scenario concatenation
 │   ├── transfer.py           - .csv → .npy
-│   ├── merge.py              - Dataset concatenation
 │   ├── multi_data_process.py
 │   ├── Seo_data_process.py   - Seo-dataset processing
 │   └── data_visualizer.py
@@ -73,15 +74,39 @@ Place each dataset under `data/<name>/` and adjust the corresponding YAML in
 
 ### Reproducing Tables III–VI (Tesla, original pipeline)
 
+Place the raw Tesla `.asc` traces under `data/owndata/origin/<scenario>/`
+(default scenarios are `high-speed/` and `standby/`), then run the
+end-to-end batch driver:
+
 ```bash
-# 1. Preprocess Tesla .asc → .npy
-python scripts/own_data_process.py batch --input_dir data/raw --output_dir data/processed --output_file merged.csv
-python scripts/modify_data.py --input_file data/processed/merged.csv --output_file data/modified/modified.csv --x 10 --modify_type Both
-python scripts/reshape.py --input_dir data/modified --output_file data/reshaped/reshaped.csv --group_size 100
-python scripts/transfer.py --input_csv data/reshaped/reshaped.csv --output_npy data/reshaped/reshaped.npy
+# 1. End-to-end preprocessing: .asc → tampered → windowed → merged .npy
+#    Runs own_data_process → modify_data → reshape → merge → transfer
+#    in order, for every default scenario.
+bash scripts/process_tesla.sh
+
+# (optional) process only specific scenarios:
+bash scripts/process_tesla.sh high-speed standby
+
+# (optional) override injection ratios / window size via env vars:
+GROUP_SIZE=100 INJECTION_RATIOS="2 5 10" MOD_TYPES="CANID payload Both" \
+    bash scripts/process_tesla.sh
 
 # 2. Train MIDS (or any ablation variant) with 5-fold CV
 python train/train_mamba.py
+```
+
+The pipeline produces `data/owndata/merged/<scenario>_merged.npy`, which
+is the input consumed by `train/train_mamba.py`.
+
+If you need to run the stages manually (e.g. to debug), the individual
+commands are:
+
+```bash
+python scripts/own_data_process.py batch_single --input_dir data/owndata/origin/high-speed --output_dir data/owndata/processed/high-speed
+python scripts/modify_data.py --input_file data/owndata/processed/high-speed/high-speed1_processed.csv --output_file data/owndata/attackdata/high-speed/high-CANID-10.csv --x 10 --modify_type CANID
+python scripts/reshape.py --input_dir data/owndata/attackdata/high-speed --output_file data/owndata/reshape/high-speed/high-speed.csv --group_size 100
+python scripts/merge.py --input_dir data/owndata/reshape/high-speed --output_file data/owndata/merged/high-speed_merged.csv
+python -c "from scripts.transfer import csv_to_npy; csv_to_npy('data/owndata/merged/high-speed_merged.csv', 'data/owndata/merged/high-speed_merged.npy')"
 ```
 
 ### Reproducing Table VII (cross-dataset benchmark)
