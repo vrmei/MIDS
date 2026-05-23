@@ -1,0 +1,8 @@
+name: cnn
+num_classes: 4
+window_length: 100
+num_features: 9
+channels: [64, 128]
+kernel_size: 3
+padding: 1
+dropout: 0.3

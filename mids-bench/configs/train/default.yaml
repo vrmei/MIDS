@@ -1,0 +1,27 @@
+# Frozen training hyperparameters from §VI-B3 of the paper.
+# Do not change without bumping a protocol version — these define the
+# unified comparison surface for Batch 2 baselines.
+
+n_epochs: 50
+lr: 1.0e-4
+cosine_t_max: 10
+grad_clip_norm: 1.0
+batch_size: 1024
+num_classes: 4
+window_length: 100
+num_features: 9
+use_balanced_weights: true
+
+# Latency benchmark (§VI-G): batch=1, 100 warmup + 1000 timed runs.
+latency_warmup: 100
+latency_runs: 1000
+
+# Eval cadence. 1 = every epoch (paper protocol). On the full Tesla
+# dataset (~1M windows) every-epoch eval roughly doubles wall-clock.
+# Set to 5 or 10 for development iterations; restore to 1 for the
+# final reportable run. Final epoch is always evaluated.
+eval_every: 1
+
+# Show tqdm progress bars per train + eval loop. Set false for CI
+# log output, true for interactive runs.
+progress_bar: true

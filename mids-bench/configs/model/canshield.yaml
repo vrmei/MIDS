@@ -1,0 +1,9 @@
+name: canshield
+num_classes: 4
+window_length: 100
+num_features: 9
+conv_channels: [32, 64]
+lstm_hidden: 64
+lstm_layers: 1
+bidirectional: false
+dropout: 0.3

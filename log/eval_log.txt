@@ -1,0 +1,120 @@
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: DoS
+Final Accuracy: 0.9945945739746094
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.41839972138404846
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.4209845960140228
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.4950064718723297
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.5095758438110352
+
+Model Type: CNN
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.49994125962257385
+
+Model Type: KNN
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.5203853836211961
+
+Model Type: KNN
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.5591060985797828
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.6203007698059082
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.6418128609657288
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.6904761791229248
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.962723970413208
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.7120775580406189
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.9582623839378357
+
+Model Type: KNN
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 0.818704
+
+Model Type: MLP
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 68.18%
+
+Model Type: MLP
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 68.02%
+
+Model Type: MLP
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 90.30%
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 59.53%
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 97.21%
+
+Model Type: Attn
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 62.79%
+
+Model Type: MLP
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 99.98%
+
+Model Type: MLP
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 99.98%
+
+Model Type: MLP
+Data Source: own
+Attack Type: DoS
+Final Accuracy: 95.16%

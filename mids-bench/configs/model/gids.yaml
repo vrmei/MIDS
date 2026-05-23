@@ -1,0 +1,7 @@
+name: gids
+num_classes: 4
+window_length: 100
+num_features: 9
+channels: [32, 64, 128]
+kernel_size: 3
+dropout: 0.3

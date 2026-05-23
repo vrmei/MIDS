@@ -1,0 +1,623 @@
+
+Model Type: CNN
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor([0.9939]), tensor([0.9957]), tensor([0.9968]), tensor([0.9973]), tensor([0.9974]), tensor([0.9977]), tensor([0.9978]), tensor([0.9976]), tensor([0.9981]), tensor([0.9982])]
+Max Accuracy: tensor([0.9982])
+Mean Accuracy: tensor([0.9970])
+
+Model Type: CNN
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor([0.8133]), tensor([0.8193]), tensor([0.8463]), tensor([0.8874]), tensor([0.8086]), tensor([0.8237]), tensor([0.9005]), tensor([0.9134]), tensor([0.8699]), tensor([0.9140])]
+Max Accuracy: tensor([0.9140])
+Mean Accuracy: tensor([0.8596])
+
+Model Type: CNN
+Data Source: Seo
+Attack Type: gear
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor([0.9956]), tensor([0.9978]), tensor([0.9985]), tensor([0.9976]), tensor([0.9988]), tensor([0.9992]), tensor([0.9995]), tensor([0.9992]), tensor([0.9998]), tensor([0.9998])]
+Max Accuracy: tensor([0.9998])
+Mean Accuracy: tensor([0.9986])
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9730), tensor(0.9806), tensor(0.9836), tensor(0.9873), tensor(0.9886), tensor(0.9885), tensor(0.9907), tensor(0.9923), tensor(0.9918), tensor(0.9941)]
+Max Accuracy: 0.9941189289093018
+Mean Accuracy: 0.9870530366897583
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9350), tensor(0.9715), tensor(0.9681), tensor(0.9624), tensor(0.9566), tensor(0.9400), tensor(0.9697), tensor(0.9794), tensor(0.9734), tensor(0.9708)]
+Max Accuracy: 0.9794015884399414
+Mean Accuracy: 0.9626890420913696
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: gear
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9756), tensor(0.9859), tensor(0.9907), tensor(0.9943), tensor(0.9923), tensor(0.9924), tensor(0.9950), tensor(0.9942), tensor(0.9925), tensor(0.9933)]
+Max Accuracy: 0.9949511289596558
+Mean Accuracy: 0.9906238317489624
+
+
+Model Type: KNN
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 99.58%
+
+Model Type: KNN
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 99.71%
+
+Model Type: KNN
+Data Source: Seo
+Attack Type: gear
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 96.77%
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9724), tensor(0.9806), tensor(0.9856), tensor(0.9867), tensor(0.9894), tensor(0.9889), tensor(0.9897), tensor(0.9916), tensor(0.9913), tensor(0.9930)]
+Max Accuracy: 0.9929946064949036
+Mean Accuracy: 0.986901581287384
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9730), tensor(0.9806), tensor(0.9836), tensor(0.9873), tensor(0.9886), tensor(0.9885), tensor(0.9907), tensor(0.9923), tensor(0.9918), tensor(0.9941)]
+Max Accuracy: 0.9941189289093018
+Mean Accuracy: 0.9870530366897583
+False Negative Rate (FNR): 0.0112
+Error Rate (ER): 0.0059
+Recall: 0.9888
+F1 Score: 0.9926
+
+Model Type: CNN
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9929), tensor(0.9947), tensor(0.9956), tensor(0.9963), tensor(0.9965), tensor(0.9970), tensor(0.9976), tensor(0.9974), tensor(0.9976), tensor(0.9977)]
+Max Accuracy: 0.9976627230644226
+Mean Accuracy: 0.9963253140449524
+False Negative Rate (FNR): 0.0052
+Error Rate (ER): 0.0023
+Recall: 0.9948
+F1 Score: 0.9971
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9350), tensor(0.9715), tensor(0.9681), tensor(0.9624), tensor(0.9566), tensor(0.9400), tensor(0.9697), tensor(0.9794), tensor(0.9734), tensor(0.9708)]
+Max Accuracy: 0.9794015884399414
+Mean Accuracy: 0.9626890420913696
+False Negative Rate (FNR): 0.0000
+Error Rate (ER): 0.0292
+Recall: 0.0000
+F1 Score: 0.0000
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9114), tensor(0.9267), tensor(0.9411), tensor(0.9488), tensor(0.9513), tensor(0.9556), tensor(0.9655), tensor(0.9671), tensor(0.9668), tensor(0.9710)]
+Max Accuracy: 0.9709535241127014
+Mean Accuracy: 0.9505144357681274
+False Negative Rate (FNR): 0.1218
+Error Rate (ER): 0.0290
+Recall: 0.8782
+F1 Score: 0.8998
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: gear
+Training Proportion: 0.8
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9756), tensor(0.9859), tensor(0.9907), tensor(0.9943), tensor(0.9923), tensor(0.9924), tensor(0.9950), tensor(0.9942), tensor(0.9925), tensor(0.9933)]
+Max Accuracy: 0.9949511289596558
+Mean Accuracy: 0.9906238317489624
+False Negative Rate (FNR): 0.0000
+Error Rate (ER): 0.0067
+Recall: 0.0000
+F1 Score: 0.0000
+
+Model Type: CNN
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.8821), tensor(0.8980), tensor(0.9129), tensor(0.9216), tensor(0.8712), tensor(0.9079), tensor(0.9285), tensor(0.9490), tensor(0.9100), tensor(0.9259)]
+Max Accuracy: 0.9489705562591553
+Mean Accuracy: 0.9107133746147156
+False Negative Rate (FNR): 0.0059
+Error Rate (ER): 0.0741
+Recall: 0.9941
+F1 Score: 0.7948
+
+Model Type: DecisionTree
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.6
+Number of Classes: 2
+
+
+Final Accuracy: 100.00%
+False Negative Rate (FNR): 0.0000
+Error Rate (ER): 0.0000
+Recall: 1.0000
+F1 Score: 1.0000
+
+Model Type: DecisionTree
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.6
+Number of Classes: 2
+
+
+Final Accuracy: 100.00%
+False Negative Rate (FNR): 0.0000
+Error Rate (ER): 0.0000
+Recall: 1.0000
+F1 Score: 1.0000
+
+Model Type: DecisionTree
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.6
+Number of Classes: 2
+
+
+Final Accuracy: 100.00%
+False Negative Rate (FNR): 0.0000
+Error Rate (ER): 0.0000
+Recall: 1.0000
+F1 Score: 1.0000
+
+Model Type: DecisionTree
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 99.98%
+False Negative Rate (FNR): 0.0002
+Error Rate (ER): 0.0002
+Recall: 0.9998
+F1 Score: 0.9998
+
+Model Type: DecisionTree
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 99.68%
+False Negative Rate (FNR): 0.0000
+Error Rate (ER): 0.0032
+Recall: 0.0000
+F1 Score: 0.0000
+
+Model Type: DecisionTree
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.6
+Number of Classes: 2
+
+
+Final Accuracy: 96.14%
+False Negative Rate (FNR): 0.0135
+Error Rate (ER): 0.0386
+Recall: 0.9865
+F1 Score: 0.8808
+
+Model Type: DecisionTree
+Data Source: Seo
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Classes: 2
+
+
+Final Accuracy: 99.58%
+False Negative Rate (FNR): 0.0018
+Error Rate (ER): 0.0042
+Recall: 0.9982
+F1 Score: 0.9916
+
+Model Type: Attn
+Data Source: Seo
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9542), tensor(0.9673), tensor(0.9717), tensor(0.9747), tensor(0.9817), tensor(0.9813), tensor(0.9839), tensor(0.9848), tensor(0.9871), tensor(0.9873)]
+Max Accuracy: 0.987321674823761
+Mean Accuracy: 0.9773808717727661
+False Negative Rate (FNR): 0.0169
+Error Rate (ER): 0.0127
+Recall: 0.9831
+F1 Score: 0.9746
+
+Model Type: CNN
+Data Source: Seo
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9825), tensor(0.9886), tensor(0.9913), tensor(0.9928), tensor(0.9931), tensor(0.9943), tensor(0.9949), tensor(0.9952), tensor(0.9951), tensor(0.9959)]
+Max Accuracy: 0.9959425330162048
+Mean Accuracy: 0.992374062538147
+False Negative Rate (FNR): 0.0086
+Error Rate (ER): 0.0041
+Recall: 0.9914
+F1 Score: 0.9918
+
+Model Type: KNN
+Data Source: Seo
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Classes: 2
+
+
+Final Accuracy: 96.31%
+False Negative Rate (FNR): 0.0233
+Error Rate (ER): 0.0369
+Recall: 0.9767
+F1 Score: 0.9291
+
+Model Type: LSTM
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9724), tensor(0.9893), tensor(0.9927), tensor(0.9934), tensor(0.9946), tensor(0.9954), tensor(0.9958), tensor(0.9964), tensor(0.9964), tensor(0.9964)]
+Max Accuracy: 0.9963892102241516
+Mean Accuracy: 0.9922875165939331
+False Negative Rate (FNR): 0.0072
+Error Rate (ER): 0.0036
+Recall: 0.9928
+F1 Score: 0.9957
+
+Model Type: LSTM
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.8973), tensor(0.9224), tensor(0.9415), tensor(0.9449), tensor(0.9536), tensor(0.9590), tensor(0.9615), tensor(0.9655), tensor(0.9661), tensor(0.9691)]
+Max Accuracy: 0.9691295623779297
+Mean Accuracy: 0.9480804204940796
+False Negative Rate (FNR): 0.0470
+Error Rate (ER): 0.0309
+Recall: 0.9530
+F1 Score: 0.9344
+
+Model Type: LSTM
+Data Source: Seo
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9602), tensor(0.9713), tensor(0.9725), tensor(0.9760), tensor(0.9790), tensor(0.9804), tensor(0.9816), tensor(0.9805), tensor(0.9839), tensor(0.9843)]
+Max Accuracy: 0.9843475222587585
+Mean Accuracy: 0.9769760966300964
+False Negative Rate (FNR): 0.0328
+Error Rate (ER): 0.0157
+Recall: 0.9672
+F1 Score: 0.9683
+
+Model Type: ANN
+Data Source: Seo
+Attack Type: DoS
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9919), tensor(0.9949), tensor(0.9962), tensor(0.9971), tensor(0.9968), tensor(0.9977), tensor(0.9974), tensor(0.9976), tensor(0.9978), tensor(0.9979)]
+Max Accuracy: 0.9978810548782349
+Mean Accuracy: 0.9965102076530457
+False Negative Rate (FNR): 0.0041
+Error Rate (ER): 0.0021
+Recall: 0.9959
+F1 Score: 0.9975
+
+Model Type: ANN
+Data Source: Seo
+Attack Type: Fuzz
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9501), tensor(0.9741), tensor(0.9832), tensor(0.9870), tensor(0.9830), tensor(0.9900), tensor(0.9902), tensor(0.9883), tensor(0.9894), tensor(0.9923)]
+Max Accuracy: 0.992335319519043
+Mean Accuracy: 0.9827640652656555
+False Negative Rate (FNR): 0.0232
+Error Rate (ER): 0.0077
+Recall: 0.9768
+F1 Score: 0.9833
+
+Model Type: ANN
+Data Source: Seo
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Latent Dimension: 100
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9630), tensor(0.9863), tensor(0.9873), tensor(0.9893), tensor(0.9907), tensor(0.9919), tensor(0.9923), tensor(0.9940), tensor(0.9949), tensor(0.9959)]
+Max Accuracy: 0.9958710074424744
+Mean Accuracy: 0.9885619282722473
+False Negative Rate (FNR): 0.0092
+Error Rate (ER): 0.0041
+Recall: 0.9908
+F1 Score: 0.9916
+
+Model Type: Attn
+Data Source: own
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Epochs: 10
+Number of Classes: 2
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.5085), tensor(0.5116), tensor(0.5162), tensor(0.5054), tensor(0.5026), tensor(0.5204), tensor(0.5115), tensor(0.5196), tensor(0.5203), tensor(0.5199)]
+Max Accuracy: 0.5203853845596313
+Mean Accuracy: 0.5136058926582336
+False Negative Rate (FNR): 0.1710
+Error Rate (ER): 0.4801
+Recall: 0.8290
+F1 Score: 0.6333
+
+Model Type: Attn
+Data Source: own
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Epochs: 100
+Number of Classes: 2
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.5000), tensor(0.5028), tensor(0.5265), tensor(0.5221), tensor(0.5251), tensor(0.5235), tensor(0.5274), tensor(0.5204), tensor(0.5303), tensor(0.5240), tensor(0.5274), tensor(0.5258), tensor(0.5321), tensor(0.5288), tensor(0.5260), tensor(0.5220), tensor(0.5294), tensor(0.5250), tensor(0.5267), tensor(0.5327), tensor(0.5271), tensor(0.5280), tensor(0.5283), tensor(0.5281), tensor(0.5313), tensor(0.5300), tensor(0.5257), tensor(0.5275), tensor(0.5274), tensor(0.5227), tensor(0.5347), tensor(0.5241), tensor(0.5317), tensor(0.5226), tensor(0.5281), tensor(0.5237), tensor(0.5306), tensor(0.5272), tensor(0.5250), tensor(0.5266), tensor(0.5308), tensor(0.5276), tensor(0.5278), tensor(0.5305), tensor(0.5295), tensor(0.5263), tensor(0.5315), tensor(0.5301), tensor(0.5278), tensor(0.5275), tensor(0.5280), tensor(0.5261), tensor(0.5242), tensor(0.5278), tensor(0.5273), tensor(0.5256), tensor(0.5251), tensor(0.5237), tensor(0.5247), tensor(0.5309), tensor(0.5223), tensor(0.5216), tensor(0.5218), tensor(0.5238), tensor(0.5226), tensor(0.5285), tensor(0.5249), tensor(0.5249), tensor(0.5211), tensor(0.5243), tensor(0.5276), tensor(0.5226), tensor(0.5235), tensor(0.5229), tensor(0.5253), tensor(0.5264), tensor(0.5267), tensor(0.5264), tensor(0.5182), tensor(0.5191), tensor(0.5209), tensor(0.5236), tensor(0.5208), tensor(0.5239), tensor(0.5251), tensor(0.5246), tensor(0.5211), tensor(0.5212), tensor(0.5173), tensor(0.5199), tensor(0.5190), tensor(0.5184), tensor(0.5236), tensor(0.5157), tensor(0.5199), tensor(0.5194), tensor(0.5162), tensor(0.5190), tensor(0.5173), tensor(0.5145)]
+Max Accuracy: 0.534661054611206
+Mean Accuracy: 0.5245647430419922
+False Negative Rate (FNR): 0.4532
+Error Rate (ER): 0.4855
+Recall: 0.5468
+F1 Score: 0.5297
+
+Model Type: CNN
+Data Source: own
+Attack Type: Gear
+Training Proportion: 0.6
+Number of Epochs: 20
+Number of Classes: 2
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101), tensor(0.9101)]
+Max Accuracy: 0.9101163148880005
+Mean Accuracy: 0.9101163148880005
+False Negative Rate (FNR): 1.0000
+Error Rate (ER): 0.0899
+Recall: 0.0000
+F1 Score: 0.0000
+
+Model Type: KNN
+Data Source: own
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 77.44%
+False Negative Rate (FNR): 0.9062
+Error Rate (ER): 0.2256
+Recall: 0.0938
+F1 Score: 0.1296
+
+Model Type: Attn
+Data Source: own
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Epochs: 20
+Number of Classes: 2
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.9175), tensor(0.9214), tensor(0.9203), tensor(0.9209), tensor(0.9188), tensor(0.9140), tensor(0.9101), tensor(0.9194), tensor(0.9167), tensor(0.9192), tensor(0.9174), tensor(0.9161), tensor(0.9152), tensor(0.9159), tensor(0.9142), tensor(0.9112), tensor(0.9176), tensor(0.9208), tensor(0.9111), tensor(0.9176)]
+Max Accuracy: 0.9213958382606506
+Mean Accuracy: 0.9167724847793579
+False Negative Rate (FNR): 0.6647
+Error Rate (ER): 0.0824
+Recall: 0.3353
+F1 Score: 0.3878
+
+Model Type: Attn
+Data Source: own
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Epochs: 20
+Number of Classes: 2
+Learning Rate: 0.0001
+
+Final Accuracy: [tensor(0.7261), tensor(0.8599), tensor(0.9206), tensor(0.8187), tensor(0.9118), tensor(0.9142), tensor(0.8944), tensor(0.9299), tensor(0.9038), tensor(0.8994), tensor(0.8723), tensor(0.8918), tensor(0.9022), tensor(0.8831), tensor(0.8947), tensor(0.8410), tensor(0.8893), tensor(0.9120), tensor(0.8554), tensor(0.8736)]
+Max Accuracy: 0.929855465888977
+Mean Accuracy: 0.8797085881233215
+False Negative Rate (FNR): 0.6224
+Error Rate (ER): 0.1264
+Recall: 0.3776
+F1 Score: 0.3173
+
+Model Type: KNN
+Data Source: own
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 80.10%
+False Negative Rate (FNR): 0.8379
+Error Rate (ER): 0.1990
+Recall: 0.1621
+F1 Score: 0.2086
+
+Model Type: KNN
+Data Source: own
+Data Path: data/owndata/reshape/1_x_2_297_16.csv
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 64.15%
+False Negative Rate (FNR): 0.7798
+Error Rate (ER): 0.3585
+Recall: 0.2202
+F1 Score: 0.2843
+
+Model Type: KNN
+Data Source: own
+Data Path: data/owndata/reshape/1_x_2_280_16.csv
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 66.32%
+False Negative Rate (FNR): 0.6167
+Error Rate (ER): 0.3368
+Recall: 0.3833
+F1 Score: 0.4240
+
+Model Type: DecisionTree
+Data Source: own
+Data Path: data/owndata/reshape/1_x_2_280_16.csv
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 80.92%
+False Negative Rate (FNR): 0.2942
+Error Rate (ER): 0.1908
+Recall: 0.7058
+F1 Score: 0.7053
+
+Model Type: DecisionTree
+Data Source: own
+Data Path: data/owndata/reshape/1_x_2_280_16.csv
+Attack Type: Gear
+Training Proportion: 0.8
+Number of Classes: 2
+
+
+Final Accuracy: 80.92%
+False Negative Rate (FNR): 0.2942
+Error Rate (ER): 0.1908
+Recall: 0.7058
+F1 Score: 0.7053

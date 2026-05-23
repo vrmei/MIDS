@@ -1,0 +1,6 @@
+name: mlp
+num_classes: 4
+window_length: 100
+num_features: 9
+hidden_dims: [512, 256]
+dropout: 0.3

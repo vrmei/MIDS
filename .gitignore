@@ -1,0 +1,112 @@
+# ============================================================
+# MIDS repository .gitignore
+# ============================================================
+
+# -------- Data (never commit raw datasets) --------
+data/
+**/data/raw/
+**/data/processed/
+**/data/modified/
+**/data/reshaped/
+**/data/merged/
+*.asc
+*.npy
+*.npz
+# allow small required .npy/.npz under configs/ or assets/ if needed
+!configs/**/*.npy
+!assets/**/*.npy
+
+# -------- Cache and experiment outputs --------
+cache/
+**/cache/
+results/
+**/results/
+runs/
+**/runs/
+output/
+**/output/
+outputs/
+**/outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# -------- Virtual environments --------
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# -------- LaTeX build artifacts (keep .tex/.bib/.cls/figures/.pdf) --------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.blg
+*.bbl
+*.brf
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.dvi
+*.ps
+*-converted-to.*
+*.figlist
+*.makefile
+
+# -------- IDE / editors --------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# -------- OS junk --------
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# -------- Misc large/temporary files --------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.log.gz
+nohup.out
+*.tmp

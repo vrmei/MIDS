@@ -1,0 +1,23 @@
+# Minimum dependencies to run mids-bench on Windows (native, no WSL2).
+#
+# Does NOT include mamba-ssm or causal-conv1d — the codebase auto-falls-
+# back to a pure-PyTorch Mamba implementation when those are absent
+# (about 3-5x slower but works on any CUDA-capable GPU including
+# RTX 40-series Windows machines).
+#
+# Install order:
+#   1. Conda env with Python 3.10
+#   2. PyTorch with CUDA 12.1 from PyTorch's index
+#   3. Everything below from PyPI
+
+numpy==1.26.4
+pandas==2.2.2
+pyyaml==6.0.1
+
+# Metrics & utilities
+scikit-learn==1.5.0
+fvcore==0.1.5.post20221221
+tqdm==4.66.4
+
+# Plotting (optional, used by analysis)
+matplotlib==3.8.4

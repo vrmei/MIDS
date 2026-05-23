@@ -1,0 +1,27 @@
+# MIDS-bench Batch 1 — pinned for the RTX 4090 / CUDA 12.1 / Py 3.10 stack.
+#
+# Install order matters: torch must be installed first (with the right
+# CUDA build), then causal-conv1d + mamba-ssm against that torch.
+# See https://github.com/state-spaces/mamba#installation for caveats.
+
+# --- Deep learning core ---
+torch==2.3.1
+numpy==1.26.4
+
+# --- Mamba selective-scan kernels ---
+# mamba-ssm requires causal-conv1d and a CUDA toolchain at install time.
+# Pin to the last release that was tested against torch 2.3.x.
+causal-conv1d==1.4.0
+mamba-ssm==2.2.2
+
+# --- Data handling ---
+pandas==2.2.2
+pyyaml==6.0.1
+
+# --- Metrics & utilities ---
+scikit-learn==1.5.0
+fvcore==0.1.5.post20221221
+tqdm==4.66.4
+
+# --- Plotting (used by analysis scripts in Batch 3, kept pinned now) ---
+matplotlib==3.8.4

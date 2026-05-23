@@ -1,0 +1,2267 @@
+2024-11-22 14:43:34,687 - INFO - 
+Training fold 1/5
+2024-11-22 14:43:56,880 - INFO - Epoch [1/50]
+2024-11-22 14:44:56,748 - INFO - Training Loss: 0.9972, Accuracy: 0.3158
+2024-11-22 14:44:56,749 - INFO - item time: 0.0093
+2024-11-22 14:45:03,284 - INFO - Class 0: Precision=0.8417, Recall=0.3132, F1 Score=0.4565
+2024-11-22 14:45:03,284 - INFO - Class 1: Precision=0.3332, Recall=0.7758, F1 Score=0.4661
+2024-11-22 14:45:03,284 - INFO - Class 2: Precision=0.3371, Recall=0.7204, F1 Score=0.4593
+2024-11-22 14:45:03,285 - INFO - Class 3: Precision=0.3466, Recall=0.8891, F1 Score=0.4988
+2024-11-22 14:45:03,285 - INFO - Macro-Averaged Metrics: Precision=0.4646, Recall=0.6746, F1 Score=0.4702
+2024-11-22 14:45:03,285 - INFO - Micro-Averaged Metrics: Precision=0.4676, Recall=0.4676, F1 Score=0.4676
+2024-11-22 14:45:03,286 - INFO - Epoch [2/50]
+2024-11-22 14:46:02,154 - INFO - Training Loss: 0.7089, Accuracy: 0.4662
+2024-11-22 14:46:02,154 - INFO - item time: 0.0090
+2024-11-22 14:46:08,383 - INFO - Class 0: Precision=0.8719, Recall=0.3935, F1 Score=0.5423
+2024-11-22 14:46:08,383 - INFO - Class 1: Precision=0.3774, Recall=0.8071, F1 Score=0.5143
+2024-11-22 14:46:08,384 - INFO - Class 2: Precision=0.3472, Recall=0.8168, F1 Score=0.4872
+2024-11-22 14:46:08,384 - INFO - Class 3: Precision=0.4090, Recall=0.8561, F1 Score=0.5536
+2024-11-22 14:46:08,384 - INFO - Macro-Averaged Metrics: Precision=0.5014, Recall=0.7184, F1 Score=0.5243
+2024-11-22 14:46:08,385 - INFO - Micro-Averaged Metrics: Precision=0.5311, Recall=0.5311, F1 Score=0.5311
+2024-11-22 14:46:08,385 - INFO - Epoch [3/50]
+2024-11-22 14:47:07,292 - INFO - Training Loss: 0.6920, Accuracy: 0.4829
+2024-11-22 14:47:07,292 - INFO - item time: 0.0090
+2024-11-22 14:47:13,556 - INFO - Class 0: Precision=0.8788, Recall=0.2479, F1 Score=0.3867
+2024-11-22 14:47:13,557 - INFO - Class 1: Precision=0.3324, Recall=0.8100, F1 Score=0.4714
+2024-11-22 14:47:13,557 - INFO - Class 2: Precision=0.2943, Recall=0.8611, F1 Score=0.4387
+2024-11-22 14:47:13,557 - INFO - Class 3: Precision=0.3691, Recall=0.8654, F1 Score=0.5175
+2024-11-22 14:47:13,558 - INFO - Macro-Averaged Metrics: Precision=0.4687, Recall=0.6961, F1 Score=0.4536
+2024-11-22 14:47:13,558 - INFO - Micro-Averaged Metrics: Precision=0.4372, Recall=0.4372, F1 Score=0.4372
+2024-11-22 14:47:13,558 - INFO - Epoch [4/50]
+2024-11-22 14:48:12,062 - INFO - Training Loss: 0.7306, Accuracy: 0.4580
+2024-11-22 14:48:12,062 - INFO - item time: 0.0090
+2024-11-22 14:48:18,283 - INFO - Class 0: Precision=0.8550, Recall=0.2566, F1 Score=0.3947
+2024-11-22 14:48:18,283 - INFO - Class 1: Precision=0.3087, Recall=0.8108, F1 Score=0.4472
+2024-11-22 14:48:18,284 - INFO - Class 2: Precision=0.3203, Recall=0.7550, F1 Score=0.4498
+2024-11-22 14:48:18,284 - INFO - Class 3: Precision=0.3413, Recall=0.8727, F1 Score=0.4907
+2024-11-22 14:48:18,284 - INFO - Macro-Averaged Metrics: Precision=0.4563, Recall=0.6738, F1 Score=0.4456
+2024-11-22 14:48:18,285 - INFO - Micro-Averaged Metrics: Precision=0.4337, Recall=0.4337, F1 Score=0.4337
+2024-11-22 14:48:18,285 - INFO - Epoch [5/50]
+2024-11-22 14:49:16,496 - INFO - Training Loss: 0.8284, Accuracy: 0.4065
+2024-11-22 14:49:16,496 - INFO - item time: 0.0090
+2024-11-22 14:49:22,772 - INFO - Class 0: Precision=0.8654, Recall=0.1888, F1 Score=0.3100
+2024-11-22 14:49:22,773 - INFO - Class 1: Precision=0.2924, Recall=0.8248, F1 Score=0.4318
+2024-11-22 14:49:22,773 - INFO - Class 2: Precision=0.2795, Recall=0.8193, F1 Score=0.4168
+2024-11-22 14:49:22,774 - INFO - Class 3: Precision=0.3504, Recall=0.8404, F1 Score=0.4946
+2024-11-22 14:49:22,774 - INFO - Macro-Averaged Metrics: Precision=0.4469, Recall=0.6683, F1 Score=0.4133
+2024-11-22 14:49:22,774 - INFO - Micro-Averaged Metrics: Precision=0.3911, Recall=0.3911, F1 Score=0.3911
+2024-11-22 14:49:22,774 - INFO - Epoch [6/50]
+2024-11-22 14:50:21,392 - INFO - Training Loss: 0.8291, Accuracy: 0.4080
+2024-11-22 14:50:21,393 - INFO - item time: 0.0090
+2024-11-22 14:50:27,606 - INFO - Class 0: Precision=0.8415, Recall=0.2546, F1 Score=0.3909
+2024-11-22 14:50:27,606 - INFO - Class 1: Precision=0.3050, Recall=0.7656, F1 Score=0.4362
+2024-11-22 14:50:27,607 - INFO - Class 2: Precision=0.2813, Recall=0.7374, F1 Score=0.4072
+2024-11-22 14:50:27,607 - INFO - Class 3: Precision=0.3410, Recall=0.8248, F1 Score=0.4825
+2024-11-22 14:50:27,607 - INFO - Macro-Averaged Metrics: Precision=0.4422, Recall=0.6456, F1 Score=0.4292
+2024-11-22 14:50:27,608 - INFO - Micro-Averaged Metrics: Precision=0.4204, Recall=0.4204, F1 Score=0.4204
+2024-11-22 14:50:27,608 - INFO - Epoch [7/50]
+2024-11-22 14:51:26,377 - INFO - Training Loss: 0.8523, Accuracy: 0.3900
+2024-11-22 14:51:26,378 - INFO - item time: 0.0090
+2024-11-22 14:51:32,598 - INFO - Class 0: Precision=0.7904, Recall=0.2802, F1 Score=0.4138
+2024-11-22 14:51:32,599 - INFO - Class 1: Precision=0.2666, Recall=0.7224, F1 Score=0.3895
+2024-11-22 14:51:32,599 - INFO - Class 2: Precision=0.2726, Recall=0.6683, F1 Score=0.3873
+2024-11-22 14:51:32,599 - INFO - Class 3: Precision=0.3244, Recall=0.6841, F1 Score=0.4401
+2024-11-22 14:51:32,600 - INFO - Macro-Averaged Metrics: Precision=0.4135, Recall=0.5888, F1 Score=0.4076
+2024-11-22 14:51:32,600 - INFO - Micro-Averaged Metrics: Precision=0.4099, Recall=0.4099, F1 Score=0.4099
+2024-11-22 14:51:32,600 - INFO - Epoch [8/50]
+2024-11-22 14:52:30,911 - INFO - Training Loss: 0.9259, Accuracy: 0.3465
+2024-11-22 14:52:30,911 - INFO - item time: 0.0089
+2024-11-22 14:52:37,182 - INFO - Class 0: Precision=0.8211, Recall=0.2319, F1 Score=0.3617
+2024-11-22 14:52:37,182 - INFO - Class 1: Precision=0.3132, Recall=0.6827, F1 Score=0.4294
+2024-11-22 14:52:37,182 - INFO - Class 2: Precision=0.2535, Recall=0.7751, F1 Score=0.3820
+2024-11-22 14:52:37,183 - INFO - Class 3: Precision=0.3360, Recall=0.8187, F1 Score=0.4765
+2024-11-22 14:52:37,183 - INFO - Macro-Averaged Metrics: Precision=0.4310, Recall=0.6271, F1 Score=0.4124
+2024-11-22 14:52:37,183 - INFO - Micro-Averaged Metrics: Precision=0.4000, Recall=0.4000, F1 Score=0.4000
+2024-11-22 14:52:37,184 - INFO - Epoch [9/50]
+2024-11-22 14:53:35,501 - INFO - Training Loss: 0.8766, Accuracy: 0.3719
+2024-11-22 14:53:35,501 - INFO - item time: 0.0090
+2024-11-22 14:53:41,776 - INFO - Class 0: Precision=0.8427, Recall=0.1726, F1 Score=0.2866
+2024-11-22 14:53:41,776 - INFO - Class 1: Precision=0.3494, Recall=0.6176, F1 Score=0.4463
+2024-11-22 14:53:41,777 - INFO - Class 2: Precision=0.2282, Recall=0.8754, F1 Score=0.3620
+2024-11-22 14:53:41,777 - INFO - Class 3: Precision=0.3323, Recall=0.8515, F1 Score=0.4780
+2024-11-22 14:53:41,777 - INFO - Macro-Averaged Metrics: Precision=0.4381, Recall=0.6293, F1 Score=0.3932
+2024-11-22 14:53:41,778 - INFO - Micro-Averaged Metrics: Precision=0.3672, Recall=0.3672, F1 Score=0.3672
+2024-11-22 14:53:41,778 - INFO - Epoch [10/50]
+2024-11-22 14:54:40,138 - INFO - Training Loss: 0.8683, Accuracy: 0.3827
+2024-11-22 14:54:40,138 - INFO - item time: 0.0090
+2024-11-22 14:54:46,353 - INFO - Class 0: Precision=0.8283, Recall=0.2162, F1 Score=0.3429
+2024-11-22 14:54:46,353 - INFO - Class 1: Precision=0.3277, Recall=0.6421, F1 Score=0.4339
+2024-11-22 14:54:46,353 - INFO - Class 2: Precision=0.2281, Recall=0.8290, F1 Score=0.3578
+2024-11-22 14:54:46,354 - INFO - Class 3: Precision=0.3484, Recall=0.7877, F1 Score=0.4831
+2024-11-22 14:54:46,354 - INFO - Macro-Averaged Metrics: Precision=0.4331, Recall=0.6188, F1 Score=0.4044
+2024-11-22 14:54:46,354 - INFO - Micro-Averaged Metrics: Precision=0.3869, Recall=0.3869, F1 Score=0.3869
+2024-11-22 14:54:46,355 - INFO - Epoch [11/50]
+2024-11-22 14:55:45,066 - INFO - Training Loss: 0.8202, Accuracy: 0.4048
+2024-11-22 14:55:45,067 - INFO - item time: 0.0090
+2024-11-22 14:55:51,268 - INFO - Class 0: Precision=0.8619, Recall=0.1380, F1 Score=0.2379
+2024-11-22 14:55:51,269 - INFO - Class 1: Precision=0.2913, Recall=0.7993, F1 Score=0.4270
+2024-11-22 14:55:51,269 - INFO - Class 2: Precision=0.2634, Recall=0.8305, F1 Score=0.3999
+2024-11-22 14:55:51,269 - INFO - Class 3: Precision=0.3312, Recall=0.8626, F1 Score=0.4786
+2024-11-22 14:55:51,270 - INFO - Macro-Averaged Metrics: Precision=0.4369, Recall=0.6576, F1 Score=0.3859
+2024-11-22 14:55:51,270 - INFO - Micro-Averaged Metrics: Precision=0.3577, Recall=0.3577, F1 Score=0.3577
+2024-11-22 14:55:51,270 - INFO - Epoch [12/50]
+2024-11-22 14:56:49,696 - INFO - Training Loss: 0.8133, Accuracy: 0.4115
+2024-11-22 14:56:49,696 - INFO - item time: 0.0090
+2024-11-22 14:56:55,953 - INFO - Class 0: Precision=0.8603, Recall=0.1838, F1 Score=0.3029
+2024-11-22 14:56:55,954 - INFO - Class 1: Precision=0.3309, Recall=0.7180, F1 Score=0.4530
+2024-11-22 14:56:55,954 - INFO - Class 2: Precision=0.2515, Recall=0.8488, F1 Score=0.3880
+2024-11-22 14:56:55,954 - INFO - Class 3: Precision=0.3355, Recall=0.8633, F1 Score=0.4832
+2024-11-22 14:56:55,955 - INFO - Macro-Averaged Metrics: Precision=0.4445, Recall=0.6535, F1 Score=0.4068
+2024-11-22 14:56:55,955 - INFO - Micro-Averaged Metrics: Precision=0.3832, Recall=0.3832, F1 Score=0.3832
+2024-11-22 14:56:55,955 - INFO - Epoch [13/50]
+2024-11-22 14:57:54,229 - INFO - Training Loss: 0.7934, Accuracy: 0.4229
+2024-11-22 14:57:54,230 - INFO - item time: 0.0090
+2024-11-22 14:58:00,374 - INFO - Class 0: Precision=0.8280, Recall=0.3329, F1 Score=0.4749
+2024-11-22 14:58:00,374 - INFO - Class 1: Precision=0.2748, Recall=0.8142, F1 Score=0.4109
+2024-11-22 14:58:00,374 - INFO - Class 2: Precision=0.3748, Recall=0.5534, F1 Score=0.4469
+2024-11-22 14:58:00,375 - INFO - Class 3: Precision=0.3499, Recall=0.8523, F1 Score=0.4961
+2024-11-22 14:58:00,375 - INFO - Macro-Averaged Metrics: Precision=0.4568, Recall=0.6382, F1 Score=0.4572
+2024-11-22 14:58:00,375 - INFO - Micro-Averaged Metrics: Precision=0.4638, Recall=0.4638, F1 Score=0.4638
+2024-11-22 14:58:00,376 - INFO - Epoch [14/50]
+2024-11-22 14:58:58,474 - INFO - Training Loss: 0.7962, Accuracy: 0.4239
+2024-11-22 14:58:58,475 - INFO - item time: 0.0089
+2024-11-22 14:59:04,682 - INFO - Class 0: Precision=0.8420, Recall=0.3144, F1 Score=0.4578
+2024-11-22 14:59:04,682 - INFO - Class 1: Precision=0.2857, Recall=0.8271, F1 Score=0.4247
+2024-11-22 14:59:04,683 - INFO - Class 2: Precision=0.3237, Recall=0.7304, F1 Score=0.4486
+2024-11-22 14:59:04,683 - INFO - Class 3: Precision=0.3910, Recall=0.7883, F1 Score=0.5227
+2024-11-22 14:59:04,683 - INFO - Macro-Averaged Metrics: Precision=0.4606, Recall=0.6651, F1 Score=0.4635
+2024-11-22 14:59:04,684 - INFO - Micro-Averaged Metrics: Precision=0.4621, Recall=0.4621, F1 Score=0.4621
+2024-11-22 14:59:04,684 - INFO - Epoch [15/50]
+2024-11-22 15:00:03,306 - INFO - Training Loss: 0.7843, Accuracy: 0.4335
+2024-11-22 15:00:03,306 - INFO - item time: 0.0090
+2024-11-22 15:00:09,676 - INFO - Class 0: Precision=0.8229, Recall=0.2975, F1 Score=0.4370
+2024-11-22 15:00:09,677 - INFO - Class 1: Precision=0.3126, Recall=0.7429, F1 Score=0.4400
+2024-11-22 15:00:09,677 - INFO - Class 2: Precision=0.2889, Recall=0.7103, F1 Score=0.4107
+2024-11-22 15:00:09,678 - INFO - Class 3: Precision=0.3554, Recall=0.8262, F1 Score=0.4970
+2024-11-22 15:00:09,678 - INFO - Macro-Averaged Metrics: Precision=0.4449, Recall=0.6442, F1 Score=0.4462
+2024-11-22 15:00:09,678 - INFO - Micro-Averaged Metrics: Precision=0.4451, Recall=0.4451, F1 Score=0.4451
+2024-11-22 15:00:09,679 - INFO - Epoch [16/50]
+2024-11-22 15:01:08,397 - INFO - Training Loss: 0.7716, Accuracy: 0.4419
+2024-11-22 15:01:08,397 - INFO - item time: 0.0090
+2024-11-22 15:01:14,576 - INFO - Class 0: Precision=0.8557, Recall=0.3408, F1 Score=0.4874
+2024-11-22 15:01:14,576 - INFO - Class 1: Precision=0.3111, Recall=0.8158, F1 Score=0.4504
+2024-11-22 15:01:14,577 - INFO - Class 2: Precision=0.3389, Recall=0.7279, F1 Score=0.4624
+2024-11-22 15:01:14,577 - INFO - Class 3: Precision=0.3828, Recall=0.8341, F1 Score=0.5248
+2024-11-22 15:01:14,577 - INFO - Macro-Averaged Metrics: Precision=0.4721, Recall=0.6796, F1 Score=0.4813
+2024-11-22 15:01:14,578 - INFO - Micro-Averaged Metrics: Precision=0.4844, Recall=0.4844, F1 Score=0.4844
+2024-11-22 15:01:14,578 - INFO - Epoch [17/50]
+2024-11-22 15:02:13,174 - INFO - Training Loss: 0.7398, Accuracy: 0.4611
+2024-11-22 15:02:13,175 - INFO - item time: 0.0090
+2024-11-22 15:02:20,007 - INFO - Class 0: Precision=0.8661, Recall=0.2516, F1 Score=0.3899
+2024-11-22 15:02:20,008 - INFO - Class 1: Precision=0.3608, Recall=0.7789, F1 Score=0.4932
+2024-11-22 15:02:20,008 - INFO - Class 2: Precision=0.2935, Recall=0.8430, F1 Score=0.4354
+2024-11-22 15:02:20,008 - INFO - Class 3: Precision=0.3492, Recall=0.8938, F1 Score=0.5022
+2024-11-22 15:02:20,009 - INFO - Macro-Averaged Metrics: Precision=0.4674, Recall=0.6918, F1 Score=0.4552
+2024-11-22 15:02:20,009 - INFO - Micro-Averaged Metrics: Precision=0.4385, Recall=0.4385, F1 Score=0.4385
+2024-11-22 15:02:20,010 - INFO - Epoch [18/50]
+2024-11-22 15:03:18,888 - INFO - Training Loss: 0.7553, Accuracy: 0.4514
+2024-11-22 15:03:18,889 - INFO - item time: 0.0090
+2024-11-22 15:03:25,146 - INFO - Class 0: Precision=0.8330, Recall=0.3210, F1 Score=0.4634
+2024-11-22 15:03:25,146 - INFO - Class 1: Precision=0.3337, Recall=0.7781, F1 Score=0.4670
+2024-11-22 15:03:25,146 - INFO - Class 2: Precision=0.3565, Recall=0.6448, F1 Score=0.4592
+2024-11-22 15:03:25,147 - INFO - Class 3: Precision=0.3285, Recall=0.9054, F1 Score=0.4820
+2024-11-22 15:03:25,147 - INFO - Macro-Averaged Metrics: Precision=0.4629, Recall=0.6623, F1 Score=0.4679
+2024-11-22 15:03:25,147 - INFO - Micro-Averaged Metrics: Precision=0.4676, Recall=0.4676, F1 Score=0.4676
+2024-11-22 15:03:25,148 - INFO - Epoch [19/50]
+2024-11-22 15:04:24,155 - INFO - Training Loss: 0.7722, Accuracy: 0.4417
+2024-11-22 15:04:24,156 - INFO - item time: 0.0090
+2024-11-22 15:04:30,343 - INFO - Class 0: Precision=0.8587, Recall=0.1665, F1 Score=0.2790
+2024-11-22 15:04:30,344 - INFO - Class 1: Precision=0.3151, Recall=0.7888, F1 Score=0.4503
+2024-11-22 15:04:30,344 - INFO - Class 2: Precision=0.2560, Recall=0.8558, F1 Score=0.3942
+2024-11-22 15:04:30,344 - INFO - Class 3: Precision=0.3525, Recall=0.8632, F1 Score=0.5006
+2024-11-22 15:04:30,344 - INFO - Macro-Averaged Metrics: Precision=0.4456, Recall=0.6686, F1 Score=0.4060
+2024-11-22 15:04:30,345 - INFO - Micro-Averaged Metrics: Precision=0.3788, Recall=0.3788, F1 Score=0.3788
+2024-11-22 15:04:30,345 - INFO - Epoch [20/50]
+2024-11-22 15:05:28,577 - INFO - Training Loss: 0.7516, Accuracy: 0.4517
+2024-11-22 15:05:28,578 - INFO - item time: 0.0090
+2024-11-22 15:05:34,808 - INFO - Class 0: Precision=0.8584, Recall=0.3044, F1 Score=0.4494
+2024-11-22 15:05:34,809 - INFO - Class 1: Precision=0.3842, Recall=0.7681, F1 Score=0.5122
+2024-11-22 15:05:34,809 - INFO - Class 2: Precision=0.2630, Recall=0.8995, F1 Score=0.4070
+2024-11-22 15:05:34,810 - INFO - Class 3: Precision=0.4178, Recall=0.7844, F1 Score=0.5452
+2024-11-22 15:05:34,810 - INFO - Macro-Averaged Metrics: Precision=0.4808, Recall=0.6891, F1 Score=0.4784
+2024-11-22 15:05:34,810 - INFO - Micro-Averaged Metrics: Precision=0.4658, Recall=0.4658, F1 Score=0.4658
+2024-11-22 15:05:34,811 - INFO - Epoch [21/50]
+2024-11-22 15:06:33,167 - INFO - Training Loss: 0.7431, Accuracy: 0.4580
+2024-11-22 15:06:33,168 - INFO - item time: 0.0090
+2024-11-22 15:06:39,415 - INFO - Class 0: Precision=0.8543, Recall=0.2362, F1 Score=0.3701
+2024-11-22 15:06:39,416 - INFO - Class 1: Precision=0.3592, Recall=0.7638, F1 Score=0.4886
+2024-11-22 15:06:39,416 - INFO - Class 2: Precision=0.2576, Recall=0.8899, F1 Score=0.3995
+2024-11-22 15:06:39,416 - INFO - Class 3: Precision=0.3800, Recall=0.8317, F1 Score=0.5216
+2024-11-22 15:06:39,417 - INFO - Macro-Averaged Metrics: Precision=0.4628, Recall=0.6804, F1 Score=0.4450
+2024-11-22 15:06:39,417 - INFO - Micro-Averaged Metrics: Precision=0.4236, Recall=0.4236, F1 Score=0.4236
+2024-11-22 15:06:39,418 - INFO - Epoch [22/50]
+2024-11-22 15:07:37,746 - INFO - Training Loss: 0.7277, Accuracy: 0.4637
+2024-11-22 15:07:37,747 - INFO - item time: 0.0090
+2024-11-22 15:07:43,997 - INFO - Class 0: Precision=0.8296, Recall=0.3530, F1 Score=0.4953
+2024-11-22 15:07:43,997 - INFO - Class 1: Precision=0.2856, Recall=0.8648, F1 Score=0.4294
+2024-11-22 15:07:43,998 - INFO - Class 2: Precision=0.3350, Recall=0.7223, F1 Score=0.4577
+2024-11-22 15:07:43,998 - INFO - Class 3: Precision=0.4118, Recall=0.6996, F1 Score=0.5184
+2024-11-22 15:07:43,998 - INFO - Macro-Averaged Metrics: Precision=0.4655, Recall=0.6599, F1 Score=0.4752
+2024-11-22 15:07:43,999 - INFO - Micro-Averaged Metrics: Precision=0.4805, Recall=0.4805, F1 Score=0.4805
+2024-11-22 15:07:43,999 - INFO - Epoch [23/50]
+2024-11-22 15:08:42,752 - INFO - Training Loss: 0.7722, Accuracy: 0.4422
+2024-11-22 15:08:42,752 - INFO - item time: 0.0090
+2024-11-22 15:08:49,015 - INFO - Class 0: Precision=0.8546, Recall=0.2713, F1 Score=0.4118
+2024-11-22 15:08:49,016 - INFO - Class 1: Precision=0.3580, Recall=0.7546, F1 Score=0.4856
+2024-11-22 15:08:49,016 - INFO - Class 2: Precision=0.2934, Recall=0.8280, F1 Score=0.4333
+2024-11-22 15:08:49,016 - INFO - Class 3: Precision=0.3499, Recall=0.8709, F1 Score=0.4992
+2024-11-22 15:08:49,017 - INFO - Macro-Averaged Metrics: Precision=0.4640, Recall=0.6812, F1 Score=0.4575
+2024-11-22 15:08:49,017 - INFO - Micro-Averaged Metrics: Precision=0.4453, Recall=0.4453, F1 Score=0.4453
+2024-11-22 15:08:49,017 - INFO - Epoch [24/50]
+2024-11-22 15:09:48,408 - INFO - Training Loss: 0.7399, Accuracy: 0.4587
+2024-11-22 15:09:48,409 - INFO - item time: 0.0090
+2024-11-22 15:09:54,694 - INFO - Class 0: Precision=0.8636, Recall=0.1860, F1 Score=0.3061
+2024-11-22 15:09:54,694 - INFO - Class 1: Precision=0.3379, Recall=0.8187, F1 Score=0.4783
+2024-11-22 15:09:54,695 - INFO - Class 2: Precision=0.2798, Recall=0.8546, F1 Score=0.4215
+2024-11-22 15:09:54,695 - INFO - Class 3: Precision=0.3415, Recall=0.8967, F1 Score=0.4946
+2024-11-22 15:09:54,695 - INFO - Macro-Averaged Metrics: Precision=0.4557, Recall=0.6890, F1 Score=0.4251
+2024-11-22 15:09:54,696 - INFO - Micro-Averaged Metrics: Precision=0.3989, Recall=0.3989, F1 Score=0.3989
+2024-11-22 15:09:54,696 - INFO - Epoch [25/50]
+2024-11-22 15:10:53,785 - INFO - Training Loss: 0.7530, Accuracy: 0.4503
+2024-11-22 15:10:53,786 - INFO - item time: 0.0090
+2024-11-22 15:11:00,005 - INFO - Class 0: Precision=0.8526, Recall=0.2854, F1 Score=0.4276
+2024-11-22 15:11:00,005 - INFO - Class 1: Precision=0.3463, Recall=0.8194, F1 Score=0.4868
+2024-11-22 15:11:00,006 - INFO - Class 2: Precision=0.3297, Recall=0.7435, F1 Score=0.4568
+2024-11-22 15:11:00,006 - INFO - Class 3: Precision=0.3390, Recall=0.8985, F1 Score=0.4923
+2024-11-22 15:11:00,007 - INFO - Macro-Averaged Metrics: Precision=0.4669, Recall=0.6867, F1 Score=0.4659
+2024-11-22 15:11:00,007 - INFO - Micro-Averaged Metrics: Precision=0.4562, Recall=0.4562, F1 Score=0.4562
+2024-11-22 15:11:00,007 - INFO - Epoch [26/50]
+2024-11-22 15:11:58,052 - INFO - Training Loss: 0.7496, Accuracy: 0.4552
+2024-11-22 15:11:58,052 - INFO - item time: 0.0090
+2024-11-22 15:12:04,266 - INFO - Class 0: Precision=0.8483, Recall=0.2858, F1 Score=0.4275
+2024-11-22 15:12:04,267 - INFO - Class 1: Precision=0.3633, Recall=0.7689, F1 Score=0.4934
+2024-11-22 15:12:04,267 - INFO - Class 2: Precision=0.3056, Recall=0.8022, F1 Score=0.4426
+2024-11-22 15:12:04,267 - INFO - Class 3: Precision=0.3486, Recall=0.8827, F1 Score=0.4998
+2024-11-22 15:12:04,268 - INFO - Macro-Averaged Metrics: Precision=0.4664, Recall=0.6849, F1 Score=0.4658
+2024-11-22 15:12:04,268 - INFO - Micro-Averaged Metrics: Precision=0.4555, Recall=0.4555, F1 Score=0.4555
+2024-11-22 15:12:04,268 - INFO - Epoch [27/50]
+2024-11-22 15:13:02,421 - INFO - Training Loss: 1.4505, Accuracy: 0.2955
+2024-11-22 15:13:02,421 - INFO - item time: 0.0089
+2024-11-22 15:13:08,724 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:13:08,724 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:13:08,725 - INFO - Class 2: Precision=0.0990, Recall=1.0000, F1 Score=0.1802
+2024-11-22 15:13:08,725 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:13:08,725 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0450
+2024-11-22 15:13:08,726 - INFO - Micro-Averaged Metrics: Precision=0.0990, Recall=0.0990, F1 Score=0.0990
+2024-11-22 15:13:08,726 - INFO - Epoch [28/50]
+2024-11-22 15:14:07,305 - INFO - Training Loss: 1.3863, Accuracy: 0.2043
+2024-11-22 15:14:07,306 - INFO - item time: 0.0089
+2024-11-22 15:14:13,550 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:14:13,551 - INFO - Class 1: Precision=0.0954, Recall=1.0000, F1 Score=0.1742
+2024-11-22 15:14:13,551 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:14:13,551 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:14:13,552 - INFO - Macro-Averaged Metrics: Precision=0.0239, Recall=0.2500, F1 Score=0.0436
+2024-11-22 15:14:13,552 - INFO - Micro-Averaged Metrics: Precision=0.0954, Recall=0.0954, F1 Score=0.0954
+2024-11-22 15:14:13,552 - INFO - Epoch [29/50]
+2024-11-22 15:15:12,109 - INFO - Training Loss: 1.3863, Accuracy: 0.2443
+2024-11-22 15:15:12,110 - INFO - item time: 0.0090
+2024-11-22 15:15:18,354 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:15:18,355 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:15:18,355 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:15:18,355 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:15:18,356 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:15:18,356 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:15:18,357 - INFO - Epoch [30/50]
+2024-11-22 15:16:16,454 - INFO - Training Loss: 1.3863, Accuracy: 0.3028
+2024-11-22 15:16:16,454 - INFO - item time: 0.0089
+2024-11-22 15:16:22,737 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:16:22,737 - INFO - Class 1: Precision=0.0954, Recall=1.0000, F1 Score=0.1742
+2024-11-22 15:16:22,737 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:16:22,738 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:16:22,738 - INFO - Macro-Averaged Metrics: Precision=0.0239, Recall=0.2500, F1 Score=0.0436
+2024-11-22 15:16:22,738 - INFO - Micro-Averaged Metrics: Precision=0.0954, Recall=0.0954, F1 Score=0.0954
+2024-11-22 15:16:22,739 - INFO - Epoch [31/50]
+2024-11-22 15:17:21,459 - INFO - Training Loss: 1.3863, Accuracy: 0.2601
+2024-11-22 15:17:21,460 - INFO - item time: 0.0090
+2024-11-22 15:17:27,698 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:17:27,698 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:17:27,699 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:17:27,699 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:17:27,699 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:17:27,700 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:17:27,700 - INFO - Epoch [32/50]
+2024-11-22 15:18:26,398 - INFO - Training Loss: 1.3863, Accuracy: 0.2521
+2024-11-22 15:18:26,398 - INFO - item time: 0.0090
+2024-11-22 15:18:32,727 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:18:32,728 - INFO - Class 1: Precision=0.0954, Recall=1.0000, F1 Score=0.1742
+2024-11-22 15:18:32,728 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:18:32,728 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:18:32,729 - INFO - Macro-Averaged Metrics: Precision=0.0239, Recall=0.2500, F1 Score=0.0436
+2024-11-22 15:18:32,729 - INFO - Micro-Averaged Metrics: Precision=0.0954, Recall=0.0954, F1 Score=0.0954
+2024-11-22 15:18:32,729 - INFO - Epoch [33/50]
+2024-11-22 15:19:31,035 - INFO - Training Loss: 1.3863, Accuracy: 0.2756
+2024-11-22 15:19:31,035 - INFO - item time: 0.0090
+2024-11-22 15:19:37,313 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:19:37,314 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:19:37,314 - INFO - Class 2: Precision=0.0990, Recall=1.0000, F1 Score=0.1802
+2024-11-22 15:19:37,314 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:19:37,314 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0450
+2024-11-22 15:19:37,315 - INFO - Micro-Averaged Metrics: Precision=0.0990, Recall=0.0990, F1 Score=0.0990
+2024-11-22 15:19:37,315 - INFO - Epoch [34/50]
+2024-11-22 15:20:36,086 - INFO - Training Loss: 1.3863, Accuracy: 0.2806
+2024-11-22 15:20:36,087 - INFO - item time: 0.0090
+2024-11-22 15:20:42,280 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:20:42,280 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:20:42,281 - INFO - Class 2: Precision=0.0990, Recall=1.0000, F1 Score=0.1802
+2024-11-22 15:20:42,281 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:20:42,281 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0450
+2024-11-22 15:20:42,281 - INFO - Micro-Averaged Metrics: Precision=0.0990, Recall=0.0990, F1 Score=0.0990
+2024-11-22 15:20:42,282 - INFO - Epoch [35/50]
+2024-11-22 15:21:40,571 - INFO - Training Loss: 1.3863, Accuracy: 0.2408
+2024-11-22 15:21:40,572 - INFO - item time: 0.0090
+2024-11-22 15:21:46,851 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:21:46,851 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:21:46,851 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:21:46,852 - INFO - Class 3: Precision=0.1215, Recall=1.0000, F1 Score=0.2166
+2024-11-22 15:21:46,852 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 15:21:46,852 - INFO - Micro-Averaged Metrics: Precision=0.1215, Recall=0.1215, F1 Score=0.1215
+2024-11-22 15:21:46,853 - INFO - Epoch [36/50]
+2024-11-22 15:22:45,478 - INFO - Training Loss: 1.3863, Accuracy: 0.2913
+2024-11-22 15:22:45,479 - INFO - item time: 0.0090
+2024-11-22 15:22:51,749 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:22:51,749 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:22:51,750 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:22:51,750 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:22:51,750 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:22:51,751 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:22:51,751 - INFO - Epoch [37/50]
+2024-11-22 15:23:50,225 - INFO - Training Loss: 1.3863, Accuracy: 0.2757
+2024-11-22 15:23:50,225 - INFO - item time: 0.0090
+2024-11-22 15:23:56,467 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:23:56,467 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:23:56,468 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:23:56,468 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:23:56,468 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:23:56,469 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:23:56,469 - INFO - Epoch [38/50]
+2024-11-22 15:24:55,659 - INFO - Training Loss: 1.3863, Accuracy: 0.3079
+2024-11-22 15:24:55,660 - INFO - item time: 0.0091
+2024-11-22 15:25:01,894 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:25:01,894 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:25:01,894 - INFO - Class 2: Precision=0.0990, Recall=1.0000, F1 Score=0.1802
+2024-11-22 15:25:01,895 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:25:01,895 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0450
+2024-11-22 15:25:01,895 - INFO - Micro-Averaged Metrics: Precision=0.0990, Recall=0.0990, F1 Score=0.0990
+2024-11-22 15:25:01,896 - INFO - Epoch [39/50]
+2024-11-22 15:26:00,421 - INFO - Training Loss: 1.3863, Accuracy: 0.3031
+2024-11-22 15:26:00,422 - INFO - item time: 0.0090
+2024-11-22 15:26:06,730 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:26:06,730 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:26:06,730 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:26:06,731 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:26:06,731 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:26:06,731 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:26:06,732 - INFO - Epoch [40/50]
+2024-11-22 15:27:05,730 - INFO - Training Loss: 1.3863, Accuracy: 0.2483
+2024-11-22 15:27:05,730 - INFO - item time: 0.0090
+2024-11-22 15:27:11,920 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:27:11,921 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:27:11,921 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:27:11,921 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:27:11,922 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:27:11,922 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:27:11,922 - INFO - Epoch [41/50]
+2024-11-22 15:28:10,759 - INFO - Training Loss: 1.3863, Accuracy: 0.2579
+2024-11-22 15:28:10,759 - INFO - item time: 0.0090
+2024-11-22 15:28:17,031 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:28:17,032 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:28:17,032 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:28:17,033 - INFO - Class 3: Precision=0.1215, Recall=1.0000, F1 Score=0.2166
+2024-11-22 15:28:17,033 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 15:28:17,033 - INFO - Micro-Averaged Metrics: Precision=0.1215, Recall=0.1215, F1 Score=0.1215
+2024-11-22 15:28:17,034 - INFO - Epoch [42/50]
+2024-11-22 15:29:15,472 - INFO - Training Loss: 1.3863, Accuracy: 0.2954
+2024-11-22 15:29:15,472 - INFO - item time: 0.0090
+2024-11-22 15:29:21,709 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:29:21,710 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:29:21,710 - INFO - Class 2: Precision=0.0990, Recall=1.0000, F1 Score=0.1802
+2024-11-22 15:29:21,711 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:29:21,711 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0450
+2024-11-22 15:29:21,711 - INFO - Micro-Averaged Metrics: Precision=0.0990, Recall=0.0990, F1 Score=0.0990
+2024-11-22 15:29:21,712 - INFO - Epoch [43/50]
+2024-11-22 15:30:20,291 - INFO - Training Loss: 1.3863, Accuracy: 0.2716
+2024-11-22 15:30:20,292 - INFO - item time: 0.0090
+2024-11-22 15:30:26,551 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:30:26,552 - INFO - Class 1: Precision=0.0954, Recall=1.0000, F1 Score=0.1742
+2024-11-22 15:30:26,552 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:30:26,552 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:30:26,553 - INFO - Macro-Averaged Metrics: Precision=0.0239, Recall=0.2500, F1 Score=0.0436
+2024-11-22 15:30:26,553 - INFO - Micro-Averaged Metrics: Precision=0.0954, Recall=0.0954, F1 Score=0.0954
+2024-11-22 15:30:26,553 - INFO - Epoch [44/50]
+2024-11-22 15:31:25,453 - INFO - Training Loss: 1.3863, Accuracy: 0.2934
+2024-11-22 15:31:25,453 - INFO - item time: 0.0090
+2024-11-22 15:31:31,715 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:31:31,716 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:31:31,716 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:31:31,716 - INFO - Class 3: Precision=0.1215, Recall=1.0000, F1 Score=0.2166
+2024-11-22 15:31:31,717 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 15:31:31,717 - INFO - Micro-Averaged Metrics: Precision=0.1215, Recall=0.1215, F1 Score=0.1215
+2024-11-22 15:31:31,717 - INFO - Epoch [45/50]
+2024-11-22 15:32:30,088 - INFO - Training Loss: 1.3863, Accuracy: 0.2870
+2024-11-22 15:32:30,088 - INFO - item time: 0.0090
+2024-11-22 15:32:36,329 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:32:36,329 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:32:36,329 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:32:36,330 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:32:36,330 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:32:36,330 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:32:36,330 - INFO - Epoch [46/50]
+2024-11-22 15:33:34,856 - INFO - Training Loss: 1.3863, Accuracy: 0.2723
+2024-11-22 15:33:34,856 - INFO - item time: 0.0090
+2024-11-22 15:33:41,043 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:33:41,043 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:33:41,043 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:33:41,044 - INFO - Class 3: Precision=0.1215, Recall=1.0000, F1 Score=0.2166
+2024-11-22 15:33:41,044 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 15:33:41,044 - INFO - Micro-Averaged Metrics: Precision=0.1215, Recall=0.1215, F1 Score=0.1215
+2024-11-22 15:33:41,045 - INFO - Epoch [47/50]
+2024-11-22 15:34:39,417 - INFO - Training Loss: 1.3863, Accuracy: 0.2448
+2024-11-22 15:34:39,418 - INFO - item time: 0.0090
+2024-11-22 15:34:45,703 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:34:45,704 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:34:45,704 - INFO - Class 2: Precision=0.0990, Recall=1.0000, F1 Score=0.1802
+2024-11-22 15:34:45,704 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:34:45,704 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0450
+2024-11-22 15:34:45,705 - INFO - Micro-Averaged Metrics: Precision=0.0990, Recall=0.0990, F1 Score=0.0990
+2024-11-22 15:34:45,705 - INFO - Epoch [48/50]
+2024-11-22 15:35:43,980 - INFO - Training Loss: 1.3863, Accuracy: 0.2274
+2024-11-22 15:35:43,980 - INFO - item time: 0.0090
+2024-11-22 15:35:50,194 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:35:50,195 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:35:50,195 - INFO - Class 2: Precision=0.0990, Recall=1.0000, F1 Score=0.1802
+2024-11-22 15:35:50,195 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:35:50,196 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0450
+2024-11-22 15:35:50,196 - INFO - Micro-Averaged Metrics: Precision=0.0990, Recall=0.0990, F1 Score=0.0990
+2024-11-22 15:35:50,196 - INFO - Epoch [49/50]
+2024-11-22 15:36:48,732 - INFO - Training Loss: 1.3863, Accuracy: 0.2931
+2024-11-22 15:36:48,732 - INFO - item time: 0.0090
+2024-11-22 15:36:54,922 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:36:54,922 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:36:54,922 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:36:54,923 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:36:54,923 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:36:54,923 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:36:54,924 - INFO - Epoch [50/50]
+2024-11-22 15:37:53,915 - INFO - Training Loss: 1.3863, Accuracy: 0.2763
+2024-11-22 15:37:53,916 - INFO - item time: 0.0090
+2024-11-22 15:38:00,165 - INFO - Class 0: Precision=0.6841, Recall=1.0000, F1 Score=0.8124
+2024-11-22 15:38:00,166 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:38:00,166 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:38:00,166 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 15:38:00,167 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 15:38:00,167 - INFO - Micro-Averaged Metrics: Precision=0.6841, Recall=0.6841, F1 Score=0.6841
+2024-11-22 15:38:00,179 - INFO - Model saved at ./output/ablation_sincos_8head_conv15_log.txt_fold1_model.pth
+2024-11-22 15:38:00,205 - INFO - 
+Training fold 2/5
+2024-11-22 15:38:21,224 - INFO - Epoch [1/50]
+2024-11-22 15:39:21,450 - INFO - Training Loss: 0.8963, Accuracy: 0.3587
+2024-11-22 15:39:21,451 - INFO - item time: 0.0091
+2024-11-22 15:39:28,183 - INFO - Class 0: Precision=0.8603, Recall=0.4471, F1 Score=0.5884
+2024-11-22 15:39:28,184 - INFO - Class 1: Precision=0.3978, Recall=0.7737, F1 Score=0.5255
+2024-11-22 15:39:28,184 - INFO - Class 2: Precision=0.3649, Recall=0.7658, F1 Score=0.4943
+2024-11-22 15:39:28,185 - INFO - Class 3: Precision=0.4073, Recall=0.8463, F1 Score=0.5499
+2024-11-22 15:39:28,185 - INFO - Macro-Averaged Metrics: Precision=0.5076, Recall=0.7082, F1 Score=0.5395
+2024-11-22 15:39:28,185 - INFO - Micro-Averaged Metrics: Precision=0.5580, Recall=0.5580, F1 Score=0.5580
+2024-11-22 15:39:28,186 - INFO - Epoch [2/50]
+2024-11-22 15:40:27,042 - INFO - Training Loss: 0.6402, Accuracy: 0.5219
+2024-11-22 15:40:27,043 - INFO - item time: 0.0090
+2024-11-22 15:40:33,229 - INFO - Class 0: Precision=0.9039, Recall=0.3371, F1 Score=0.4910
+2024-11-22 15:40:33,229 - INFO - Class 1: Precision=0.3706, Recall=0.8752, F1 Score=0.5207
+2024-11-22 15:40:33,229 - INFO - Class 2: Precision=0.3563, Recall=0.8683, F1 Score=0.5053
+2024-11-22 15:40:33,230 - INFO - Class 3: Precision=0.3933, Recall=0.9063, F1 Score=0.5485
+2024-11-22 15:40:33,230 - INFO - Macro-Averaged Metrics: Precision=0.5060, Recall=0.7467, F1 Score=0.5164
+2024-11-22 15:40:33,230 - INFO - Micro-Averaged Metrics: Precision=0.5097, Recall=0.5097, F1 Score=0.5097
+2024-11-22 15:40:33,231 - INFO - Epoch [3/50]
+2024-11-22 15:41:31,504 - INFO - Training Loss: 0.6091, Accuracy: 0.5385
+2024-11-22 15:41:31,504 - INFO - item time: 0.0090
+2024-11-22 15:41:37,829 - INFO - Class 0: Precision=0.8946, Recall=0.4161, F1 Score=0.5680
+2024-11-22 15:41:37,829 - INFO - Class 1: Precision=0.4110, Recall=0.8423, F1 Score=0.5524
+2024-11-22 15:41:37,829 - INFO - Class 2: Precision=0.3930, Recall=0.8355, F1 Score=0.5345
+2024-11-22 15:41:37,830 - INFO - Class 3: Precision=0.3967, Recall=0.9052, F1 Score=0.5517
+2024-11-22 15:41:37,830 - INFO - Macro-Averaged Metrics: Precision=0.5238, Recall=0.7498, F1 Score=0.5517
+2024-11-22 15:41:37,830 - INFO - Micro-Averaged Metrics: Precision=0.5573, Recall=0.5573, F1 Score=0.5573
+2024-11-22 15:41:37,831 - INFO - Epoch [4/50]
+2024-11-22 15:42:36,542 - INFO - Training Loss: 0.6260, Accuracy: 0.5270
+2024-11-22 15:42:36,543 - INFO - item time: 0.0090
+2024-11-22 15:42:42,850 - INFO - Class 0: Precision=0.8698, Recall=0.3425, F1 Score=0.4915
+2024-11-22 15:42:42,851 - INFO - Class 1: Precision=0.3891, Recall=0.7935, F1 Score=0.5222
+2024-11-22 15:42:42,851 - INFO - Class 2: Precision=0.3316, Recall=0.8340, F1 Score=0.4746
+2024-11-22 15:42:42,851 - INFO - Class 3: Precision=0.3694, Recall=0.8780, F1 Score=0.5200
+2024-11-22 15:42:42,852 - INFO - Macro-Averaged Metrics: Precision=0.4900, Recall=0.7120, F1 Score=0.5021
+2024-11-22 15:42:42,852 - INFO - Micro-Averaged Metrics: Precision=0.4988, Recall=0.4988, F1 Score=0.4988
+2024-11-22 15:42:42,853 - INFO - Epoch [5/50]
+2024-11-22 15:43:41,707 - INFO - Training Loss: 0.6575, Accuracy: 0.5092
+2024-11-22 15:43:41,708 - INFO - item time: 0.0090
+2024-11-22 15:43:47,879 - INFO - Class 0: Precision=0.9033, Recall=0.3580, F1 Score=0.5127
+2024-11-22 15:43:47,880 - INFO - Class 1: Precision=0.3970, Recall=0.8471, F1 Score=0.5407
+2024-11-22 15:43:47,880 - INFO - Class 2: Precision=0.3413, Recall=0.8773, F1 Score=0.4914
+2024-11-22 15:43:47,881 - INFO - Class 3: Precision=0.3971, Recall=0.8909, F1 Score=0.5494
+2024-11-22 15:43:47,881 - INFO - Macro-Averaged Metrics: Precision=0.5097, Recall=0.7433, F1 Score=0.5235
+2024-11-22 15:43:47,881 - INFO - Micro-Averaged Metrics: Precision=0.5204, Recall=0.5204, F1 Score=0.5204
+2024-11-22 15:43:47,882 - INFO - Epoch [6/50]
+2024-11-22 15:44:46,143 - INFO - Training Loss: 0.6550, Accuracy: 0.5084
+2024-11-22 15:44:46,144 - INFO - item time: 0.0090
+2024-11-22 15:44:52,458 - INFO - Class 0: Precision=0.8894, Recall=0.3763, F1 Score=0.5288
+2024-11-22 15:44:52,458 - INFO - Class 1: Precision=0.3986, Recall=0.8251, F1 Score=0.5375
+2024-11-22 15:44:52,459 - INFO - Class 2: Precision=0.3384, Recall=0.8733, F1 Score=0.4878
+2024-11-22 15:44:52,459 - INFO - Class 3: Precision=0.4093, Recall=0.8734, F1 Score=0.5574
+2024-11-22 15:44:52,459 - INFO - Macro-Averaged Metrics: Precision=0.5089, Recall=0.7370, F1 Score=0.5279
+2024-11-22 15:44:52,459 - INFO - Micro-Averaged Metrics: Precision=0.5283, Recall=0.5283, F1 Score=0.5283
+2024-11-22 15:44:52,460 - INFO - Epoch [7/50]
+2024-11-22 15:45:51,242 - INFO - Training Loss: 0.6974, Accuracy: 0.4831
+2024-11-22 15:45:51,242 - INFO - item time: 0.0090
+2024-11-22 15:45:57,539 - INFO - Class 0: Precision=0.8797, Recall=0.2444, F1 Score=0.3826
+2024-11-22 15:45:57,540 - INFO - Class 1: Precision=0.3063, Recall=0.8752, F1 Score=0.4538
+2024-11-22 15:45:57,540 - INFO - Class 2: Precision=0.3238, Recall=0.7691, F1 Score=0.4557
+2024-11-22 15:45:57,541 - INFO - Class 3: Precision=0.3466, Recall=0.8672, F1 Score=0.4953
+2024-11-22 15:45:57,541 - INFO - Macro-Averaged Metrics: Precision=0.4641, Recall=0.6890, F1 Score=0.4468
+2024-11-22 15:45:57,541 - INFO - Micro-Averaged Metrics: Precision=0.4318, Recall=0.4318, F1 Score=0.4318
+2024-11-22 15:45:57,542 - INFO - Epoch [8/50]
+2024-11-22 15:46:56,144 - INFO - Training Loss: 0.8753, Accuracy: 0.3958
+2024-11-22 15:46:56,145 - INFO - item time: 0.0090
+2024-11-22 15:47:02,362 - INFO - Class 0: Precision=0.8242, Recall=0.2511, F1 Score=0.3849
+2024-11-22 15:47:02,362 - INFO - Class 1: Precision=0.3540, Recall=0.6340, F1 Score=0.4543
+2024-11-22 15:47:02,363 - INFO - Class 2: Precision=0.2698, Recall=0.7897, F1 Score=0.4022
+2024-11-22 15:47:02,363 - INFO - Class 3: Precision=0.3138, Recall=0.8600, F1 Score=0.4598
+2024-11-22 15:47:02,363 - INFO - Macro-Averaged Metrics: Precision=0.4404, Recall=0.6337, F1 Score=0.4253
+2024-11-22 15:47:02,364 - INFO - Micro-Averaged Metrics: Precision=0.4145, Recall=0.4145, F1 Score=0.4145
+2024-11-22 15:47:02,364 - INFO - Epoch [9/50]
+2024-11-22 15:48:01,417 - INFO - Training Loss: 0.8339, Accuracy: 0.4012
+2024-11-22 15:48:01,418 - INFO - item time: 0.0090
+2024-11-22 15:48:08,309 - INFO - Class 0: Precision=0.8275, Recall=0.1960, F1 Score=0.3170
+2024-11-22 15:48:08,309 - INFO - Class 1: Precision=0.3035, Recall=0.7445, F1 Score=0.4313
+2024-11-22 15:48:08,310 - INFO - Class 2: Precision=0.2780, Recall=0.7951, F1 Score=0.4120
+2024-11-22 15:48:08,310 - INFO - Class 3: Precision=0.3164, Recall=0.8411, F1 Score=0.4598
+2024-11-22 15:48:08,310 - INFO - Macro-Averaged Metrics: Precision=0.4314, Recall=0.6441, F1 Score=0.4050
+2024-11-22 15:48:08,311 - INFO - Micro-Averaged Metrics: Precision=0.3855, Recall=0.3855, F1 Score=0.3855
+2024-11-22 15:48:08,311 - INFO - Epoch [10/50]
+2024-11-22 15:49:07,216 - INFO - Training Loss: 0.7768, Accuracy: 0.4302
+2024-11-22 15:49:07,216 - INFO - item time: 0.0090
+2024-11-22 15:49:13,589 - INFO - Class 0: Precision=0.8461, Recall=0.2992, F1 Score=0.4421
+2024-11-22 15:49:13,589 - INFO - Class 1: Precision=0.3358, Recall=0.7879, F1 Score=0.4709
+2024-11-22 15:49:13,590 - INFO - Class 2: Precision=0.3159, Recall=0.7647, F1 Score=0.4470
+2024-11-22 15:49:13,590 - INFO - Class 3: Precision=0.3594, Recall=0.8765, F1 Score=0.5098
+2024-11-22 15:49:13,590 - INFO - Macro-Averaged Metrics: Precision=0.4643, Recall=0.6821, F1 Score=0.4675
+2024-11-22 15:49:13,591 - INFO - Micro-Averaged Metrics: Precision=0.4617, Recall=0.4617, F1 Score=0.4617
+2024-11-22 15:49:13,591 - INFO - Epoch [11/50]
+2024-11-22 15:50:12,416 - INFO - Training Loss: 0.7224, Accuracy: 0.4658
+2024-11-22 15:50:12,417 - INFO - item time: 0.0090
+2024-11-22 15:50:18,668 - INFO - Class 0: Precision=0.8549, Recall=0.3849, F1 Score=0.5308
+2024-11-22 15:50:18,668 - INFO - Class 1: Precision=0.3860, Recall=0.7723, F1 Score=0.5147
+2024-11-22 15:50:18,669 - INFO - Class 2: Precision=0.3496, Recall=0.7605, F1 Score=0.4790
+2024-11-22 15:50:18,669 - INFO - Class 3: Precision=0.3730, Recall=0.8817, F1 Score=0.5242
+2024-11-22 15:50:18,669 - INFO - Macro-Averaged Metrics: Precision=0.4909, Recall=0.6998, F1 Score=0.5122
+2024-11-22 15:50:18,670 - INFO - Micro-Averaged Metrics: Precision=0.5191, Recall=0.5191, F1 Score=0.5191
+2024-11-22 15:50:18,670 - INFO - Epoch [12/50]
+2024-11-22 15:51:16,886 - INFO - Training Loss: 0.6810, Accuracy: 0.4914
+2024-11-22 15:51:16,887 - INFO - item time: 0.0090
+2024-11-22 15:51:23,182 - INFO - Class 0: Precision=0.8795, Recall=0.3308, F1 Score=0.4808
+2024-11-22 15:51:23,183 - INFO - Class 1: Precision=0.3587, Recall=0.8619, F1 Score=0.5065
+2024-11-22 15:51:23,183 - INFO - Class 2: Precision=0.3434, Recall=0.8251, F1 Score=0.4850
+2024-11-22 15:51:23,184 - INFO - Class 3: Precision=0.3873, Recall=0.8834, F1 Score=0.5385
+2024-11-22 15:51:23,184 - INFO - Macro-Averaged Metrics: Precision=0.4922, Recall=0.7253, F1 Score=0.5027
+2024-11-22 15:51:23,185 - INFO - Micro-Averaged Metrics: Precision=0.4972, Recall=0.4972, F1 Score=0.4972
+2024-11-22 15:51:23,185 - INFO - Epoch [13/50]
+2024-11-22 15:52:21,625 - INFO - Training Loss: 0.6734, Accuracy: 0.4947
+2024-11-22 15:52:21,626 - INFO - item time: 0.0090
+2024-11-22 15:52:27,950 - INFO - Class 0: Precision=0.8864, Recall=0.3339, F1 Score=0.4850
+2024-11-22 15:52:27,951 - INFO - Class 1: Precision=0.3632, Recall=0.8681, F1 Score=0.5121
+2024-11-22 15:52:27,951 - INFO - Class 2: Precision=0.3185, Recall=0.8564, F1 Score=0.4643
+2024-11-22 15:52:27,951 - INFO - Class 3: Precision=0.4152, Recall=0.8538, F1 Score=0.5588
+2024-11-22 15:52:27,952 - INFO - Macro-Averaged Metrics: Precision=0.4958, Recall=0.7280, F1 Score=0.5051
+2024-11-22 15:52:27,952 - INFO - Micro-Averaged Metrics: Precision=0.4993, Recall=0.4993, F1 Score=0.4993
+2024-11-22 15:52:27,952 - INFO - Epoch [14/50]
+2024-11-22 15:53:26,949 - INFO - Training Loss: 0.6831, Accuracy: 0.4899
+2024-11-22 15:53:26,950 - INFO - item time: 0.0090
+2024-11-22 15:53:33,192 - INFO - Class 0: Precision=0.8750, Recall=0.3126, F1 Score=0.4606
+2024-11-22 15:53:33,192 - INFO - Class 1: Precision=0.3515, Recall=0.8099, F1 Score=0.4903
+2024-11-22 15:53:33,192 - INFO - Class 2: Precision=0.3252, Recall=0.8345, F1 Score=0.4680
+2024-11-22 15:53:33,193 - INFO - Class 3: Precision=0.3775, Recall=0.8809, F1 Score=0.5285
+2024-11-22 15:53:33,193 - INFO - Macro-Averaged Metrics: Precision=0.4823, Recall=0.7095, F1 Score=0.4869
+2024-11-22 15:53:33,194 - INFO - Micro-Averaged Metrics: Precision=0.4803, Recall=0.4803, F1 Score=0.4803
+2024-11-22 15:53:33,194 - INFO - Epoch [15/50]
+2024-11-22 15:54:31,968 - INFO - Training Loss: 0.6599, Accuracy: 0.5051
+2024-11-22 15:54:31,969 - INFO - item time: 0.0090
+2024-11-22 15:54:38,295 - INFO - Class 0: Precision=0.8924, Recall=0.3574, F1 Score=0.5104
+2024-11-22 15:54:38,295 - INFO - Class 1: Precision=0.3640, Recall=0.8921, F1 Score=0.5170
+2024-11-22 15:54:38,296 - INFO - Class 2: Precision=0.3226, Recall=0.8790, F1 Score=0.4720
+2024-11-22 15:54:38,296 - INFO - Class 3: Precision=0.4509, Recall=0.8317, F1 Score=0.5848
+2024-11-22 15:54:38,297 - INFO - Macro-Averaged Metrics: Precision=0.5075, Recall=0.7401, F1 Score=0.5211
+2024-11-22 15:54:38,297 - INFO - Micro-Averaged Metrics: Precision=0.5173, Recall=0.5173, F1 Score=0.5173
+2024-11-22 15:54:38,297 - INFO - Epoch [16/50]
+2024-11-22 15:55:36,852 - INFO - Training Loss: 0.6370, Accuracy: 0.5190
+2024-11-22 15:55:36,853 - INFO - item time: 0.0090
+2024-11-22 15:55:43,194 - INFO - Class 0: Precision=0.8762, Recall=0.4427, F1 Score=0.5882
+2024-11-22 15:55:43,195 - INFO - Class 1: Precision=0.4168, Recall=0.8283, F1 Score=0.5546
+2024-11-22 15:55:43,195 - INFO - Class 2: Precision=0.3367, Recall=0.8565, F1 Score=0.4834
+2024-11-22 15:55:43,196 - INFO - Class 3: Precision=0.4622, Recall=0.8156, F1 Score=0.5900
+2024-11-22 15:55:43,196 - INFO - Macro-Averaged Metrics: Precision=0.5230, Recall=0.7358, F1 Score=0.5541
+2024-11-22 15:55:43,196 - INFO - Micro-Averaged Metrics: Precision=0.5654, Recall=0.5654, F1 Score=0.5654
+2024-11-22 15:55:43,197 - INFO - Epoch [17/50]
+2024-11-22 15:56:42,273 - INFO - Training Loss: 0.6144, Accuracy: 0.5335
+2024-11-22 15:56:42,274 - INFO - item time: 0.0090
+2024-11-22 15:56:48,497 - INFO - Class 0: Precision=0.8858, Recall=0.3867, F1 Score=0.5384
+2024-11-22 15:56:48,497 - INFO - Class 1: Precision=0.3771, Recall=0.8723, F1 Score=0.5266
+2024-11-22 15:56:48,497 - INFO - Class 2: Precision=0.3461, Recall=0.8535, F1 Score=0.4925
+2024-11-22 15:56:48,498 - INFO - Class 3: Precision=0.4335, Recall=0.8491, F1 Score=0.5739
+2024-11-22 15:56:48,498 - INFO - Macro-Averaged Metrics: Precision=0.5106, Recall=0.7404, F1 Score=0.5328
+2024-11-22 15:56:48,498 - INFO - Micro-Averaged Metrics: Precision=0.5351, Recall=0.5351, F1 Score=0.5351
+2024-11-22 15:56:48,499 - INFO - Epoch [18/50]
+2024-11-22 15:57:47,245 - INFO - Training Loss: 0.6410, Accuracy: 0.5195
+2024-11-22 15:57:47,245 - INFO - item time: 0.0090
+2024-11-22 15:57:53,531 - INFO - Class 0: Precision=0.8909, Recall=0.3575, F1 Score=0.5102
+2024-11-22 15:57:53,531 - INFO - Class 1: Precision=0.3892, Recall=0.8639, F1 Score=0.5366
+2024-11-22 15:57:53,532 - INFO - Class 2: Precision=0.3537, Recall=0.8315, F1 Score=0.4963
+2024-11-22 15:57:53,532 - INFO - Class 3: Precision=0.3863, Recall=0.8987, F1 Score=0.5404
+2024-11-22 15:57:53,532 - INFO - Macro-Averaged Metrics: Precision=0.5051, Recall=0.7379, F1 Score=0.5209
+2024-11-22 15:57:53,533 - INFO - Micro-Averaged Metrics: Precision=0.5181, Recall=0.5181, F1 Score=0.5181
+2024-11-22 15:57:53,533 - INFO - Epoch [19/50]
+2024-11-22 15:58:51,922 - INFO - Training Loss: 0.6362, Accuracy: 0.5236
+2024-11-22 15:58:51,923 - INFO - item time: 0.0090
+2024-11-22 15:58:58,252 - INFO - Class 0: Precision=0.8750, Recall=0.5105, F1 Score=0.6448
+2024-11-22 15:58:58,253 - INFO - Class 1: Precision=0.3784, Recall=0.8781, F1 Score=0.5289
+2024-11-22 15:58:58,253 - INFO - Class 2: Precision=0.4238, Recall=0.7711, F1 Score=0.5470
+2024-11-22 15:58:58,253 - INFO - Class 3: Precision=0.4813, Recall=0.7935, F1 Score=0.5991
+2024-11-22 15:58:58,254 - INFO - Macro-Averaged Metrics: Precision=0.5396, Recall=0.7383, F1 Score=0.5800
+2024-11-22 15:58:58,254 - INFO - Micro-Averaged Metrics: Precision=0.6055, Recall=0.6055, F1 Score=0.6055
+2024-11-22 15:58:58,254 - INFO - Epoch [20/50]
+2024-11-22 15:59:56,871 - INFO - Training Loss: 0.6180, Accuracy: 0.5355
+2024-11-22 15:59:56,872 - INFO - item time: 0.0090
+2024-11-22 16:00:03,129 - INFO - Class 0: Precision=0.8987, Recall=0.3240, F1 Score=0.4763
+2024-11-22 16:00:03,129 - INFO - Class 1: Precision=0.3567, Recall=0.8985, F1 Score=0.5107
+2024-11-22 16:00:03,130 - INFO - Class 2: Precision=0.3599, Recall=0.8488, F1 Score=0.5055
+2024-11-22 16:00:03,130 - INFO - Class 3: Precision=0.3914, Recall=0.9061, F1 Score=0.5467
+2024-11-22 16:00:03,131 - INFO - Macro-Averaged Metrics: Precision=0.5017, Recall=0.7443, F1 Score=0.5098
+2024-11-22 16:00:03,131 - INFO - Micro-Averaged Metrics: Precision=0.5010, Recall=0.5010, F1 Score=0.5010
+2024-11-22 16:00:03,131 - INFO - Epoch [21/50]
+2024-11-22 16:01:01,362 - INFO - Training Loss: 0.6059, Accuracy: 0.5489
+2024-11-22 16:01:01,363 - INFO - item time: 0.0090
+2024-11-22 16:01:07,670 - INFO - Class 0: Precision=0.9021, Recall=0.4279, F1 Score=0.5804
+2024-11-22 16:01:07,670 - INFO - Class 1: Precision=0.4172, Recall=0.8531, F1 Score=0.5604
+2024-11-22 16:01:07,671 - INFO - Class 2: Precision=0.3777, Recall=0.8539, F1 Score=0.5237
+2024-11-22 16:01:07,671 - INFO - Class 3: Precision=0.4217, Recall=0.8959, F1 Score=0.5735
+2024-11-22 16:01:07,672 - INFO - Macro-Averaged Metrics: Precision=0.5297, Recall=0.7577, F1 Score=0.5595
+2024-11-22 16:01:07,672 - INFO - Micro-Averaged Metrics: Precision=0.5671, Recall=0.5671, F1 Score=0.5671
+2024-11-22 16:01:07,673 - INFO - Epoch [22/50]
+2024-11-22 16:02:06,383 - INFO - Training Loss: 0.5965, Accuracy: 0.5558
+2024-11-22 16:02:06,384 - INFO - item time: 0.0090
+2024-11-22 16:02:12,741 - INFO - Class 0: Precision=0.8995, Recall=0.3551, F1 Score=0.5092
+2024-11-22 16:02:12,741 - INFO - Class 1: Precision=0.3202, Recall=0.9152, F1 Score=0.4744
+2024-11-22 16:02:12,741 - INFO - Class 2: Precision=0.3551, Recall=0.8369, F1 Score=0.4987
+2024-11-22 16:02:12,742 - INFO - Class 3: Precision=0.4504, Recall=0.8360, F1 Score=0.5854
+2024-11-22 16:02:12,742 - INFO - Macro-Averaged Metrics: Precision=0.5063, Recall=0.7358, F1 Score=0.5169
+2024-11-22 16:02:12,742 - INFO - Micro-Averaged Metrics: Precision=0.5143, Recall=0.5143, F1 Score=0.5143
+2024-11-22 16:02:12,743 - INFO - Epoch [23/50]
+2024-11-22 16:03:11,813 - INFO - Training Loss: 0.6017, Accuracy: 0.5547
+2024-11-22 16:03:11,814 - INFO - item time: 0.0090
+2024-11-22 16:03:18,022 - INFO - Class 0: Precision=0.9094, Recall=0.3703, F1 Score=0.5263
+2024-11-22 16:03:18,023 - INFO - Class 1: Precision=0.3702, Recall=0.8871, F1 Score=0.5224
+2024-11-22 16:03:18,023 - INFO - Class 2: Precision=0.3568, Recall=0.8763, F1 Score=0.5071
+2024-11-22 16:03:18,023 - INFO - Class 3: Precision=0.4319, Recall=0.8934, F1 Score=0.5823
+2024-11-22 16:03:18,024 - INFO - Macro-Averaged Metrics: Precision=0.5171, Recall=0.7568, F1 Score=0.5345
+2024-11-22 16:03:18,024 - INFO - Micro-Averaged Metrics: Precision=0.5328, Recall=0.5328, F1 Score=0.5328
+2024-11-22 16:03:18,024 - INFO - Epoch [24/50]
+2024-11-22 16:04:16,804 - INFO - Training Loss: 0.5900, Accuracy: 0.5640
+2024-11-22 16:04:16,805 - INFO - item time: 0.0090
+2024-11-22 16:04:23,141 - INFO - Class 0: Precision=0.9020, Recall=0.3984, F1 Score=0.5527
+2024-11-22 16:04:23,141 - INFO - Class 1: Precision=0.3773, Recall=0.8861, F1 Score=0.5292
+2024-11-22 16:04:23,141 - INFO - Class 2: Precision=0.3618, Recall=0.8624, F1 Score=0.5097
+2024-11-22 16:04:23,142 - INFO - Class 3: Precision=0.4404, Recall=0.8673, F1 Score=0.5842
+2024-11-22 16:04:23,142 - INFO - Macro-Averaged Metrics: Precision=0.5204, Recall=0.7536, F1 Score=0.5439
+2024-11-22 16:04:23,143 - INFO - Micro-Averaged Metrics: Precision=0.5474, Recall=0.5474, F1 Score=0.5474
+2024-11-22 16:04:23,143 - INFO - Epoch [25/50]
+2024-11-22 16:05:21,862 - INFO - Training Loss: 0.6077, Accuracy: 0.5536
+2024-11-22 16:05:21,862 - INFO - item time: 0.0090
+2024-11-22 16:05:28,352 - INFO - Class 0: Precision=0.8688, Recall=0.4195, F1 Score=0.5658
+2024-11-22 16:05:28,353 - INFO - Class 1: Precision=0.3817, Recall=0.8518, F1 Score=0.5271
+2024-11-22 16:05:28,353 - INFO - Class 2: Precision=0.3853, Recall=0.7973, F1 Score=0.5195
+2024-11-22 16:05:28,353 - INFO - Class 3: Precision=0.4000, Recall=0.8336, F1 Score=0.5406
+2024-11-22 16:05:28,354 - INFO - Macro-Averaged Metrics: Precision=0.5089, Recall=0.7256, F1 Score=0.5383
+2024-11-22 16:05:28,354 - INFO - Micro-Averaged Metrics: Precision=0.5482, Recall=0.5482, F1 Score=0.5482
+2024-11-22 16:05:28,354 - INFO - Epoch [26/50]
+2024-11-22 16:06:27,328 - INFO - Training Loss: 0.6047, Accuracy: 0.5549
+2024-11-22 16:06:27,328 - INFO - item time: 0.0090
+2024-11-22 16:06:33,524 - INFO - Class 0: Precision=0.8737, Recall=0.4807, F1 Score=0.6202
+2024-11-22 16:06:33,524 - INFO - Class 1: Precision=0.4136, Recall=0.8134, F1 Score=0.5484
+2024-11-22 16:06:33,525 - INFO - Class 2: Precision=0.3520, Recall=0.8406, F1 Score=0.4962
+2024-11-22 16:06:33,525 - INFO - Class 3: Precision=0.4847, Recall=0.8013, F1 Score=0.6040
+2024-11-22 16:06:33,525 - INFO - Macro-Averaged Metrics: Precision=0.5310, Recall=0.7340, F1 Score=0.5672
+2024-11-22 16:06:33,526 - INFO - Micro-Averaged Metrics: Precision=0.5867, Recall=0.5867, F1 Score=0.5867
+2024-11-22 16:06:33,526 - INFO - Epoch [27/50]
+2024-11-22 16:07:31,767 - INFO - Training Loss: 0.5950, Accuracy: 0.5600
+2024-11-22 16:07:31,768 - INFO - item time: 0.0090
+2024-11-22 16:07:38,132 - INFO - Class 0: Precision=0.9035, Recall=0.2693, F1 Score=0.4149
+2024-11-22 16:07:38,132 - INFO - Class 1: Precision=0.4096, Recall=0.8299, F1 Score=0.5485
+2024-11-22 16:07:38,133 - INFO - Class 2: Precision=0.3079, Recall=0.9226, F1 Score=0.4617
+2024-11-22 16:07:38,133 - INFO - Class 3: Precision=0.3643, Recall=0.9241, F1 Score=0.5226
+2024-11-22 16:07:38,133 - INFO - Macro-Averaged Metrics: Precision=0.4963, Recall=0.7365, F1 Score=0.4869
+2024-11-22 16:07:38,134 - INFO - Micro-Averaged Metrics: Precision=0.4665, Recall=0.4665, F1 Score=0.4665
+2024-11-22 16:07:38,134 - INFO - Epoch [28/50]
+2024-11-22 16:08:36,926 - INFO - Training Loss: 0.5655, Accuracy: 0.5789
+2024-11-22 16:08:36,926 - INFO - item time: 0.0090
+2024-11-22 16:08:43,212 - INFO - Class 0: Precision=0.8938, Recall=0.4647, F1 Score=0.6115
+2024-11-22 16:08:43,212 - INFO - Class 1: Precision=0.3859, Recall=0.8765, F1 Score=0.5359
+2024-11-22 16:08:43,213 - INFO - Class 2: Precision=0.3924, Recall=0.8429, F1 Score=0.5355
+2024-11-22 16:08:43,213 - INFO - Class 3: Precision=0.4812, Recall=0.8562, F1 Score=0.6161
+2024-11-22 16:08:43,213 - INFO - Macro-Averaged Metrics: Precision=0.5383, Recall=0.7601, F1 Score=0.5747
+2024-11-22 16:08:43,214 - INFO - Micro-Averaged Metrics: Precision=0.5887, Recall=0.5887, F1 Score=0.5887
+2024-11-22 16:08:43,214 - INFO - Epoch [29/50]
+2024-11-22 16:09:41,884 - INFO - Training Loss: 0.5537, Accuracy: 0.5850
+2024-11-22 16:09:41,884 - INFO - item time: 0.0090
+2024-11-22 16:09:48,074 - INFO - Class 0: Precision=0.9067, Recall=0.4446, F1 Score=0.5966
+2024-11-22 16:09:48,074 - INFO - Class 1: Precision=0.4454, Recall=0.8433, F1 Score=0.5829
+2024-11-22 16:09:48,074 - INFO - Class 2: Precision=0.3548, Recall=0.9115, F1 Score=0.5108
+2024-11-22 16:09:48,075 - INFO - Class 3: Precision=0.4648, Recall=0.8841, F1 Score=0.6092
+2024-11-22 16:09:48,075 - INFO - Macro-Averaged Metrics: Precision=0.5429, Recall=0.7709, F1 Score=0.5749
+2024-11-22 16:09:48,075 - INFO - Micro-Averaged Metrics: Precision=0.5819, Recall=0.5819, F1 Score=0.5819
+2024-11-22 16:09:48,075 - INFO - Epoch [30/50]
+2024-11-22 16:10:46,745 - INFO - Training Loss: 0.5557, Accuracy: 0.5832
+2024-11-22 16:10:46,746 - INFO - item time: 0.0090
+2024-11-22 16:10:53,003 - INFO - Class 0: Precision=0.8926, Recall=0.4328, F1 Score=0.5829
+2024-11-22 16:10:53,004 - INFO - Class 1: Precision=0.3767, Recall=0.8679, F1 Score=0.5254
+2024-11-22 16:10:53,004 - INFO - Class 2: Precision=0.3933, Recall=0.8387, F1 Score=0.5355
+2024-11-22 16:10:53,004 - INFO - Class 3: Precision=0.4401, Recall=0.8647, F1 Score=0.5833
+2024-11-22 16:10:53,005 - INFO - Macro-Averaged Metrics: Precision=0.5257, Recall=0.7510, F1 Score=0.5568
+2024-11-22 16:10:53,005 - INFO - Micro-Averaged Metrics: Precision=0.5666, Recall=0.5666, F1 Score=0.5666
+2024-11-22 16:10:53,005 - INFO - Epoch [31/50]
+2024-11-22 16:11:51,513 - INFO - Training Loss: 0.7935, Accuracy: 0.4677
+2024-11-22 16:11:51,514 - INFO - item time: 0.0090
+2024-11-22 16:11:57,767 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:11:57,767 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:11:57,768 - INFO - Class 2: Precision=0.0985, Recall=1.0000, F1 Score=0.1794
+2024-11-22 16:11:57,768 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:11:57,768 - INFO - Macro-Averaged Metrics: Precision=0.0246, Recall=0.2500, F1 Score=0.0448
+2024-11-22 16:11:57,769 - INFO - Micro-Averaged Metrics: Precision=0.0985, Recall=0.0985, F1 Score=0.0985
+2024-11-22 16:11:57,769 - INFO - Epoch [32/50]
+2024-11-22 16:12:56,408 - INFO - Training Loss: 1.3869, Accuracy: 0.1577
+2024-11-22 16:12:56,409 - INFO - item time: 0.0090
+2024-11-22 16:13:02,727 - INFO - Class 0: Precision=0.6849, Recall=1.0000, F1 Score=0.8130
+2024-11-22 16:13:02,727 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:13:02,728 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:13:02,728 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:13:02,728 - INFO - Macro-Averaged Metrics: Precision=0.1712, Recall=0.2500, F1 Score=0.2033
+2024-11-22 16:13:02,729 - INFO - Micro-Averaged Metrics: Precision=0.6849, Recall=0.6849, F1 Score=0.6849
+2024-11-22 16:13:02,729 - INFO - Epoch [33/50]
+2024-11-22 16:14:01,464 - INFO - Training Loss: 1.3863, Accuracy: 0.2991
+2024-11-22 16:14:01,465 - INFO - item time: 0.0090
+2024-11-22 16:14:07,844 - INFO - Class 0: Precision=0.6849, Recall=1.0000, F1 Score=0.8130
+2024-11-22 16:14:07,844 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:14:07,845 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:14:07,845 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:14:07,845 - INFO - Macro-Averaged Metrics: Precision=0.1712, Recall=0.2500, F1 Score=0.2033
+2024-11-22 16:14:07,846 - INFO - Micro-Averaged Metrics: Precision=0.6849, Recall=0.6849, F1 Score=0.6849
+2024-11-22 16:14:07,846 - INFO - Epoch [34/50]
+2024-11-22 16:15:06,586 - INFO - Training Loss: 1.3863, Accuracy: 0.2356
+2024-11-22 16:15:06,586 - INFO - item time: 0.0090
+2024-11-22 16:15:12,835 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:15:12,835 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:15:12,835 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:15:12,836 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:15:12,836 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:15:12,836 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:15:12,837 - INFO - Epoch [35/50]
+2024-11-22 16:16:13,716 - INFO - Training Loss: 1.3863, Accuracy: 0.2420
+2024-11-22 16:16:13,717 - INFO - item time: 0.0091
+2024-11-22 16:16:20,277 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:16:20,277 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:16:20,277 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:16:20,278 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:16:20,278 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:16:20,279 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:16:20,279 - INFO - Epoch [36/50]
+2024-11-22 16:17:23,997 - INFO - Training Loss: 1.3863, Accuracy: 0.2884
+2024-11-22 16:17:23,998 - INFO - item time: 0.0092
+2024-11-22 16:17:31,377 - INFO - Class 0: Precision=0.6849, Recall=1.0000, F1 Score=0.8130
+2024-11-22 16:17:31,377 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:17:31,378 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:17:31,378 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:17:31,378 - INFO - Macro-Averaged Metrics: Precision=0.1712, Recall=0.2500, F1 Score=0.2033
+2024-11-22 16:17:31,379 - INFO - Micro-Averaged Metrics: Precision=0.6849, Recall=0.6849, F1 Score=0.6849
+2024-11-22 16:17:31,379 - INFO - Epoch [37/50]
+2024-11-22 16:18:32,841 - INFO - Training Loss: 1.3863, Accuracy: 0.2812
+2024-11-22 16:18:32,842 - INFO - item time: 0.0091
+2024-11-22 16:18:39,180 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:18:39,181 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:18:39,181 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:18:39,181 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:18:39,182 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:18:39,182 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:18:39,182 - INFO - Epoch [38/50]
+2024-11-22 16:19:39,069 - INFO - Training Loss: 1.3863, Accuracy: 0.2922
+2024-11-22 16:19:39,070 - INFO - item time: 0.0091
+2024-11-22 16:19:45,434 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:19:45,434 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:19:45,435 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:19:45,435 - INFO - Class 3: Precision=0.1212, Recall=1.0000, F1 Score=0.2162
+2024-11-22 16:19:45,436 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0541
+2024-11-22 16:19:45,436 - INFO - Micro-Averaged Metrics: Precision=0.1212, Recall=0.1212, F1 Score=0.1212
+2024-11-22 16:19:45,436 - INFO - Epoch [39/50]
+2024-11-22 16:20:44,964 - INFO - Training Loss: 1.3863, Accuracy: 0.2528
+2024-11-22 16:20:44,965 - INFO - item time: 0.0091
+2024-11-22 16:20:51,407 - INFO - Class 0: Precision=0.6849, Recall=1.0000, F1 Score=0.8130
+2024-11-22 16:20:51,408 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:20:51,408 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:20:51,409 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:20:51,409 - INFO - Macro-Averaged Metrics: Precision=0.1712, Recall=0.2500, F1 Score=0.2033
+2024-11-22 16:20:51,409 - INFO - Micro-Averaged Metrics: Precision=0.6849, Recall=0.6849, F1 Score=0.6849
+2024-11-22 16:20:51,410 - INFO - Epoch [40/50]
+2024-11-22 16:21:51,238 - INFO - Training Loss: 1.3863, Accuracy: 0.3042
+2024-11-22 16:21:51,239 - INFO - item time: 0.0091
+2024-11-22 16:21:57,601 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:21:57,602 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:21:57,602 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:21:57,603 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:21:57,603 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:21:57,604 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:21:57,604 - INFO - Epoch [41/50]
+2024-11-22 16:22:57,736 - INFO - Training Loss: 1.3863, Accuracy: 0.2670
+2024-11-22 16:22:57,736 - INFO - item time: 0.0091
+2024-11-22 16:23:04,074 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:23:04,075 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:23:04,075 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:23:04,076 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:23:04,076 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:23:04,076 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:23:04,077 - INFO - Epoch [42/50]
+2024-11-22 16:24:04,120 - INFO - Training Loss: 1.3863, Accuracy: 0.3116
+2024-11-22 16:24:04,120 - INFO - item time: 0.0091
+2024-11-22 16:24:10,619 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:24:10,620 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:24:10,620 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:24:10,621 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:24:10,621 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:24:10,621 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:24:10,622 - INFO - Epoch [43/50]
+2024-11-22 16:25:10,441 - INFO - Training Loss: 1.3863, Accuracy: 0.2797
+2024-11-22 16:25:10,441 - INFO - item time: 0.0090
+2024-11-22 16:25:16,868 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:25:16,869 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:25:16,869 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:25:16,869 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:25:16,870 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:25:16,870 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:25:16,871 - INFO - Epoch [44/50]
+2024-11-22 16:26:16,590 - INFO - Training Loss: 1.3863, Accuracy: 0.2760
+2024-11-22 16:26:16,591 - INFO - item time: 0.0090
+2024-11-22 16:26:23,036 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:26:23,037 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:26:23,037 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:26:23,038 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:26:23,038 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:26:23,038 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:26:23,039 - INFO - Epoch [45/50]
+2024-11-22 16:27:22,476 - INFO - Training Loss: 1.3863, Accuracy: 0.2834
+2024-11-22 16:27:22,477 - INFO - item time: 0.0091
+2024-11-22 16:27:28,956 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:27:28,957 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:27:28,957 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:27:28,957 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:27:28,958 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:27:28,958 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:27:28,959 - INFO - Epoch [46/50]
+2024-11-22 16:28:28,616 - INFO - Training Loss: 1.3863, Accuracy: 0.2801
+2024-11-22 16:28:28,617 - INFO - item time: 0.0091
+2024-11-22 16:28:35,050 - INFO - Class 0: Precision=0.6849, Recall=1.0000, F1 Score=0.8130
+2024-11-22 16:28:35,050 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:28:35,051 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:28:35,051 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:28:35,051 - INFO - Macro-Averaged Metrics: Precision=0.1712, Recall=0.2500, F1 Score=0.2033
+2024-11-22 16:28:35,052 - INFO - Micro-Averaged Metrics: Precision=0.6849, Recall=0.6849, F1 Score=0.6849
+2024-11-22 16:28:35,052 - INFO - Epoch [47/50]
+2024-11-22 16:29:34,683 - INFO - Training Loss: 1.3863, Accuracy: 0.2288
+2024-11-22 16:29:34,683 - INFO - item time: 0.0091
+2024-11-22 16:29:41,053 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:29:41,053 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:29:41,053 - INFO - Class 2: Precision=0.0985, Recall=1.0000, F1 Score=0.1794
+2024-11-22 16:29:41,054 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:29:41,054 - INFO - Macro-Averaged Metrics: Precision=0.0246, Recall=0.2500, F1 Score=0.0448
+2024-11-22 16:29:41,054 - INFO - Micro-Averaged Metrics: Precision=0.0985, Recall=0.0985, F1 Score=0.0985
+2024-11-22 16:29:41,055 - INFO - Epoch [48/50]
+2024-11-22 16:30:41,110 - INFO - Training Loss: 1.3863, Accuracy: 0.2820
+2024-11-22 16:30:41,111 - INFO - item time: 0.0091
+2024-11-22 16:30:47,637 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:30:47,638 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:30:47,638 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:30:47,638 - INFO - Class 3: Precision=0.1212, Recall=1.0000, F1 Score=0.2162
+2024-11-22 16:30:47,638 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0541
+2024-11-22 16:30:47,639 - INFO - Micro-Averaged Metrics: Precision=0.1212, Recall=0.1212, F1 Score=0.1212
+2024-11-22 16:30:47,639 - INFO - Epoch [49/50]
+2024-11-22 16:31:48,257 - INFO - Training Loss: 1.3863, Accuracy: 0.2317
+2024-11-22 16:31:48,258 - INFO - item time: 0.0091
+2024-11-22 16:31:54,689 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:31:54,689 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 16:31:54,690 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:31:54,690 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:31:54,691 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 16:31:54,691 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 16:31:54,691 - INFO - Epoch [50/50]
+2024-11-22 16:32:55,174 - INFO - Training Loss: 1.3863, Accuracy: 0.2469
+2024-11-22 16:32:55,174 - INFO - item time: 0.0091
+2024-11-22 16:33:01,554 - INFO - Class 0: Precision=0.6849, Recall=1.0000, F1 Score=0.8130
+2024-11-22 16:33:01,554 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:33:01,555 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:33:01,555 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 16:33:01,556 - INFO - Macro-Averaged Metrics: Precision=0.1712, Recall=0.2500, F1 Score=0.2033
+2024-11-22 16:33:01,556 - INFO - Micro-Averaged Metrics: Precision=0.6849, Recall=0.6849, F1 Score=0.6849
+2024-11-22 16:33:01,569 - INFO - Model saved at ./output/ablation_sincos_8head_conv15_log.txt_fold2_model.pth
+2024-11-22 16:33:01,593 - INFO - 
+Training fold 3/5
+2024-11-22 16:33:21,651 - INFO - Epoch [1/50]
+2024-11-22 16:34:21,264 - INFO - Training Loss: 0.8436, Accuracy: 0.3847
+2024-11-22 16:34:21,264 - INFO - item time: 0.0093
+2024-11-22 16:34:28,382 - INFO - Class 0: Precision=0.8719, Recall=0.2848, F1 Score=0.4293
+2024-11-22 16:34:28,383 - INFO - Class 1: Precision=0.3673, Recall=0.8056, F1 Score=0.5045
+2024-11-22 16:34:28,383 - INFO - Class 2: Precision=0.3222, Recall=0.8892, F1 Score=0.4730
+2024-11-22 16:34:28,384 - INFO - Class 3: Precision=0.3625, Recall=0.8845, F1 Score=0.5142
+2024-11-22 16:34:28,384 - INFO - Macro-Averaged Metrics: Precision=0.4809, Recall=0.7160, F1 Score=0.4803
+2024-11-22 16:34:28,384 - INFO - Micro-Averaged Metrics: Precision=0.4665, Recall=0.4665, F1 Score=0.4665
+2024-11-22 16:34:28,385 - INFO - Epoch [2/50]
+2024-11-22 16:35:31,528 - INFO - Training Loss: 0.6419, Accuracy: 0.5076
+2024-11-22 16:35:31,528 - INFO - item time: 0.0092
+2024-11-22 16:35:37,941 - INFO - Class 0: Precision=0.8948, Recall=0.3451, F1 Score=0.4981
+2024-11-22 16:35:37,942 - INFO - Class 1: Precision=0.3475, Recall=0.8999, F1 Score=0.5014
+2024-11-22 16:35:37,942 - INFO - Class 2: Precision=0.3668, Recall=0.8540, F1 Score=0.5132
+2024-11-22 16:35:37,942 - INFO - Class 3: Precision=0.4084, Recall=0.8760, F1 Score=0.5570
+2024-11-22 16:35:37,943 - INFO - Macro-Averaged Metrics: Precision=0.5044, Recall=0.7438, F1 Score=0.5174
+2024-11-22 16:35:37,943 - INFO - Micro-Averaged Metrics: Precision=0.5124, Recall=0.5124, F1 Score=0.5124
+2024-11-22 16:35:37,943 - INFO - Epoch [3/50]
+2024-11-22 16:36:38,310 - INFO - Training Loss: 0.6461, Accuracy: 0.5035
+2024-11-22 16:36:38,311 - INFO - item time: 0.0091
+2024-11-22 16:36:44,865 - INFO - Class 0: Precision=0.8818, Recall=0.3074, F1 Score=0.4559
+2024-11-22 16:36:44,866 - INFO - Class 1: Precision=0.3193, Recall=0.8704, F1 Score=0.4672
+2024-11-22 16:36:44,866 - INFO - Class 2: Precision=0.3320, Recall=0.8371, F1 Score=0.4755
+2024-11-22 16:36:44,867 - INFO - Class 3: Precision=0.4000, Recall=0.8362, F1 Score=0.5411
+2024-11-22 16:36:44,867 - INFO - Macro-Averaged Metrics: Precision=0.4833, Recall=0.7128, F1 Score=0.4849
+2024-11-22 16:36:44,867 - INFO - Micro-Averaged Metrics: Precision=0.4772, Recall=0.4772, F1 Score=0.4772
+2024-11-22 16:36:44,868 - INFO - Epoch [4/50]
+2024-11-22 16:37:45,160 - INFO - Training Loss: 0.7369, Accuracy: 0.4499
+2024-11-22 16:37:45,161 - INFO - item time: 0.0091
+2024-11-22 16:37:51,623 - INFO - Class 0: Precision=0.8574, Recall=0.3326, F1 Score=0.4793
+2024-11-22 16:37:51,623 - INFO - Class 1: Precision=0.2987, Recall=0.8547, F1 Score=0.4427
+2024-11-22 16:37:51,624 - INFO - Class 2: Precision=0.3237, Recall=0.7577, F1 Score=0.4536
+2024-11-22 16:37:51,624 - INFO - Class 3: Precision=0.4102, Recall=0.7829, F1 Score=0.5383
+2024-11-22 16:37:51,624 - INFO - Macro-Averaged Metrics: Precision=0.4725, Recall=0.6820, F1 Score=0.4785
+2024-11-22 16:37:51,625 - INFO - Micro-Averaged Metrics: Precision=0.4787, Recall=0.4787, F1 Score=0.4787
+2024-11-22 16:37:51,625 - INFO - Epoch [5/50]
+2024-11-22 16:38:51,830 - INFO - Training Loss: 0.7647, Accuracy: 0.4319
+2024-11-22 16:38:51,831 - INFO - item time: 0.0091
+2024-11-22 16:38:58,250 - INFO - Class 0: Precision=0.8580, Recall=0.1950, F1 Score=0.3178
+2024-11-22 16:38:58,250 - INFO - Class 1: Precision=0.2948, Recall=0.8062, F1 Score=0.4317
+2024-11-22 16:38:58,251 - INFO - Class 2: Precision=0.2751, Recall=0.8106, F1 Score=0.4108
+2024-11-22 16:38:58,251 - INFO - Class 3: Precision=0.3475, Recall=0.8424, F1 Score=0.4921
+2024-11-22 16:38:58,251 - INFO - Macro-Averaged Metrics: Precision=0.4439, Recall=0.6636, F1 Score=0.4131
+2024-11-22 16:38:58,252 - INFO - Micro-Averaged Metrics: Precision=0.3923, Recall=0.3923, F1 Score=0.3923
+2024-11-22 16:38:58,252 - INFO - Epoch [6/50]
+2024-11-22 16:39:58,308 - INFO - Training Loss: 0.7713, Accuracy: 0.4281
+2024-11-22 16:39:58,309 - INFO - item time: 0.0091
+2024-11-22 16:40:04,725 - INFO - Class 0: Precision=0.8545, Recall=0.2336, F1 Score=0.3669
+2024-11-22 16:40:04,725 - INFO - Class 1: Precision=0.3294, Recall=0.7209, F1 Score=0.4522
+2024-11-22 16:40:04,726 - INFO - Class 2: Precision=0.2565, Recall=0.8468, F1 Score=0.3937
+2024-11-22 16:40:04,726 - INFO - Class 3: Precision=0.3490, Recall=0.8046, F1 Score=0.4869
+2024-11-22 16:40:04,726 - INFO - Macro-Averaged Metrics: Precision=0.4474, Recall=0.6515, F1 Score=0.4249
+2024-11-22 16:40:04,727 - INFO - Micro-Averaged Metrics: Precision=0.4095, Recall=0.4095, F1 Score=0.4095
+2024-11-22 16:40:04,727 - INFO - Epoch [7/50]
+2024-11-22 16:41:04,285 - INFO - Training Loss: 0.8268, Accuracy: 0.4009
+2024-11-22 16:41:04,286 - INFO - item time: 0.0091
+2024-11-22 16:41:10,783 - INFO - Class 0: Precision=0.8394, Recall=0.2325, F1 Score=0.3641
+2024-11-22 16:41:10,783 - INFO - Class 1: Precision=0.2754, Recall=0.8339, F1 Score=0.4141
+2024-11-22 16:41:10,783 - INFO - Class 2: Precision=0.2948, Recall=0.6620, F1 Score=0.4079
+2024-11-22 16:41:10,784 - INFO - Class 3: Precision=0.3379, Recall=0.8390, F1 Score=0.4818
+2024-11-22 16:41:10,784 - INFO - Macro-Averaged Metrics: Precision=0.4369, Recall=0.6418, F1 Score=0.4170
+2024-11-22 16:41:10,784 - INFO - Micro-Averaged Metrics: Precision=0.4055, Recall=0.4055, F1 Score=0.4055
+2024-11-22 16:41:10,785 - INFO - Epoch [8/50]
+2024-11-22 16:42:10,595 - INFO - Training Loss: 0.7952, Accuracy: 0.4063
+2024-11-22 16:42:10,595 - INFO - item time: 0.0091
+2024-11-22 16:42:17,096 - INFO - Class 0: Precision=0.8548, Recall=0.2482, F1 Score=0.3847
+2024-11-22 16:42:17,096 - INFO - Class 1: Precision=0.3246, Recall=0.7840, F1 Score=0.4591
+2024-11-22 16:42:17,097 - INFO - Class 2: Precision=0.2774, Recall=0.8047, F1 Score=0.4126
+2024-11-22 16:42:17,097 - INFO - Class 3: Precision=0.3527, Recall=0.8311, F1 Score=0.4952
+2024-11-22 16:42:17,098 - INFO - Macro-Averaged Metrics: Precision=0.4524, Recall=0.6670, F1 Score=0.4379
+2024-11-22 16:42:17,098 - INFO - Micro-Averaged Metrics: Precision=0.4246, Recall=0.4246, F1 Score=0.4246
+2024-11-22 16:42:17,098 - INFO - Epoch [9/50]
+2024-11-22 16:43:16,618 - INFO - Training Loss: 0.8376, Accuracy: 0.4008
+2024-11-22 16:43:16,619 - INFO - item time: 0.0091
+2024-11-22 16:43:22,943 - INFO - Class 0: Precision=0.8332, Recall=0.2377, F1 Score=0.3699
+2024-11-22 16:43:22,944 - INFO - Class 1: Precision=0.2951, Recall=0.7297, F1 Score=0.4202
+2024-11-22 16:43:22,944 - INFO - Class 2: Precision=0.2689, Recall=0.7099, F1 Score=0.3900
+2024-11-22 16:43:22,945 - INFO - Class 3: Precision=0.3200, Recall=0.8164, F1 Score=0.4597
+2024-11-22 16:43:22,945 - INFO - Macro-Averaged Metrics: Precision=0.4293, Recall=0.6234, F1 Score=0.4100
+2024-11-22 16:43:22,945 - INFO - Micro-Averaged Metrics: Precision=0.4011, Recall=0.4011, F1 Score=0.4011
+2024-11-22 16:43:22,946 - INFO - Epoch [10/50]
+2024-11-22 16:44:22,683 - INFO - Training Loss: 0.8631, Accuracy: 0.3916
+2024-11-22 16:44:22,683 - INFO - item time: 0.0091
+2024-11-22 16:44:29,085 - INFO - Class 0: Precision=0.8115, Recall=0.2002, F1 Score=0.3211
+2024-11-22 16:44:29,086 - INFO - Class 1: Precision=0.2452, Recall=0.7189, F1 Score=0.3656
+2024-11-22 16:44:29,086 - INFO - Class 2: Precision=0.2292, Recall=0.7012, F1 Score=0.3455
+2024-11-22 16:44:29,087 - INFO - Class 3: Precision=0.3146, Recall=0.6505, F1 Score=0.4241
+2024-11-22 16:44:29,087 - INFO - Macro-Averaged Metrics: Precision=0.4001, Recall=0.5677, F1 Score=0.3641
+2024-11-22 16:44:29,088 - INFO - Micro-Averaged Metrics: Precision=0.3535, Recall=0.3535, F1 Score=0.3535
+2024-11-22 16:44:29,088 - INFO - Epoch [11/50]
+2024-11-22 16:45:28,574 - INFO - Training Loss: 0.9684, Accuracy: 0.3421
+2024-11-22 16:45:28,575 - INFO - item time: 0.0091
+2024-11-22 16:45:35,592 - INFO - Class 0: Precision=0.7992, Recall=0.2312, F1 Score=0.3587
+2024-11-22 16:45:35,593 - INFO - Class 1: Precision=0.2623, Recall=0.6181, F1 Score=0.3683
+2024-11-22 16:45:35,593 - INFO - Class 2: Precision=0.2488, Recall=0.7030, F1 Score=0.3675
+2024-11-22 16:45:35,593 - INFO - Class 3: Precision=0.3065, Recall=0.7567, F1 Score=0.4363
+2024-11-22 16:45:35,594 - INFO - Macro-Averaged Metrics: Precision=0.4042, Recall=0.5773, F1 Score=0.3827
+2024-11-22 16:45:35,594 - INFO - Micro-Averaged Metrics: Precision=0.3782, Recall=0.3782, F1 Score=0.3782
+2024-11-22 16:45:35,595 - INFO - Epoch [12/50]
+2024-11-22 16:46:35,562 - INFO - Training Loss: 0.8831, Accuracy: 0.3801
+2024-11-22 16:46:35,563 - INFO - item time: 0.0091
+2024-11-22 16:46:41,928 - INFO - Class 0: Precision=0.8311, Recall=0.2451, F1 Score=0.3786
+2024-11-22 16:46:41,928 - INFO - Class 1: Precision=0.3262, Recall=0.7158, F1 Score=0.4481
+2024-11-22 16:46:41,929 - INFO - Class 2: Precision=0.2887, Recall=0.7343, F1 Score=0.4144
+2024-11-22 16:46:41,929 - INFO - Class 3: Precision=0.3133, Recall=0.8757, F1 Score=0.4615
+2024-11-22 16:46:41,929 - INFO - Macro-Averaged Metrics: Precision=0.4398, Recall=0.6427, F1 Score=0.4257
+2024-11-22 16:46:41,930 - INFO - Micro-Averaged Metrics: Precision=0.4145, Recall=0.4145, F1 Score=0.4145
+2024-11-22 16:46:41,930 - INFO - Epoch [13/50]
+2024-11-22 16:47:41,435 - INFO - Training Loss: 0.8044, Accuracy: 0.4154
+2024-11-22 16:47:41,435 - INFO - item time: 0.0091
+2024-11-22 16:47:47,878 - INFO - Class 0: Precision=0.8388, Recall=0.2479, F1 Score=0.3827
+2024-11-22 16:47:47,879 - INFO - Class 1: Precision=0.3098, Recall=0.8121, F1 Score=0.4485
+2024-11-22 16:47:47,879 - INFO - Class 2: Precision=0.2755, Recall=0.8128, F1 Score=0.4115
+2024-11-22 16:47:47,879 - INFO - Class 3: Precision=0.3673, Recall=0.7800, F1 Score=0.4994
+2024-11-22 16:47:47,880 - INFO - Macro-Averaged Metrics: Precision=0.4478, Recall=0.6632, F1 Score=0.4355
+2024-11-22 16:47:47,880 - INFO - Micro-Averaged Metrics: Precision=0.4217, Recall=0.4217, F1 Score=0.4217
+2024-11-22 16:47:47,881 - INFO - Epoch [14/50]
+2024-11-22 16:48:47,308 - INFO - Training Loss: 0.8123, Accuracy: 0.4174
+2024-11-22 16:48:47,308 - INFO - item time: 0.0091
+2024-11-22 16:48:53,739 - INFO - Class 0: Precision=0.8477, Recall=0.1846, F1 Score=0.3032
+2024-11-22 16:48:53,740 - INFO - Class 1: Precision=0.2730, Recall=0.8211, F1 Score=0.4097
+2024-11-22 16:48:53,740 - INFO - Class 2: Precision=0.2631, Recall=0.8145, F1 Score=0.3977
+2024-11-22 16:48:53,740 - INFO - Class 3: Precision=0.3592, Recall=0.7692, F1 Score=0.4897
+2024-11-22 16:48:53,741 - INFO - Macro-Averaged Metrics: Precision=0.4357, Recall=0.6474, F1 Score=0.4001
+2024-11-22 16:48:53,741 - INFO - Micro-Averaged Metrics: Precision=0.3781, Recall=0.3781, F1 Score=0.3781
+2024-11-22 16:48:53,741 - INFO - Epoch [15/50]
+2024-11-22 16:49:53,329 - INFO - Training Loss: 0.7975, Accuracy: 0.4213
+2024-11-22 16:49:53,329 - INFO - item time: 0.0091
+2024-11-22 16:49:59,700 - INFO - Class 0: Precision=0.8280, Recall=0.3261, F1 Score=0.4679
+2024-11-22 16:49:59,700 - INFO - Class 1: Precision=0.3263, Recall=0.7848, F1 Score=0.4610
+2024-11-22 16:49:59,701 - INFO - Class 2: Precision=0.3396, Recall=0.6980, F1 Score=0.4569
+2024-11-22 16:49:59,701 - INFO - Class 3: Precision=0.3435, Recall=0.8475, F1 Score=0.4889
+2024-11-22 16:49:59,701 - INFO - Macro-Averaged Metrics: Precision=0.4594, Recall=0.6641, F1 Score=0.4687
+2024-11-22 16:49:59,702 - INFO - Micro-Averaged Metrics: Precision=0.4695, Recall=0.4695, F1 Score=0.4695
+2024-11-22 16:49:59,702 - INFO - Epoch [16/50]
+2024-11-22 16:50:59,120 - INFO - Training Loss: 0.7955, Accuracy: 0.4206
+2024-11-22 16:50:59,121 - INFO - item time: 0.0091
+2024-11-22 16:51:05,536 - INFO - Class 0: Precision=0.8123, Recall=0.3010, F1 Score=0.4392
+2024-11-22 16:51:05,536 - INFO - Class 1: Precision=0.3153, Recall=0.7511, F1 Score=0.4441
+2024-11-22 16:51:05,536 - INFO - Class 2: Precision=0.2730, Recall=0.7947, F1 Score=0.4064
+2024-11-22 16:51:05,537 - INFO - Class 3: Precision=0.3628, Recall=0.6966, F1 Score=0.4772
+2024-11-22 16:51:05,537 - INFO - Macro-Averaged Metrics: Precision=0.4409, Recall=0.6359, F1 Score=0.4417
+2024-11-22 16:51:05,537 - INFO - Micro-Averaged Metrics: Precision=0.4404, Recall=0.4404, F1 Score=0.4404
+2024-11-22 16:51:05,538 - INFO - Epoch [17/50]
+2024-11-22 16:52:05,208 - INFO - Training Loss: 0.8041, Accuracy: 0.4163
+2024-11-22 16:52:05,208 - INFO - item time: 0.0091
+2024-11-22 16:52:11,678 - INFO - Class 0: Precision=0.8534, Recall=0.1837, F1 Score=0.3023
+2024-11-22 16:52:11,679 - INFO - Class 1: Precision=0.2986, Recall=0.8272, F1 Score=0.4388
+2024-11-22 16:52:11,679 - INFO - Class 2: Precision=0.2834, Recall=0.7794, F1 Score=0.4157
+2024-11-22 16:52:11,679 - INFO - Class 3: Precision=0.3316, Recall=0.8702, F1 Score=0.4802
+2024-11-22 16:52:11,680 - INFO - Macro-Averaged Metrics: Precision=0.4417, Recall=0.6651, F1 Score=0.4092
+2024-11-22 16:52:11,680 - INFO - Micro-Averaged Metrics: Precision=0.3868, Recall=0.3868, F1 Score=0.3868
+2024-11-22 16:52:11,680 - INFO - Epoch [18/50]
+2024-11-22 16:53:11,478 - INFO - Training Loss: 0.7906, Accuracy: 0.4203
+2024-11-22 16:53:11,479 - INFO - item time: 0.0091
+2024-11-22 16:53:17,846 - INFO - Class 0: Precision=0.8537, Recall=0.2319, F1 Score=0.3648
+2024-11-22 16:53:17,846 - INFO - Class 1: Precision=0.3222, Recall=0.7973, F1 Score=0.4590
+2024-11-22 16:53:17,847 - INFO - Class 2: Precision=0.2901, Recall=0.7866, F1 Score=0.4238
+2024-11-22 16:53:17,847 - INFO - Class 3: Precision=0.3398, Recall=0.8731, F1 Score=0.4892
+2024-11-22 16:53:17,847 - INFO - Macro-Averaged Metrics: Precision=0.4514, Recall=0.6722, F1 Score=0.4342
+2024-11-22 16:53:17,848 - INFO - Micro-Averaged Metrics: Precision=0.4180, Recall=0.4180, F1 Score=0.4180
+2024-11-22 16:53:17,848 - INFO - Epoch [19/50]
+2024-11-22 16:54:17,664 - INFO - Training Loss: 0.7583, Accuracy: 0.4337
+2024-11-22 16:54:17,665 - INFO - item time: 0.0091
+2024-11-22 16:54:24,128 - INFO - Class 0: Precision=0.8488, Recall=0.2720, F1 Score=0.4120
+2024-11-22 16:54:24,128 - INFO - Class 1: Precision=0.3297, Recall=0.8191, F1 Score=0.4702
+2024-11-22 16:54:24,129 - INFO - Class 2: Precision=0.2687, Recall=0.8566, F1 Score=0.4090
+2024-11-22 16:54:24,129 - INFO - Class 3: Precision=0.4000, Recall=0.7592, F1 Score=0.5240
+2024-11-22 16:54:24,129 - INFO - Macro-Averaged Metrics: Precision=0.4618, Recall=0.6767, F1 Score=0.4538
+2024-11-22 16:54:24,130 - INFO - Micro-Averaged Metrics: Precision=0.4407, Recall=0.4407, F1 Score=0.4407
+2024-11-22 16:54:24,130 - INFO - Epoch [20/50]
+2024-11-22 16:55:23,667 - INFO - Training Loss: 0.7814, Accuracy: 0.4256
+2024-11-22 16:55:23,668 - INFO - item time: 0.0091
+2024-11-22 16:55:30,201 - INFO - Class 0: Precision=0.8622, Recall=0.1534, F1 Score=0.2605
+2024-11-22 16:55:30,201 - INFO - Class 1: Precision=0.3271, Recall=0.7817, F1 Score=0.4612
+2024-11-22 16:55:30,202 - INFO - Class 2: Precision=0.2460, Recall=0.8700, F1 Score=0.3835
+2024-11-22 16:55:30,202 - INFO - Class 3: Precision=0.3440, Recall=0.8585, F1 Score=0.4912
+2024-11-22 16:55:30,203 - INFO - Macro-Averaged Metrics: Precision=0.4448, Recall=0.6659, F1 Score=0.3991
+2024-11-22 16:55:30,203 - INFO - Micro-Averaged Metrics: Precision=0.3692, Recall=0.3692, F1 Score=0.3692
+2024-11-22 16:55:30,203 - INFO - Epoch [21/50]
+2024-11-22 16:56:30,273 - INFO - Training Loss: 0.8041, Accuracy: 0.4169
+2024-11-22 16:56:30,274 - INFO - item time: 0.0091
+2024-11-22 16:56:36,717 - INFO - Class 0: Precision=0.8274, Recall=0.2975, F1 Score=0.4376
+2024-11-22 16:56:36,717 - INFO - Class 1: Precision=0.3173, Recall=0.8199, F1 Score=0.4576
+2024-11-22 16:56:36,718 - INFO - Class 2: Precision=0.2724, Recall=0.8330, F1 Score=0.4105
+2024-11-22 16:56:36,718 - INFO - Class 3: Precision=0.4062, Recall=0.6921, F1 Score=0.5119
+2024-11-22 16:56:36,718 - INFO - Macro-Averaged Metrics: Precision=0.4558, Recall=0.6606, F1 Score=0.4544
+2024-11-22 16:56:36,719 - INFO - Micro-Averaged Metrics: Precision=0.4478, Recall=0.4478, F1 Score=0.4478
+2024-11-22 16:56:36,719 - INFO - Epoch [22/50]
+2024-11-22 16:57:36,171 - INFO - Training Loss: 0.7716, Accuracy: 0.4330
+2024-11-22 16:57:36,172 - INFO - item time: 0.0091
+2024-11-22 16:57:42,656 - INFO - Class 0: Precision=0.8295, Recall=0.3778, F1 Score=0.5192
+2024-11-22 16:57:42,656 - INFO - Class 1: Precision=0.3608, Recall=0.7470, F1 Score=0.4866
+2024-11-22 16:57:42,657 - INFO - Class 2: Precision=0.3258, Recall=0.7109, F1 Score=0.4469
+2024-11-22 16:57:42,657 - INFO - Class 3: Precision=0.3698, Recall=0.8425, F1 Score=0.5140
+2024-11-22 16:57:42,657 - INFO - Macro-Averaged Metrics: Precision=0.4715, Recall=0.6696, F1 Score=0.4917
+2024-11-22 16:57:42,658 - INFO - Micro-Averaged Metrics: Precision=0.5021, Recall=0.5021, F1 Score=0.5021
+2024-11-22 16:57:42,658 - INFO - Epoch [23/50]
+2024-11-22 16:58:42,290 - INFO - Training Loss: 0.7626, Accuracy: 0.4354
+2024-11-22 16:58:42,291 - INFO - item time: 0.0091
+2024-11-22 16:58:48,735 - INFO - Class 0: Precision=0.8269, Recall=0.2413, F1 Score=0.3736
+2024-11-22 16:58:48,735 - INFO - Class 1: Precision=0.2701, Recall=0.8488, F1 Score=0.4097
+2024-11-22 16:58:48,736 - INFO - Class 2: Precision=0.3013, Recall=0.6778, F1 Score=0.4172
+2024-11-22 16:58:48,736 - INFO - Class 3: Precision=0.3574, Recall=0.8237, F1 Score=0.4985
+2024-11-22 16:58:48,736 - INFO - Macro-Averaged Metrics: Precision=0.4389, Recall=0.6479, F1 Score=0.4247
+2024-11-22 16:58:48,737 - INFO - Micro-Averaged Metrics: Precision=0.4127, Recall=0.4127, F1 Score=0.4127
+2024-11-22 16:58:48,737 - INFO - Epoch [24/50]
+2024-11-22 16:59:48,343 - INFO - Training Loss: 0.7841, Accuracy: 0.4238
+2024-11-22 16:59:48,343 - INFO - item time: 0.0091
+2024-11-22 16:59:54,717 - INFO - Class 0: Precision=0.8494, Recall=0.2324, F1 Score=0.3649
+2024-11-22 16:59:54,718 - INFO - Class 1: Precision=0.3283, Recall=0.8062, F1 Score=0.4666
+2024-11-22 16:59:54,718 - INFO - Class 2: Precision=0.2670, Recall=0.8283, F1 Score=0.4038
+2024-11-22 16:59:54,718 - INFO - Class 3: Precision=0.3667, Recall=0.8271, F1 Score=0.5081
+2024-11-22 16:59:54,719 - INFO - Macro-Averaged Metrics: Precision=0.4528, Recall=0.6735, F1 Score=0.4359
+2024-11-22 16:59:54,719 - INFO - Micro-Averaged Metrics: Precision=0.4177, Recall=0.4177, F1 Score=0.4177
+2024-11-22 16:59:54,719 - INFO - Epoch [25/50]
+2024-11-22 17:00:54,228 - INFO - Training Loss: 0.7705, Accuracy: 0.4275
+2024-11-22 17:00:54,228 - INFO - item time: 0.0091
+2024-11-22 17:01:00,630 - INFO - Class 0: Precision=0.8476, Recall=0.2054, F1 Score=0.3306
+2024-11-22 17:01:00,631 - INFO - Class 1: Precision=0.2707, Recall=0.8920, F1 Score=0.4154
+2024-11-22 17:01:00,631 - INFO - Class 2: Precision=0.3124, Recall=0.7370, F1 Score=0.4388
+2024-11-22 17:01:00,631 - INFO - Class 3: Precision=0.3546, Recall=0.8428, F1 Score=0.4992
+2024-11-22 17:01:00,632 - INFO - Macro-Averaged Metrics: Precision=0.4463, Recall=0.6693, F1 Score=0.4210
+2024-11-22 17:01:00,632 - INFO - Micro-Averaged Metrics: Precision=0.4003, Recall=0.4003, F1 Score=0.4003
+2024-11-22 17:01:00,633 - INFO - Epoch [26/50]
+2024-11-22 17:02:01,178 - INFO - Training Loss: 0.7496, Accuracy: 0.4371
+2024-11-22 17:02:01,179 - INFO - item time: 0.0091
+2024-11-22 17:02:07,613 - INFO - Class 0: Precision=0.8650, Recall=0.1868, F1 Score=0.3073
+2024-11-22 17:02:07,614 - INFO - Class 1: Precision=0.3442, Recall=0.8220, F1 Score=0.4852
+2024-11-22 17:02:07,614 - INFO - Class 2: Precision=0.2796, Recall=0.8641, F1 Score=0.4225
+2024-11-22 17:02:07,614 - INFO - Class 3: Precision=0.3396, Recall=0.8983, F1 Score=0.4929
+2024-11-22 17:02:07,615 - INFO - Macro-Averaged Metrics: Precision=0.4571, Recall=0.6928, F1 Score=0.4270
+2024-11-22 17:02:07,615 - INFO - Micro-Averaged Metrics: Precision=0.4001, Recall=0.4001, F1 Score=0.4001
+2024-11-22 17:02:07,615 - INFO - Epoch [27/50]
+2024-11-22 17:03:07,766 - INFO - Training Loss: 0.7241, Accuracy: 0.4547
+2024-11-22 17:03:07,766 - INFO - item time: 0.0091
+2024-11-22 17:03:14,090 - INFO - Class 0: Precision=0.8416, Recall=0.3777, F1 Score=0.5214
+2024-11-22 17:03:14,090 - INFO - Class 1: Precision=0.3384, Recall=0.8148, F1 Score=0.4782
+2024-11-22 17:03:14,090 - INFO - Class 2: Precision=0.3191, Recall=0.7539, F1 Score=0.4484
+2024-11-22 17:03:14,091 - INFO - Class 3: Precision=0.4090, Recall=0.7784, F1 Score=0.5362
+2024-11-22 17:03:14,091 - INFO - Macro-Averaged Metrics: Precision=0.4770, Recall=0.6812, F1 Score=0.4961
+2024-11-22 17:03:14,091 - INFO - Micro-Averaged Metrics: Precision=0.5049, Recall=0.5049, F1 Score=0.5049
+2024-11-22 17:03:14,092 - INFO - Epoch [28/50]
+2024-11-22 17:04:13,694 - INFO - Training Loss: 0.7399, Accuracy: 0.4494
+2024-11-22 17:04:13,694 - INFO - item time: 0.0091
+2024-11-22 17:04:20,175 - INFO - Class 0: Precision=0.8595, Recall=0.2866, F1 Score=0.4298
+2024-11-22 17:04:20,175 - INFO - Class 1: Precision=0.3661, Recall=0.7722, F1 Score=0.4968
+2024-11-22 17:04:20,176 - INFO - Class 2: Precision=0.2874, Recall=0.8335, F1 Score=0.4274
+2024-11-22 17:04:20,176 - INFO - Class 3: Precision=0.3717, Recall=0.8752, F1 Score=0.5218
+2024-11-22 17:04:20,176 - INFO - Macro-Averaged Metrics: Precision=0.4712, Recall=0.6919, F1 Score=0.4689
+2024-11-22 17:04:20,177 - INFO - Micro-Averaged Metrics: Precision=0.4579, Recall=0.4579, F1 Score=0.4579
+2024-11-22 17:04:20,177 - INFO - Epoch [29/50]
+2024-11-22 17:05:20,963 - INFO - Training Loss: 0.7299, Accuracy: 0.4538
+2024-11-22 17:05:20,963 - INFO - item time: 0.0091
+2024-11-22 17:05:27,365 - INFO - Class 0: Precision=0.8418, Recall=0.2791, F1 Score=0.4192
+2024-11-22 17:05:27,365 - INFO - Class 1: Precision=0.4053, Recall=0.7370, F1 Score=0.5230
+2024-11-22 17:05:27,366 - INFO - Class 2: Precision=0.2936, Recall=0.8081, F1 Score=0.4307
+2024-11-22 17:05:27,366 - INFO - Class 3: Precision=0.3361, Recall=0.9124, F1 Score=0.4913
+2024-11-22 17:05:27,367 - INFO - Macro-Averaged Metrics: Precision=0.4692, Recall=0.6841, F1 Score=0.4661
+2024-11-22 17:05:27,367 - INFO - Micro-Averaged Metrics: Precision=0.4515, Recall=0.4515, F1 Score=0.4515
+2024-11-22 17:05:27,367 - INFO - Epoch [30/50]
+2024-11-22 17:06:27,570 - INFO - Training Loss: 0.7415, Accuracy: 0.4525
+2024-11-22 17:06:27,571 - INFO - item time: 0.0091
+2024-11-22 17:06:33,940 - INFO - Class 0: Precision=0.8543, Recall=0.2567, F1 Score=0.3948
+2024-11-22 17:06:33,940 - INFO - Class 1: Precision=0.3554, Recall=0.7580, F1 Score=0.4839
+2024-11-22 17:06:33,941 - INFO - Class 2: Precision=0.2900, Recall=0.8224, F1 Score=0.4288
+2024-11-22 17:06:33,941 - INFO - Class 3: Precision=0.3467, Recall=0.8925, F1 Score=0.4994
+2024-11-22 17:06:33,941 - INFO - Macro-Averaged Metrics: Precision=0.4616, Recall=0.6824, F1 Score=0.4517
+2024-11-22 17:06:33,942 - INFO - Micro-Averaged Metrics: Precision=0.4372, Recall=0.4372, F1 Score=0.4372
+2024-11-22 17:06:33,942 - INFO - Epoch [31/50]
+2024-11-22 17:07:34,159 - INFO - Training Loss: 0.7631, Accuracy: 0.4421
+2024-11-22 17:07:34,159 - INFO - item time: 0.0091
+2024-11-22 17:07:40,546 - INFO - Class 0: Precision=0.8610, Recall=0.1734, F1 Score=0.2886
+2024-11-22 17:07:40,546 - INFO - Class 1: Precision=0.3123, Recall=0.8140, F1 Score=0.4514
+2024-11-22 17:07:40,547 - INFO - Class 2: Precision=0.2570, Recall=0.8305, F1 Score=0.3925
+2024-11-22 17:07:40,547 - INFO - Class 3: Precision=0.3466, Recall=0.8460, F1 Score=0.4918
+2024-11-22 17:07:40,547 - INFO - Macro-Averaged Metrics: Precision=0.4442, Recall=0.6660, F1 Score=0.4061
+2024-11-22 17:07:40,548 - INFO - Micro-Averaged Metrics: Precision=0.3805, Recall=0.3805, F1 Score=0.3805
+2024-11-22 17:07:40,548 - INFO - Epoch [32/50]
+2024-11-22 17:08:40,995 - INFO - Training Loss: 0.7638, Accuracy: 0.4380
+2024-11-22 17:08:40,996 - INFO - item time: 0.0091
+2024-11-22 17:08:47,548 - INFO - Class 0: Precision=0.8495, Recall=0.3229, F1 Score=0.4679
+2024-11-22 17:08:47,549 - INFO - Class 1: Precision=0.3599, Recall=0.7869, F1 Score=0.4940
+2024-11-22 17:08:47,549 - INFO - Class 2: Precision=0.3050, Recall=0.7814, F1 Score=0.4388
+2024-11-22 17:08:47,549 - INFO - Class 3: Precision=0.3708, Recall=0.8546, F1 Score=0.5172
+2024-11-22 17:08:47,550 - INFO - Macro-Averaged Metrics: Precision=0.4713, Recall=0.6864, F1 Score=0.4794
+2024-11-22 17:08:47,550 - INFO - Micro-Averaged Metrics: Precision=0.4766, Recall=0.4766, F1 Score=0.4766
+2024-11-22 17:08:47,550 - INFO - Epoch [33/50]
+2024-11-22 17:09:47,563 - INFO - Training Loss: 0.7319, Accuracy: 0.4555
+2024-11-22 17:09:47,564 - INFO - item time: 0.0091
+2024-11-22 17:09:54,017 - INFO - Class 0: Precision=0.8614, Recall=0.2647, F1 Score=0.4050
+2024-11-22 17:09:54,018 - INFO - Class 1: Precision=0.3864, Recall=0.7135, F1 Score=0.5013
+2024-11-22 17:09:54,018 - INFO - Class 2: Precision=0.2591, Recall=0.8782, F1 Score=0.4001
+2024-11-22 17:09:54,019 - INFO - Class 3: Precision=0.3755, Recall=0.8679, F1 Score=0.5242
+2024-11-22 17:09:54,019 - INFO - Macro-Averaged Metrics: Precision=0.4706, Recall=0.6811, F1 Score=0.4577
+2024-11-22 17:09:54,019 - INFO - Micro-Averaged Metrics: Precision=0.4409, Recall=0.4409, F1 Score=0.4409
+2024-11-22 17:09:54,020 - INFO - Epoch [34/50]
+2024-11-22 17:10:53,530 - INFO - Training Loss: 0.7191, Accuracy: 0.4647
+2024-11-22 17:10:53,530 - INFO - item time: 0.0091
+2024-11-22 17:11:00,023 - INFO - Class 0: Precision=0.8535, Recall=0.3250, F1 Score=0.4708
+2024-11-22 17:11:00,023 - INFO - Class 1: Precision=0.3910, Recall=0.7778, F1 Score=0.5204
+2024-11-22 17:11:00,024 - INFO - Class 2: Precision=0.2778, Recall=0.8632, F1 Score=0.4203
+2024-11-22 17:11:00,024 - INFO - Class 3: Precision=0.4000, Recall=0.8047, F1 Score=0.5344
+2024-11-22 17:11:00,024 - INFO - Macro-Averaged Metrics: Precision=0.4806, Recall=0.6927, F1 Score=0.4865
+2024-11-22 17:11:00,025 - INFO - Micro-Averaged Metrics: Precision=0.4792, Recall=0.4792, F1 Score=0.4792
+2024-11-22 17:11:00,025 - INFO - Epoch [35/50]
+2024-11-22 17:12:00,209 - INFO - Training Loss: 0.7344, Accuracy: 0.4580
+2024-11-22 17:12:00,210 - INFO - item time: 0.0091
+2024-11-22 17:12:06,816 - INFO - Class 0: Precision=0.8544, Recall=0.1849, F1 Score=0.3040
+2024-11-22 17:12:06,816 - INFO - Class 1: Precision=0.3302, Recall=0.8363, F1 Score=0.4734
+2024-11-22 17:12:06,817 - INFO - Class 2: Precision=0.2574, Recall=0.8868, F1 Score=0.3990
+2024-11-22 17:12:06,817 - INFO - Class 3: Precision=0.3653, Recall=0.8184, F1 Score=0.5051
+2024-11-22 17:12:06,817 - INFO - Macro-Averaged Metrics: Precision=0.4518, Recall=0.6816, F1 Score=0.4204
+2024-11-22 17:12:06,818 - INFO - Micro-Averaged Metrics: Precision=0.3928, Recall=0.3928, F1 Score=0.3928
+2024-11-22 17:12:06,818 - INFO - Epoch [36/50]
+2024-11-22 17:13:06,799 - INFO - Training Loss: 0.7276, Accuracy: 0.4642
+2024-11-22 17:13:06,799 - INFO - item time: 0.0091
+2024-11-22 17:13:13,258 - INFO - Class 0: Precision=0.8538, Recall=0.3668, F1 Score=0.5132
+2024-11-22 17:13:13,258 - INFO - Class 1: Precision=0.3484, Recall=0.8306, F1 Score=0.4909
+2024-11-22 17:13:13,258 - INFO - Class 2: Precision=0.3459, Recall=0.7301, F1 Score=0.4695
+2024-11-22 17:13:13,259 - INFO - Class 3: Precision=0.3789, Recall=0.8471, F1 Score=0.5236
+2024-11-22 17:13:13,259 - INFO - Macro-Averaged Metrics: Precision=0.4818, Recall=0.6936, F1 Score=0.4993
+2024-11-22 17:13:13,260 - INFO - Micro-Averaged Metrics: Precision=0.5049, Recall=0.5049, F1 Score=0.5049
+2024-11-22 17:13:13,260 - INFO - Epoch [37/50]
+2024-11-22 17:14:13,248 - INFO - Training Loss: 0.7245, Accuracy: 0.4653
+2024-11-22 17:14:13,248 - INFO - item time: 0.0091
+2024-11-22 17:14:19,676 - INFO - Class 0: Precision=0.8748, Recall=0.1514, F1 Score=0.2582
+2024-11-22 17:14:19,676 - INFO - Class 1: Precision=0.2834, Recall=0.8997, F1 Score=0.4311
+2024-11-22 17:14:19,677 - INFO - Class 2: Precision=0.2894, Recall=0.7662, F1 Score=0.4201
+2024-11-22 17:14:19,677 - INFO - Class 3: Precision=0.3379, Recall=0.8880, F1 Score=0.4895
+2024-11-22 17:14:19,678 - INFO - Macro-Averaged Metrics: Precision=0.4464, Recall=0.6763, F1 Score=0.3997
+2024-11-22 17:14:19,678 - INFO - Micro-Averaged Metrics: Precision=0.3724, Recall=0.3724, F1 Score=0.3724
+2024-11-22 17:14:19,679 - INFO - Epoch [38/50]
+2024-11-22 17:15:19,542 - INFO - Training Loss: 0.7310, Accuracy: 0.4594
+2024-11-22 17:15:19,543 - INFO - item time: 0.0091
+2024-11-22 17:15:26,034 - INFO - Class 0: Precision=0.8542, Recall=0.3103, F1 Score=0.4552
+2024-11-22 17:15:26,034 - INFO - Class 1: Precision=0.3345, Recall=0.8404, F1 Score=0.4785
+2024-11-22 17:15:26,035 - INFO - Class 2: Precision=0.2964, Recall=0.8338, F1 Score=0.4374
+2024-11-22 17:15:26,035 - INFO - Class 3: Precision=0.4077, Recall=0.7904, F1 Score=0.5379
+2024-11-22 17:15:26,035 - INFO - Macro-Averaged Metrics: Precision=0.4732, Recall=0.6937, F1 Score=0.4773
+2024-11-22 17:15:26,036 - INFO - Micro-Averaged Metrics: Precision=0.4705, Recall=0.4705, F1 Score=0.4705
+2024-11-22 17:15:26,036 - INFO - Epoch [39/50]
+2024-11-22 17:16:25,770 - INFO - Training Loss: 0.7336, Accuracy: 0.4594
+2024-11-22 17:16:25,770 - INFO - item time: 0.0091
+2024-11-22 17:16:32,155 - INFO - Class 0: Precision=0.8477, Recall=0.3277, F1 Score=0.4727
+2024-11-22 17:16:32,155 - INFO - Class 1: Precision=0.2657, Recall=0.9051, F1 Score=0.4108
+2024-11-22 17:16:32,156 - INFO - Class 2: Precision=0.3521, Recall=0.6421, F1 Score=0.4548
+2024-11-22 17:16:32,156 - INFO - Class 3: Precision=0.4064, Recall=0.7751, F1 Score=0.5333
+2024-11-22 17:16:32,157 - INFO - Macro-Averaged Metrics: Precision=0.4680, Recall=0.6625, F1 Score=0.4679
+2024-11-22 17:16:32,157 - INFO - Micro-Averaged Metrics: Precision=0.4678, Recall=0.4678, F1 Score=0.4678
+2024-11-22 17:16:32,157 - INFO - Epoch [40/50]
+2024-11-22 17:17:31,958 - INFO - Training Loss: 0.7364, Accuracy: 0.4581
+2024-11-22 17:17:31,959 - INFO - item time: 0.0091
+2024-11-22 17:17:38,431 - INFO - Class 0: Precision=0.8654, Recall=0.2511, F1 Score=0.3892
+2024-11-22 17:17:38,431 - INFO - Class 1: Precision=0.3597, Recall=0.8099, F1 Score=0.4981
+2024-11-22 17:17:38,432 - INFO - Class 2: Precision=0.3107, Recall=0.7989, F1 Score=0.4474
+2024-11-22 17:17:38,432 - INFO - Class 3: Precision=0.3335, Recall=0.9187, F1 Score=0.4893
+2024-11-22 17:17:38,432 - INFO - Macro-Averaged Metrics: Precision=0.4673, Recall=0.6946, F1 Score=0.4560
+2024-11-22 17:17:38,433 - INFO - Micro-Averaged Metrics: Precision=0.4391, Recall=0.4391, F1 Score=0.4391
+2024-11-22 17:17:38,433 - INFO - Epoch [41/50]
+2024-11-22 17:18:37,927 - INFO - Training Loss: 0.7453, Accuracy: 0.4537
+2024-11-22 17:18:37,928 - INFO - item time: 0.0091
+2024-11-22 17:18:44,326 - INFO - Class 0: Precision=0.8708, Recall=0.1903, F1 Score=0.3124
+2024-11-22 17:18:44,326 - INFO - Class 1: Precision=0.2992, Recall=0.8808, F1 Score=0.4466
+2024-11-22 17:18:44,326 - INFO - Class 2: Precision=0.3080, Recall=0.7896, F1 Score=0.4432
+2024-11-22 17:18:44,327 - INFO - Class 3: Precision=0.3410, Recall=0.8937, F1 Score=0.4937
+2024-11-22 17:18:44,327 - INFO - Macro-Averaged Metrics: Precision=0.4547, Recall=0.6886, F1 Score=0.4240
+2024-11-22 17:18:44,328 - INFO - Micro-Averaged Metrics: Precision=0.4003, Recall=0.4003, F1 Score=0.4003
+2024-11-22 17:18:44,328 - INFO - Epoch [42/50]
+2024-11-22 17:19:43,896 - INFO - Training Loss: 0.8045, Accuracy: 0.4235
+2024-11-22 17:19:43,896 - INFO - item time: 0.0091
+2024-11-22 17:19:50,296 - INFO - Class 0: Precision=0.8133, Recall=0.2906, F1 Score=0.4282
+2024-11-22 17:19:50,297 - INFO - Class 1: Precision=0.2861, Recall=0.7523, F1 Score=0.4146
+2024-11-22 17:19:50,297 - INFO - Class 2: Precision=0.2684, Recall=0.6749, F1 Score=0.3840
+2024-11-22 17:19:50,298 - INFO - Class 3: Precision=0.3472, Recall=0.7370, F1 Score=0.4720
+2024-11-22 17:19:50,298 - INFO - Macro-Averaged Metrics: Precision=0.4287, Recall=0.6137, F1 Score=0.4247
+2024-11-22 17:19:50,298 - INFO - Micro-Averaged Metrics: Precision=0.4265, Recall=0.4265, F1 Score=0.4265
+2024-11-22 17:19:50,299 - INFO - Epoch [43/50]
+2024-11-22 17:20:50,180 - INFO - Training Loss: 0.8708, Accuracy: 0.3948
+2024-11-22 17:20:50,181 - INFO - item time: 0.0091
+2024-11-22 17:20:56,587 - INFO - Class 0: Precision=0.8290, Recall=0.3273, F1 Score=0.4693
+2024-11-22 17:20:56,587 - INFO - Class 1: Precision=0.2903, Recall=0.8138, F1 Score=0.4279
+2024-11-22 17:20:56,587 - INFO - Class 2: Precision=0.2973, Recall=0.6652, F1 Score=0.4109
+2024-11-22 17:20:56,588 - INFO - Class 3: Precision=0.3743, Recall=0.7481, F1 Score=0.4990
+2024-11-22 17:20:56,588 - INFO - Macro-Averaged Metrics: Precision=0.4477, Recall=0.6386, F1 Score=0.4518
+2024-11-22 17:20:56,589 - INFO - Micro-Averaged Metrics: Precision=0.4579, Recall=0.4579, F1 Score=0.4579
+2024-11-22 17:20:56,589 - INFO - Epoch [44/50]
+2024-11-22 17:21:56,465 - INFO - Training Loss: 0.8273, Accuracy: 0.4116
+2024-11-22 17:21:56,466 - INFO - item time: 0.0091
+2024-11-22 17:22:02,973 - INFO - Class 0: Precision=0.8603, Recall=0.1888, F1 Score=0.3096
+2024-11-22 17:22:02,974 - INFO - Class 1: Precision=0.3399, Recall=0.7467, F1 Score=0.4672
+2024-11-22 17:22:02,974 - INFO - Class 2: Precision=0.2488, Recall=0.8423, F1 Score=0.3842
+2024-11-22 17:22:02,974 - INFO - Class 3: Precision=0.3417, Recall=0.8667, F1 Score=0.4902
+2024-11-22 17:22:02,974 - INFO - Macro-Averaged Metrics: Precision=0.4477, Recall=0.6611, F1 Score=0.4128
+2024-11-22 17:22:02,975 - INFO - Micro-Averaged Metrics: Precision=0.3884, Recall=0.3884, F1 Score=0.3884
+2024-11-22 17:22:02,975 - INFO - Epoch [45/50]
+2024-11-22 17:23:03,056 - INFO - Training Loss: 0.8087, Accuracy: 0.4255
+2024-11-22 17:23:03,057 - INFO - item time: 0.0091
+2024-11-22 17:23:09,539 - INFO - Class 0: Precision=0.8435, Recall=0.2261, F1 Score=0.3566
+2024-11-22 17:23:09,540 - INFO - Class 1: Precision=0.2950, Recall=0.7661, F1 Score=0.4260
+2024-11-22 17:23:09,540 - INFO - Class 2: Precision=0.2571, Recall=0.7629, F1 Score=0.3846
+2024-11-22 17:23:09,541 - INFO - Class 3: Precision=0.3445, Recall=0.7875, F1 Score=0.4794
+2024-11-22 17:23:09,541 - INFO - Macro-Averaged Metrics: Precision=0.4350, Recall=0.6357, F1 Score=0.4116
+2024-11-22 17:23:09,541 - INFO - Micro-Averaged Metrics: Precision=0.3984, Recall=0.3984, F1 Score=0.3984
+2024-11-22 17:23:09,542 - INFO - Epoch [46/50]
+2024-11-22 17:24:09,773 - INFO - Training Loss: 0.8322, Accuracy: 0.4114
+2024-11-22 17:24:09,774 - INFO - item time: 0.0091
+2024-11-22 17:24:16,337 - INFO - Class 0: Precision=0.8468, Recall=0.2089, F1 Score=0.3352
+2024-11-22 17:24:16,338 - INFO - Class 1: Precision=0.3224, Recall=0.7703, F1 Score=0.4546
+2024-11-22 17:24:16,338 - INFO - Class 2: Precision=0.2593, Recall=0.8050, F1 Score=0.3922
+2024-11-22 17:24:16,338 - INFO - Class 3: Precision=0.3439, Recall=0.8454, F1 Score=0.4889
+2024-11-22 17:24:16,338 - INFO - Macro-Averaged Metrics: Precision=0.4431, Recall=0.6574, F1 Score=0.4177
+2024-11-22 17:24:16,339 - INFO - Micro-Averaged Metrics: Precision=0.3982, Recall=0.3982, F1 Score=0.3982
+2024-11-22 17:24:16,339 - INFO - Epoch [47/50]
+2024-11-22 17:25:16,049 - INFO - Training Loss: 0.8535, Accuracy: 0.3980
+2024-11-22 17:25:16,049 - INFO - item time: 0.0091
+2024-11-22 17:25:22,606 - INFO - Class 0: Precision=0.8151, Recall=0.1991, F1 Score=0.3201
+2024-11-22 17:25:22,607 - INFO - Class 1: Precision=0.2394, Recall=0.8461, F1 Score=0.3733
+2024-11-22 17:25:22,607 - INFO - Class 2: Precision=0.2844, Recall=0.6437, F1 Score=0.3945
+2024-11-22 17:25:22,607 - INFO - Class 3: Precision=0.3356, Recall=0.7566, F1 Score=0.4649
+2024-11-22 17:25:22,608 - INFO - Macro-Averaged Metrics: Precision=0.4186, Recall=0.6114, F1 Score=0.3882
+2024-11-22 17:25:22,608 - INFO - Micro-Averaged Metrics: Precision=0.3720, Recall=0.3720, F1 Score=0.3720
+2024-11-22 17:25:22,608 - INFO - Epoch [48/50]
+2024-11-22 17:26:22,229 - INFO - Training Loss: 0.9043, Accuracy: 0.3711
+2024-11-22 17:26:22,229 - INFO - item time: 0.0091
+2024-11-22 17:26:28,835 - INFO - Class 0: Precision=0.8185, Recall=0.1865, F1 Score=0.3038
+2024-11-22 17:26:28,836 - INFO - Class 1: Precision=0.2322, Recall=0.8283, F1 Score=0.3628
+2024-11-22 17:26:28,836 - INFO - Class 2: Precision=0.2732, Recall=0.5727, F1 Score=0.3699
+2024-11-22 17:26:28,837 - INFO - Class 3: Precision=0.3244, Recall=0.7972, F1 Score=0.4611
+2024-11-22 17:26:28,837 - INFO - Macro-Averaged Metrics: Precision=0.4121, Recall=0.5962, F1 Score=0.3744
+2024-11-22 17:26:28,837 - INFO - Micro-Averaged Metrics: Precision=0.3596, Recall=0.3596, F1 Score=0.3596
+2024-11-22 17:26:28,838 - INFO - Epoch [49/50]
+2024-11-22 17:27:29,550 - INFO - Training Loss: 0.8722, Accuracy: 0.3855
+2024-11-22 17:27:29,551 - INFO - item time: 0.0092
+2024-11-22 17:27:35,992 - INFO - Class 0: Precision=0.8166, Recall=0.1954, F1 Score=0.3154
+2024-11-22 17:27:35,992 - INFO - Class 1: Precision=0.2608, Recall=0.8230, F1 Score=0.3961
+2024-11-22 17:27:35,992 - INFO - Class 2: Precision=0.2669, Recall=0.7170, F1 Score=0.3890
+2024-11-22 17:27:35,993 - INFO - Class 3: Precision=0.3530, Recall=0.7896, F1 Score=0.4878
+2024-11-22 17:27:35,993 - INFO - Macro-Averaged Metrics: Precision=0.4243, Recall=0.6312, F1 Score=0.3971
+2024-11-22 17:27:35,993 - INFO - Micro-Averaged Metrics: Precision=0.3785, Recall=0.3785, F1 Score=0.3785
+2024-11-22 17:27:35,994 - INFO - Epoch [50/50]
+2024-11-22 17:28:35,917 - INFO - Training Loss: 0.8547, Accuracy: 0.3909
+2024-11-22 17:28:35,917 - INFO - item time: 0.0091
+2024-11-22 17:28:42,442 - INFO - Class 0: Precision=0.8285, Recall=0.2693, F1 Score=0.4065
+2024-11-22 17:28:42,443 - INFO - Class 1: Precision=0.3126, Recall=0.7395, F1 Score=0.4394
+2024-11-22 17:28:42,443 - INFO - Class 2: Precision=0.2773, Recall=0.7535, F1 Score=0.4054
+2024-11-22 17:28:42,443 - INFO - Class 3: Precision=0.3495, Recall=0.8207, F1 Score=0.4902
+2024-11-22 17:28:42,443 - INFO - Macro-Averaged Metrics: Precision=0.4420, Recall=0.6457, F1 Score=0.4354
+2024-11-22 17:28:42,444 - INFO - Micro-Averaged Metrics: Precision=0.4285, Recall=0.4285, F1 Score=0.4285
+2024-11-22 17:28:42,456 - INFO - Model saved at ./output/ablation_sincos_8head_conv15_log.txt_fold3_model.pth
+2024-11-22 17:28:42,487 - INFO - 
+Training fold 4/5
+2024-11-22 17:29:03,149 - INFO - Epoch [1/50]
+2024-11-22 17:30:01,675 - INFO - Training Loss: 0.9719, Accuracy: 0.2843
+2024-11-22 17:30:01,675 - INFO - item time: 0.0092
+2024-11-22 17:30:08,545 - INFO - Class 0: Precision=0.8695, Recall=0.1368, F1 Score=0.2365
+2024-11-22 17:30:08,545 - INFO - Class 1: Precision=0.3505, Recall=0.7802, F1 Score=0.4837
+2024-11-22 17:30:08,545 - INFO - Class 2: Precision=0.2442, Recall=0.9115, F1 Score=0.3852
+2024-11-22 17:30:08,546 - INFO - Class 3: Precision=0.3487, Recall=0.8903, F1 Score=0.5012
+2024-11-22 17:30:08,546 - INFO - Macro-Averaged Metrics: Precision=0.4533, Recall=0.6797, F1 Score=0.4017
+2024-11-22 17:30:08,546 - INFO - Micro-Averaged Metrics: Precision=0.3665, Recall=0.3665, F1 Score=0.3665
+2024-11-22 17:30:08,547 - INFO - Epoch [2/50]
+2024-11-22 17:31:09,329 - INFO - Training Loss: 0.6702, Accuracy: 0.4713
+2024-11-22 17:31:09,329 - INFO - item time: 0.0091
+2024-11-22 17:31:15,687 - INFO - Class 0: Precision=0.8878, Recall=0.3705, F1 Score=0.5228
+2024-11-22 17:31:15,699 - INFO - Class 1: Precision=0.4171, Recall=0.8392, F1 Score=0.5573
+2024-11-22 17:31:15,705 - INFO - Class 2: Precision=0.3514, Recall=0.8663, F1 Score=0.4999
+2024-11-22 17:31:15,705 - INFO - Class 3: Precision=0.3845, Recall=0.8806, F1 Score=0.5352
+2024-11-22 17:31:15,705 - INFO - Macro-Averaged Metrics: Precision=0.5102, Recall=0.7391, F1 Score=0.5288
+2024-11-22 17:31:15,706 - INFO - Micro-Averaged Metrics: Precision=0.5263, Recall=0.5263, F1 Score=0.5263
+2024-11-22 17:31:15,706 - INFO - Epoch [3/50]
+2024-11-22 17:32:14,905 - INFO - Training Loss: 0.5969, Accuracy: 0.5261
+2024-11-22 17:32:14,906 - INFO - item time: 0.0091
+2024-11-22 17:32:21,271 - INFO - Class 0: Precision=0.9008, Recall=0.3877, F1 Score=0.5421
+2024-11-22 17:32:21,271 - INFO - Class 1: Precision=0.4048, Recall=0.8707, F1 Score=0.5527
+2024-11-22 17:32:21,271 - INFO - Class 2: Precision=0.3550, Recall=0.9018, F1 Score=0.5094
+2024-11-22 17:32:21,272 - INFO - Class 3: Precision=0.4191, Recall=0.8579, F1 Score=0.5631
+2024-11-22 17:32:21,272 - INFO - Macro-Averaged Metrics: Precision=0.5199, Recall=0.7545, F1 Score=0.5418
+2024-11-22 17:32:21,272 - INFO - Micro-Averaged Metrics: Precision=0.5418, Recall=0.5418, F1 Score=0.5418
+2024-11-22 17:32:21,273 - INFO - Epoch [4/50]
+2024-11-22 17:33:20,704 - INFO - Training Loss: 0.6470, Accuracy: 0.4994
+2024-11-22 17:33:20,704 - INFO - item time: 0.0092
+2024-11-22 17:33:26,999 - INFO - Class 0: Precision=0.8953, Recall=0.2096, F1 Score=0.3396
+2024-11-22 17:33:26,999 - INFO - Class 1: Precision=0.3267, Recall=0.8831, F1 Score=0.4770
+2024-11-22 17:33:27,000 - INFO - Class 2: Precision=0.3099, Recall=0.8467, F1 Score=0.4537
+2024-11-22 17:33:27,000 - INFO - Class 3: Precision=0.3500, Recall=0.8967, F1 Score=0.5035
+2024-11-22 17:33:27,000 - INFO - Macro-Averaged Metrics: Precision=0.4705, Recall=0.7090, F1 Score=0.4434
+2024-11-22 17:33:27,001 - INFO - Micro-Averaged Metrics: Precision=0.4204, Recall=0.4204, F1 Score=0.4204
+2024-11-22 17:33:27,001 - INFO - Epoch [5/50]
+2024-11-22 17:34:26,202 - INFO - Training Loss: 0.7557, Accuracy: 0.4324
+2024-11-22 17:34:26,202 - INFO - item time: 0.0091
+2024-11-22 17:34:32,492 - INFO - Class 0: Precision=0.8688, Recall=0.2185, F1 Score=0.3491
+2024-11-22 17:34:32,492 - INFO - Class 1: Precision=0.3232, Recall=0.8493, F1 Score=0.4682
+2024-11-22 17:34:32,492 - INFO - Class 2: Precision=0.2908, Recall=0.8071, F1 Score=0.4276
+2024-11-22 17:34:32,493 - INFO - Class 3: Precision=0.3446, Recall=0.8575, F1 Score=0.4917
+2024-11-22 17:34:32,493 - INFO - Macro-Averaged Metrics: Precision=0.4569, Recall=0.6831, F1 Score=0.4342
+2024-11-22 17:34:32,493 - INFO - Micro-Averaged Metrics: Precision=0.4146, Recall=0.4146, F1 Score=0.4146
+2024-11-22 17:34:32,494 - INFO - Epoch [6/50]
+2024-11-22 17:35:31,667 - INFO - Training Loss: 0.7135, Accuracy: 0.4451
+2024-11-22 17:35:31,668 - INFO - item time: 0.0093
+2024-11-22 17:35:37,929 - INFO - Class 0: Precision=0.8711, Recall=0.2339, F1 Score=0.3688
+2024-11-22 17:35:37,930 - INFO - Class 1: Precision=0.3269, Recall=0.8655, F1 Score=0.4745
+2024-11-22 17:35:37,930 - INFO - Class 2: Precision=0.3190, Recall=0.8202, F1 Score=0.4594
+2024-11-22 17:35:37,930 - INFO - Class 3: Precision=0.3452, Recall=0.8778, F1 Score=0.4955
+2024-11-22 17:35:37,931 - INFO - Macro-Averaged Metrics: Precision=0.4656, Recall=0.6994, F1 Score=0.4496
+2024-11-22 17:35:37,931 - INFO - Micro-Averaged Metrics: Precision=0.4305, Recall=0.4305, F1 Score=0.4305
+2024-11-22 17:35:37,931 - INFO - Epoch [7/50]
+2024-11-22 17:36:36,633 - INFO - Training Loss: 0.8052, Accuracy: 0.4024
+2024-11-22 17:36:36,634 - INFO - item time: 0.0091
+2024-11-22 17:36:42,988 - INFO - Class 0: Precision=0.7159, Recall=0.1936, F1 Score=0.3048
+2024-11-22 17:36:42,988 - INFO - Class 1: Precision=0.1728, Recall=0.5821, F1 Score=0.2664
+2024-11-22 17:36:42,988 - INFO - Class 2: Precision=0.2313, Recall=0.4833, F1 Score=0.3129
+2024-11-22 17:36:42,989 - INFO - Class 3: Precision=0.2537, Recall=0.5982, F1 Score=0.3563
+2024-11-22 17:36:42,989 - INFO - Macro-Averaged Metrics: Precision=0.3434, Recall=0.4643, F1 Score=0.3101
+2024-11-22 17:36:42,989 - INFO - Micro-Averaged Metrics: Precision=0.3085, Recall=0.3085, F1 Score=0.3085
+2024-11-22 17:36:42,990 - INFO - Epoch [8/50]
+2024-11-22 17:37:41,588 - INFO - Training Loss: 0.9102, Accuracy: 0.3489
+2024-11-22 17:37:41,588 - INFO - item time: 0.0091
+2024-11-22 17:37:47,854 - INFO - Class 0: Precision=0.8357, Recall=0.1602, F1 Score=0.2689
+2024-11-22 17:37:47,854 - INFO - Class 1: Precision=0.2967, Recall=0.8168, F1 Score=0.4353
+2024-11-22 17:37:47,855 - INFO - Class 2: Precision=0.2803, Recall=0.8152, F1 Score=0.4172
+2024-11-22 17:37:47,855 - INFO - Class 3: Precision=0.3317, Recall=0.8685, F1 Score=0.4801
+2024-11-22 17:37:47,855 - INFO - Macro-Averaged Metrics: Precision=0.4361, Recall=0.6652, F1 Score=0.4004
+2024-11-22 17:37:47,856 - INFO - Micro-Averaged Metrics: Precision=0.3738, Recall=0.3738, F1 Score=0.3738
+2024-11-22 17:37:47,856 - INFO - Epoch [9/50]
+2024-11-22 17:38:46,552 - INFO - Training Loss: 0.7944, Accuracy: 0.3869
+2024-11-22 17:38:46,552 - INFO - item time: 0.0091
+2024-11-22 17:38:52,934 - INFO - Class 0: Precision=0.8307, Recall=0.1711, F1 Score=0.2837
+2024-11-22 17:38:52,934 - INFO - Class 1: Precision=0.3121, Recall=0.8237, F1 Score=0.4527
+2024-11-22 17:38:52,935 - INFO - Class 2: Precision=0.2760, Recall=0.8396, F1 Score=0.4154
+2024-11-22 17:38:52,935 - INFO - Class 3: Precision=0.3436, Recall=0.8651, F1 Score=0.4918
+2024-11-22 17:38:52,935 - INFO - Macro-Averaged Metrics: Precision=0.4406, Recall=0.6749, F1 Score=0.4109
+2024-11-22 17:38:52,936 - INFO - Micro-Averaged Metrics: Precision=0.3839, Recall=0.3839, F1 Score=0.3839
+2024-11-22 17:38:52,936 - INFO - Epoch [10/50]
+2024-11-22 17:39:51,692 - INFO - Training Loss: 0.7701, Accuracy: 0.3993
+2024-11-22 17:39:51,693 - INFO - item time: 0.0091
+2024-11-22 17:39:57,855 - INFO - Class 0: Precision=0.8422, Recall=0.2126, F1 Score=0.3395
+2024-11-22 17:39:57,856 - INFO - Class 1: Precision=0.3371, Recall=0.7923, F1 Score=0.4729
+2024-11-22 17:39:57,856 - INFO - Class 2: Precision=0.2961, Recall=0.7856, F1 Score=0.4301
+2024-11-22 17:39:57,857 - INFO - Class 3: Precision=0.3278, Recall=0.9175, F1 Score=0.4830
+2024-11-22 17:39:57,857 - INFO - Macro-Averaged Metrics: Precision=0.4508, Recall=0.6770, F1 Score=0.4314
+2024-11-22 17:39:57,857 - INFO - Micro-Averaged Metrics: Precision=0.4103, Recall=0.4103, F1 Score=0.4103
+2024-11-22 17:39:57,858 - INFO - Epoch [11/50]
+2024-11-22 17:40:56,385 - INFO - Training Loss: 0.7496, Accuracy: 0.4138
+2024-11-22 17:40:56,385 - INFO - item time: 0.0091
+2024-11-22 17:41:02,699 - INFO - Class 0: Precision=0.8223, Recall=0.1636, F1 Score=0.2729
+2024-11-22 17:41:02,699 - INFO - Class 1: Precision=0.3316, Recall=0.7986, F1 Score=0.4686
+2024-11-22 17:41:02,700 - INFO - Class 2: Precision=0.2574, Recall=0.8407, F1 Score=0.3941
+2024-11-22 17:41:02,700 - INFO - Class 3: Precision=0.3433, Recall=0.8771, F1 Score=0.4934
+2024-11-22 17:41:02,700 - INFO - Macro-Averaged Metrics: Precision=0.4386, Recall=0.6700, F1 Score=0.4072
+2024-11-22 17:41:02,701 - INFO - Micro-Averaged Metrics: Precision=0.3780, Recall=0.3780, F1 Score=0.3780
+2024-11-22 17:41:02,701 - INFO - Epoch [12/50]
+2024-11-22 17:42:01,549 - INFO - Training Loss: 0.7534, Accuracy: 0.4210
+2024-11-22 17:42:01,550 - INFO - item time: 0.0091
+2024-11-22 17:42:07,855 - INFO - Class 0: Precision=0.8444, Recall=0.2639, F1 Score=0.4021
+2024-11-22 17:42:07,855 - INFO - Class 1: Precision=0.3433, Recall=0.7853, F1 Score=0.4777
+2024-11-22 17:42:07,855 - INFO - Class 2: Precision=0.3013, Recall=0.7664, F1 Score=0.4325
+2024-11-22 17:42:07,856 - INFO - Class 3: Precision=0.3436, Recall=0.8933, F1 Score=0.4963
+2024-11-22 17:42:07,856 - INFO - Macro-Averaged Metrics: Precision=0.4581, Recall=0.6772, F1 Score=0.4522
+2024-11-22 17:42:07,856 - INFO - Micro-Averaged Metrics: Precision=0.4399, Recall=0.4399, F1 Score=0.4399
+2024-11-22 17:42:07,856 - INFO - Epoch [13/50]
+2024-11-22 17:43:06,530 - INFO - Training Loss: 0.7429, Accuracy: 0.4332
+2024-11-22 17:43:06,530 - INFO - item time: 0.0091
+2024-11-22 17:43:12,800 - INFO - Class 0: Precision=0.8574, Recall=0.2382, F1 Score=0.3728
+2024-11-22 17:43:12,801 - INFO - Class 1: Precision=0.3290, Recall=0.8493, F1 Score=0.4743
+2024-11-22 17:43:12,801 - INFO - Class 2: Precision=0.2987, Recall=0.8222, F1 Score=0.4382
+2024-11-22 17:43:12,801 - INFO - Class 3: Precision=0.3634, Recall=0.8701, F1 Score=0.5127
+2024-11-22 17:43:12,802 - INFO - Macro-Averaged Metrics: Precision=0.4621, Recall=0.6950, F1 Score=0.4495
+2024-11-22 17:43:12,802 - INFO - Micro-Averaged Metrics: Precision=0.4311, Recall=0.4311, F1 Score=0.4311
+2024-11-22 17:43:12,803 - INFO - Epoch [14/50]
+2024-11-22 17:44:11,198 - INFO - Training Loss: 0.7199, Accuracy: 0.4462
+2024-11-22 17:44:11,198 - INFO - item time: 0.0091
+2024-11-22 17:44:17,583 - INFO - Class 0: Precision=0.8532, Recall=0.2511, F1 Score=0.3879
+2024-11-22 17:44:17,584 - INFO - Class 1: Precision=0.3332, Recall=0.8531, F1 Score=0.4792
+2024-11-22 17:44:17,584 - INFO - Class 2: Precision=0.3125, Recall=0.7570, F1 Score=0.4424
+2024-11-22 17:44:17,585 - INFO - Class 3: Precision=0.3440, Recall=0.8902, F1 Score=0.4962
+2024-11-22 17:44:17,585 - INFO - Macro-Averaged Metrics: Precision=0.4607, Recall=0.6878, F1 Score=0.4514
+2024-11-22 17:44:17,585 - INFO - Micro-Averaged Metrics: Precision=0.4363, Recall=0.4363, F1 Score=0.4363
+2024-11-22 17:44:17,586 - INFO - Epoch [15/50]
+2024-11-22 17:45:16,494 - INFO - Training Loss: 0.7048, Accuracy: 0.4511
+2024-11-22 17:45:16,494 - INFO - item time: 0.0091
+2024-11-22 17:45:22,851 - INFO - Class 0: Precision=0.8588, Recall=0.3062, F1 Score=0.4514
+2024-11-22 17:45:22,851 - INFO - Class 1: Precision=0.3688, Recall=0.8524, F1 Score=0.5148
+2024-11-22 17:45:22,852 - INFO - Class 2: Precision=0.3051, Recall=0.7963, F1 Score=0.4412
+2024-11-22 17:45:22,852 - INFO - Class 3: Precision=0.3736, Recall=0.8520, F1 Score=0.5195
+2024-11-22 17:45:22,852 - INFO - Macro-Averaged Metrics: Precision=0.4766, Recall=0.7017, F1 Score=0.4817
+2024-11-22 17:45:22,853 - INFO - Micro-Averaged Metrics: Precision=0.4732, Recall=0.4732, F1 Score=0.4732
+2024-11-22 17:45:22,853 - INFO - Epoch [16/50]
+2024-11-22 17:46:21,502 - INFO - Training Loss: 0.6885, Accuracy: 0.4591
+2024-11-22 17:46:21,502 - INFO - item time: 0.0091
+2024-11-22 17:46:27,710 - INFO - Class 0: Precision=0.8881, Recall=0.1649, F1 Score=0.2781
+2024-11-22 17:46:27,710 - INFO - Class 1: Precision=0.3481, Recall=0.8818, F1 Score=0.4991
+2024-11-22 17:46:27,711 - INFO - Class 2: Precision=0.2705, Recall=0.9078, F1 Score=0.4168
+2024-11-22 17:46:27,711 - INFO - Class 3: Precision=0.3648, Recall=0.8970, F1 Score=0.5187
+2024-11-22 17:46:27,711 - INFO - Macro-Averaged Metrics: Precision=0.4679, Recall=0.7129, F1 Score=0.4282
+2024-11-22 17:46:27,711 - INFO - Micro-Averaged Metrics: Precision=0.3959, Recall=0.3959, F1 Score=0.3959
+2024-11-22 17:46:27,712 - INFO - Epoch [17/50]
+2024-11-22 17:47:26,339 - INFO - Training Loss: 0.6623, Accuracy: 0.4769
+2024-11-22 17:47:26,340 - INFO - item time: 0.0091
+2024-11-22 17:47:32,637 - INFO - Class 0: Precision=0.8803, Recall=0.2874, F1 Score=0.4333
+2024-11-22 17:47:32,638 - INFO - Class 1: Precision=0.3638, Recall=0.8766, F1 Score=0.5142
+2024-11-22 17:47:32,638 - INFO - Class 2: Precision=0.3429, Recall=0.8101, F1 Score=0.4819
+2024-11-22 17:47:32,638 - INFO - Class 3: Precision=0.3570, Recall=0.9188, F1 Score=0.5142
+2024-11-22 17:47:32,639 - INFO - Macro-Averaged Metrics: Precision=0.4860, Recall=0.7232, F1 Score=0.4859
+2024-11-22 17:47:32,639 - INFO - Micro-Averaged Metrics: Precision=0.4721, Recall=0.4721, F1 Score=0.4721
+2024-11-22 17:47:32,639 - INFO - Epoch [18/50]
+2024-11-22 17:48:31,335 - INFO - Training Loss: 0.6453, Accuracy: 0.4942
+2024-11-22 17:48:31,335 - INFO - item time: 0.0091
+2024-11-22 17:48:37,591 - INFO - Class 0: Precision=0.8809, Recall=0.2531, F1 Score=0.3932
+2024-11-22 17:48:37,591 - INFO - Class 1: Precision=0.3258, Recall=0.9053, F1 Score=0.4792
+2024-11-22 17:48:37,591 - INFO - Class 2: Precision=0.3189, Recall=0.8611, F1 Score=0.4654
+2024-11-22 17:48:37,592 - INFO - Class 3: Precision=0.3882, Recall=0.8654, F1 Score=0.5360
+2024-11-22 17:48:37,592 - INFO - Macro-Averaged Metrics: Precision=0.4784, Recall=0.7212, F1 Score=0.4685
+2024-11-22 17:48:37,592 - INFO - Micro-Averaged Metrics: Precision=0.4500, Recall=0.4500, F1 Score=0.4500
+2024-11-22 17:48:37,593 - INFO - Epoch [19/50]
+2024-11-22 17:49:36,820 - INFO - Training Loss: 0.6219, Accuracy: 0.5140
+2024-11-22 17:49:36,821 - INFO - item time: 0.0092
+2024-11-22 17:49:43,105 - INFO - Class 0: Precision=0.8935, Recall=0.3497, F1 Score=0.5027
+2024-11-22 17:49:43,105 - INFO - Class 1: Precision=0.3872, Recall=0.8630, F1 Score=0.5346
+2024-11-22 17:49:43,106 - INFO - Class 2: Precision=0.3787, Recall=0.8252, F1 Score=0.5192
+2024-11-22 17:49:43,106 - INFO - Class 3: Precision=0.3706, Recall=0.9262, F1 Score=0.5294
+2024-11-22 17:49:43,106 - INFO - Macro-Averaged Metrics: Precision=0.5075, Recall=0.7410, F1 Score=0.5214
+2024-11-22 17:49:43,107 - INFO - Micro-Averaged Metrics: Precision=0.5159, Recall=0.5159, F1 Score=0.5159
+2024-11-22 17:49:43,107 - INFO - Epoch [20/50]
+2024-11-22 17:50:43,369 - INFO - Training Loss: 0.6215, Accuracy: 0.5176
+2024-11-22 17:50:43,370 - INFO - item time: 0.0093
+2024-11-22 17:50:49,669 - INFO - Class 0: Precision=0.8901, Recall=0.3636, F1 Score=0.5163
+2024-11-22 17:50:49,670 - INFO - Class 1: Precision=0.4000, Recall=0.8577, F1 Score=0.5455
+2024-11-22 17:50:49,670 - INFO - Class 2: Precision=0.3525, Recall=0.8612, F1 Score=0.5002
+2024-11-22 17:50:49,670 - INFO - Class 3: Precision=0.3962, Recall=0.8931, F1 Score=0.5489
+2024-11-22 17:50:49,671 - INFO - Macro-Averaged Metrics: Precision=0.5097, Recall=0.7439, F1 Score=0.5277
+2024-11-22 17:50:49,671 - INFO - Micro-Averaged Metrics: Precision=0.5244, Recall=0.5244, F1 Score=0.5244
+2024-11-22 17:50:49,671 - INFO - Epoch [21/50]
+2024-11-22 17:51:48,552 - INFO - Training Loss: 0.5998, Accuracy: 0.5346
+2024-11-22 17:51:48,553 - INFO - item time: 0.0091
+2024-11-22 17:51:54,866 - INFO - Class 0: Precision=0.8908, Recall=0.4005, F1 Score=0.5526
+2024-11-22 17:51:54,867 - INFO - Class 1: Precision=0.4133, Recall=0.8481, F1 Score=0.5558
+2024-11-22 17:51:54,867 - INFO - Class 2: Precision=0.3367, Recall=0.8952, F1 Score=0.4894
+2024-11-22 17:51:54,867 - INFO - Class 3: Precision=0.4408, Recall=0.8466, F1 Score=0.5798
+2024-11-22 17:51:54,867 - INFO - Macro-Averaged Metrics: Precision=0.5204, Recall=0.7476, F1 Score=0.5444
+2024-11-22 17:51:54,868 - INFO - Micro-Averaged Metrics: Precision=0.5464, Recall=0.5464, F1 Score=0.5464
+2024-11-22 17:51:54,868 - INFO - Epoch [22/50]
+2024-11-22 17:52:53,693 - INFO - Training Loss: 0.5893, Accuracy: 0.5419
+2024-11-22 17:52:53,694 - INFO - item time: 0.0091
+2024-11-22 17:53:00,097 - INFO - Class 0: Precision=0.8955, Recall=0.3492, F1 Score=0.5024
+2024-11-22 17:53:00,098 - INFO - Class 1: Precision=0.3925, Recall=0.8909, F1 Score=0.5449
+2024-11-22 17:53:00,098 - INFO - Class 2: Precision=0.3234, Recall=0.9171, F1 Score=0.4782
+2024-11-22 17:53:00,098 - INFO - Class 3: Precision=0.4382, Recall=0.8504, F1 Score=0.5784
+2024-11-22 17:53:00,099 - INFO - Macro-Averaged Metrics: Precision=0.5124, Recall=0.7519, F1 Score=0.5260
+2024-11-22 17:53:00,099 - INFO - Micro-Averaged Metrics: Precision=0.5180, Recall=0.5180, F1 Score=0.5180
+2024-11-22 17:53:00,100 - INFO - Epoch [23/50]
+2024-11-22 17:53:59,554 - INFO - Training Loss: 0.5735, Accuracy: 0.5542
+2024-11-22 17:53:59,555 - INFO - item time: 0.0091
+2024-11-22 17:54:05,927 - INFO - Class 0: Precision=0.9074, Recall=0.3823, F1 Score=0.5379
+2024-11-22 17:54:05,928 - INFO - Class 1: Precision=0.3934, Recall=0.8957, F1 Score=0.5467
+2024-11-22 17:54:05,928 - INFO - Class 2: Precision=0.3694, Recall=0.8876, F1 Score=0.5217
+2024-11-22 17:54:05,928 - INFO - Class 3: Precision=0.4219, Recall=0.8909, F1 Score=0.5726
+2024-11-22 17:54:05,929 - INFO - Macro-Averaged Metrics: Precision=0.5230, Recall=0.7641, F1 Score=0.5447
+2024-11-22 17:54:05,929 - INFO - Micro-Averaged Metrics: Precision=0.5431, Recall=0.5431, F1 Score=0.5431
+2024-11-22 17:54:05,930 - INFO - Epoch [24/50]
+2024-11-22 17:55:04,798 - INFO - Training Loss: 0.5630, Accuracy: 0.5620
+2024-11-22 17:55:04,799 - INFO - item time: 0.0091
+2024-11-22 17:55:11,155 - INFO - Class 0: Precision=0.8967, Recall=0.4116, F1 Score=0.5643
+2024-11-22 17:55:11,155 - INFO - Class 1: Precision=0.4394, Recall=0.8331, F1 Score=0.5753
+2024-11-22 17:55:11,155 - INFO - Class 2: Precision=0.3813, Recall=0.8720, F1 Score=0.5306
+2024-11-22 17:55:11,156 - INFO - Class 3: Precision=0.3948, Recall=0.9048, F1 Score=0.5497
+2024-11-22 17:55:11,156 - INFO - Macro-Averaged Metrics: Precision=0.5280, Recall=0.7554, F1 Score=0.5550
+2024-11-22 17:55:11,156 - INFO - Micro-Averaged Metrics: Precision=0.5574, Recall=0.5574, F1 Score=0.5574
+2024-11-22 17:55:11,157 - INFO - Epoch [25/50]
+2024-11-22 17:56:10,455 - INFO - Training Loss: 0.5876, Accuracy: 0.5432
+2024-11-22 17:56:10,456 - INFO - item time: 0.0091
+2024-11-22 17:56:16,817 - INFO - Class 0: Precision=0.8828, Recall=0.3817, F1 Score=0.5330
+2024-11-22 17:56:16,818 - INFO - Class 1: Precision=0.3924, Recall=0.8350, F1 Score=0.5338
+2024-11-22 17:56:16,818 - INFO - Class 2: Precision=0.3430, Recall=0.8557, F1 Score=0.4897
+2024-11-22 17:56:16,818 - INFO - Class 3: Precision=0.4122, Recall=0.8618, F1 Score=0.5577
+2024-11-22 17:56:16,819 - INFO - Macro-Averaged Metrics: Precision=0.5076, Recall=0.7335, F1 Score=0.5285
+2024-11-22 17:56:16,819 - INFO - Micro-Averaged Metrics: Precision=0.5303, Recall=0.5303, F1 Score=0.5303
+2024-11-22 17:56:16,819 - INFO - Epoch [26/50]
+2024-11-22 17:57:15,617 - INFO - Training Loss: 0.6624, Accuracy: 0.5185
+2024-11-22 17:57:15,617 - INFO - item time: 0.0091
+2024-11-22 17:57:21,947 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:57:21,947 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:57:21,948 - INFO - Class 2: Precision=0.0991, Recall=1.0000, F1 Score=0.1803
+2024-11-22 17:57:21,948 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:57:21,948 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 17:57:21,949 - INFO - Micro-Averaged Metrics: Precision=0.0991, Recall=0.0991, F1 Score=0.0991
+2024-11-22 17:57:21,949 - INFO - Epoch [27/50]
+2024-11-22 17:58:20,795 - INFO - Training Loss: 1.4209, Accuracy: 0.0988
+2024-11-22 17:58:20,795 - INFO - item time: 0.0091
+2024-11-22 17:58:27,189 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:58:27,190 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:58:27,190 - INFO - Class 2: Precision=0.0991, Recall=1.0000, F1 Score=0.1803
+2024-11-22 17:58:27,190 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:58:27,190 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 17:58:27,191 - INFO - Micro-Averaged Metrics: Precision=0.0991, Recall=0.0991, F1 Score=0.0991
+2024-11-22 17:58:27,191 - INFO - Epoch [28/50]
+2024-11-22 17:59:26,033 - INFO - Training Loss: 1.3863, Accuracy: 0.2800
+2024-11-22 17:59:26,033 - INFO - item time: 0.0091
+2024-11-22 17:59:32,595 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:59:32,595 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 17:59:32,596 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:59:32,596 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 17:59:32,596 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 17:59:32,597 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 17:59:32,597 - INFO - Epoch [29/50]
+2024-11-22 18:00:31,200 - INFO - Training Loss: 1.3863, Accuracy: 0.3105
+2024-11-22 18:00:31,201 - INFO - item time: 0.0091
+2024-11-22 18:00:37,572 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:00:37,572 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:00:37,573 - INFO - Class 2: Precision=0.0991, Recall=1.0000, F1 Score=0.1803
+2024-11-22 18:00:37,573 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:00:37,573 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 18:00:37,573 - INFO - Micro-Averaged Metrics: Precision=0.0991, Recall=0.0991, F1 Score=0.0991
+2024-11-22 18:00:37,574 - INFO - Epoch [30/50]
+2024-11-22 18:01:36,077 - INFO - Training Loss: 1.3863, Accuracy: 0.3237
+2024-11-22 18:01:36,077 - INFO - item time: 0.0091
+2024-11-22 18:01:42,373 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:01:42,374 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 18:01:42,374 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:01:42,374 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:01:42,375 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 18:01:42,375 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 18:01:42,375 - INFO - Epoch [31/50]
+2024-11-22 18:02:41,640 - INFO - Training Loss: 1.3863, Accuracy: 0.2468
+2024-11-22 18:02:41,641 - INFO - item time: 0.0091
+2024-11-22 18:02:48,097 - INFO - Class 0: Precision=0.6840, Recall=1.0000, F1 Score=0.8124
+2024-11-22 18:02:48,098 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:02:48,098 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:02:48,099 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:02:48,099 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 18:02:48,099 - INFO - Micro-Averaged Metrics: Precision=0.6840, Recall=0.6840, F1 Score=0.6840
+2024-11-22 18:02:48,100 - INFO - Epoch [32/50]
+2024-11-22 18:03:47,007 - INFO - Training Loss: 1.3863, Accuracy: 0.2992
+2024-11-22 18:03:47,008 - INFO - item time: 0.0091
+2024-11-22 18:03:53,311 - INFO - Class 0: Precision=0.6840, Recall=1.0000, F1 Score=0.8124
+2024-11-22 18:03:53,312 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:03:53,312 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:03:53,312 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:03:53,313 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 18:03:53,313 - INFO - Micro-Averaged Metrics: Precision=0.6840, Recall=0.6840, F1 Score=0.6840
+2024-11-22 18:03:53,313 - INFO - Epoch [33/50]
+2024-11-22 18:04:52,508 - INFO - Training Loss: 1.3863, Accuracy: 0.2912
+2024-11-22 18:04:52,508 - INFO - item time: 0.0091
+2024-11-22 18:04:58,763 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:04:58,763 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:04:58,764 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:04:58,764 - INFO - Class 3: Precision=0.1216, Recall=1.0000, F1 Score=0.2168
+2024-11-22 18:04:58,764 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 18:04:58,765 - INFO - Micro-Averaged Metrics: Precision=0.1216, Recall=0.1216, F1 Score=0.1216
+2024-11-22 18:04:58,765 - INFO - Epoch [34/50]
+2024-11-22 18:05:57,657 - INFO - Training Loss: 1.3863, Accuracy: 0.2597
+2024-11-22 18:05:57,657 - INFO - item time: 0.0091
+2024-11-22 18:06:03,863 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:06:03,863 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 18:06:03,864 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:06:03,864 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:06:03,865 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 18:06:03,865 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 18:06:03,865 - INFO - Epoch [35/50]
+2024-11-22 18:07:02,172 - INFO - Training Loss: 1.3863, Accuracy: 0.2482
+2024-11-22 18:07:02,172 - INFO - item time: 0.0091
+2024-11-22 18:07:08,477 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:07:08,477 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:07:08,478 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:07:08,478 - INFO - Class 3: Precision=0.1216, Recall=1.0000, F1 Score=0.2168
+2024-11-22 18:07:08,478 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 18:07:08,479 - INFO - Micro-Averaged Metrics: Precision=0.1216, Recall=0.1216, F1 Score=0.1216
+2024-11-22 18:07:08,479 - INFO - Epoch [36/50]
+2024-11-22 18:08:06,904 - INFO - Training Loss: 1.3863, Accuracy: 0.2563
+2024-11-22 18:08:06,905 - INFO - item time: 0.0091
+2024-11-22 18:08:13,281 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:08:13,281 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:08:13,282 - INFO - Class 2: Precision=0.0991, Recall=1.0000, F1 Score=0.1803
+2024-11-22 18:08:13,282 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:08:13,282 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 18:08:13,283 - INFO - Micro-Averaged Metrics: Precision=0.0991, Recall=0.0991, F1 Score=0.0991
+2024-11-22 18:08:13,283 - INFO - Epoch [37/50]
+2024-11-22 18:09:12,075 - INFO - Training Loss: 1.3863, Accuracy: 0.2828
+2024-11-22 18:09:12,076 - INFO - item time: 0.0091
+2024-11-22 18:09:18,271 - INFO - Class 0: Precision=0.6840, Recall=1.0000, F1 Score=0.8124
+2024-11-22 18:09:18,271 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:09:18,272 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:09:18,272 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:09:18,272 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 18:09:18,273 - INFO - Micro-Averaged Metrics: Precision=0.6840, Recall=0.6840, F1 Score=0.6840
+2024-11-22 18:09:18,273 - INFO - Epoch [38/50]
+2024-11-22 18:10:16,691 - INFO - Training Loss: 1.3863, Accuracy: 0.2939
+2024-11-22 18:10:16,691 - INFO - item time: 0.0091
+2024-11-22 18:10:22,958 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:10:22,958 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:10:22,959 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:10:22,959 - INFO - Class 3: Precision=0.1216, Recall=1.0000, F1 Score=0.2168
+2024-11-22 18:10:22,959 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 18:10:22,960 - INFO - Micro-Averaged Metrics: Precision=0.1216, Recall=0.1216, F1 Score=0.1216
+2024-11-22 18:10:22,960 - INFO - Epoch [39/50]
+2024-11-22 18:11:21,321 - INFO - Training Loss: 1.3863, Accuracy: 0.2753
+2024-11-22 18:11:21,321 - INFO - item time: 0.0091
+2024-11-22 18:11:27,595 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:11:27,595 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 18:11:27,596 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:11:27,596 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:11:27,596 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 18:11:27,596 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 18:11:27,597 - INFO - Epoch [40/50]
+2024-11-22 18:12:26,427 - INFO - Training Loss: 1.3863, Accuracy: 0.2358
+2024-11-22 18:12:26,428 - INFO - item time: 0.0091
+2024-11-22 18:12:32,661 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:12:32,661 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:12:32,661 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:12:32,662 - INFO - Class 3: Precision=0.1216, Recall=1.0000, F1 Score=0.2168
+2024-11-22 18:12:32,662 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 18:12:32,662 - INFO - Micro-Averaged Metrics: Precision=0.1216, Recall=0.1216, F1 Score=0.1216
+2024-11-22 18:12:32,663 - INFO - Epoch [41/50]
+2024-11-22 18:13:31,153 - INFO - Training Loss: 1.3863, Accuracy: 0.2915
+2024-11-22 18:13:31,153 - INFO - item time: 0.0091
+2024-11-22 18:13:37,562 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:13:37,562 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:13:37,563 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:13:37,563 - INFO - Class 3: Precision=0.1216, Recall=1.0000, F1 Score=0.2168
+2024-11-22 18:13:37,563 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 18:13:37,564 - INFO - Micro-Averaged Metrics: Precision=0.1216, Recall=0.1216, F1 Score=0.1216
+2024-11-22 18:13:37,564 - INFO - Epoch [42/50]
+2024-11-22 18:14:36,638 - INFO - Training Loss: 1.3863, Accuracy: 0.3088
+2024-11-22 18:14:36,639 - INFO - item time: 0.0091
+2024-11-22 18:14:42,963 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:14:42,964 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:14:42,964 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:14:42,965 - INFO - Class 3: Precision=0.1216, Recall=1.0000, F1 Score=0.2168
+2024-11-22 18:14:42,965 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 18:14:42,966 - INFO - Micro-Averaged Metrics: Precision=0.1216, Recall=0.1216, F1 Score=0.1216
+2024-11-22 18:14:42,966 - INFO - Epoch [43/50]
+2024-11-22 18:15:41,885 - INFO - Training Loss: 1.3863, Accuracy: 0.3512
+2024-11-22 18:15:41,886 - INFO - item time: 0.0091
+2024-11-22 18:15:48,259 - INFO - Class 0: Precision=0.6840, Recall=1.0000, F1 Score=0.8124
+2024-11-22 18:15:48,259 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:15:48,260 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:15:48,260 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:15:48,261 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 18:15:48,261 - INFO - Micro-Averaged Metrics: Precision=0.6840, Recall=0.6840, F1 Score=0.6840
+2024-11-22 18:15:48,261 - INFO - Epoch [44/50]
+2024-11-22 18:16:47,172 - INFO - Training Loss: 1.3863, Accuracy: 0.2633
+2024-11-22 18:16:47,173 - INFO - item time: 0.0091
+2024-11-22 18:16:53,491 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:16:53,491 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 18:16:53,492 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:16:53,492 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:16:53,492 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 18:16:53,493 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 18:16:53,493 - INFO - Epoch [45/50]
+2024-11-22 18:17:52,023 - INFO - Training Loss: 1.3863, Accuracy: 0.1873
+2024-11-22 18:17:52,024 - INFO - item time: 0.0091
+2024-11-22 18:17:58,502 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:17:58,503 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:17:58,503 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:17:58,504 - INFO - Class 3: Precision=0.1216, Recall=1.0000, F1 Score=0.2168
+2024-11-22 18:17:58,504 - INFO - Macro-Averaged Metrics: Precision=0.0304, Recall=0.2500, F1 Score=0.0542
+2024-11-22 18:17:58,504 - INFO - Micro-Averaged Metrics: Precision=0.1216, Recall=0.1216, F1 Score=0.1216
+2024-11-22 18:17:58,505 - INFO - Epoch [46/50]
+2024-11-22 18:18:57,453 - INFO - Training Loss: 1.3863, Accuracy: 0.2724
+2024-11-22 18:18:57,454 - INFO - item time: 0.0091
+2024-11-22 18:19:03,822 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:19:03,823 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 18:19:03,823 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:19:03,823 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:19:03,824 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 18:19:03,824 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 18:19:03,825 - INFO - Epoch [47/50]
+2024-11-22 18:20:02,579 - INFO - Training Loss: 1.3863, Accuracy: 0.3074
+2024-11-22 18:20:02,580 - INFO - item time: 0.0091
+2024-11-22 18:20:08,950 - INFO - Class 0: Precision=0.6840, Recall=1.0000, F1 Score=0.8124
+2024-11-22 18:20:08,951 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:20:08,951 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:20:08,952 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:20:08,952 - INFO - Macro-Averaged Metrics: Precision=0.1710, Recall=0.2500, F1 Score=0.2031
+2024-11-22 18:20:08,952 - INFO - Micro-Averaged Metrics: Precision=0.6840, Recall=0.6840, F1 Score=0.6840
+2024-11-22 18:20:08,953 - INFO - Epoch [48/50]
+2024-11-22 18:21:07,684 - INFO - Training Loss: 1.3863, Accuracy: 0.3022
+2024-11-22 18:21:07,684 - INFO - item time: 0.0090
+2024-11-22 18:21:14,004 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:21:14,005 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 18:21:14,005 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:21:14,005 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:21:14,006 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 18:21:14,006 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 18:21:14,006 - INFO - Epoch [49/50]
+2024-11-22 18:22:12,678 - INFO - Training Loss: 1.3863, Accuracy: 0.2077
+2024-11-22 18:22:12,679 - INFO - item time: 0.0091
+2024-11-22 18:22:18,925 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:22:18,926 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:22:18,926 - INFO - Class 2: Precision=0.0991, Recall=1.0000, F1 Score=0.1803
+2024-11-22 18:22:18,927 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:22:18,927 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 18:22:18,927 - INFO - Micro-Averaged Metrics: Precision=0.0991, Recall=0.0991, F1 Score=0.0991
+2024-11-22 18:22:18,928 - INFO - Epoch [50/50]
+2024-11-22 18:23:17,424 - INFO - Training Loss: 1.3863, Accuracy: 0.3269
+2024-11-22 18:23:17,425 - INFO - item time: 0.0091
+2024-11-22 18:23:23,717 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:23:23,718 - INFO - Class 1: Precision=0.0953, Recall=1.0000, F1 Score=0.1741
+2024-11-22 18:23:23,718 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:23:23,718 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:23:23,719 - INFO - Macro-Averaged Metrics: Precision=0.0238, Recall=0.2500, F1 Score=0.0435
+2024-11-22 18:23:23,719 - INFO - Micro-Averaged Metrics: Precision=0.0953, Recall=0.0953, F1 Score=0.0953
+2024-11-22 18:23:23,731 - INFO - Model saved at ./output/ablation_sincos_8head_conv15_log.txt_fold4_model.pth
+2024-11-22 18:23:23,755 - INFO - 
+Training fold 5/5
+2024-11-22 18:23:43,983 - INFO - Epoch [1/50]
+2024-11-22 18:24:42,645 - INFO - Training Loss: 1.0497, Accuracy: 0.2776
+2024-11-22 18:24:42,646 - INFO - item time: 0.0091
+2024-11-22 18:24:49,107 - INFO - Class 0: Precision=0.8323, Recall=0.1408, F1 Score=0.2408
+2024-11-22 18:24:49,107 - INFO - Class 1: Precision=0.2636, Recall=0.8049, F1 Score=0.3971
+2024-11-22 18:24:49,108 - INFO - Class 2: Precision=0.2740, Recall=0.8167, F1 Score=0.4104
+2024-11-22 18:24:49,108 - INFO - Class 3: Precision=0.3382, Recall=0.8257, F1 Score=0.4798
+2024-11-22 18:24:49,109 - INFO - Macro-Averaged Metrics: Precision=0.4270, Recall=0.6470, F1 Score=0.3820
+2024-11-22 18:24:49,109 - INFO - Micro-Averaged Metrics: Precision=0.3545, Recall=0.3545, F1 Score=0.3545
+2024-11-22 18:24:49,109 - INFO - Epoch [2/50]
+2024-11-22 18:25:47,416 - INFO - Training Loss: 0.8622, Accuracy: 0.3596
+2024-11-22 18:25:47,416 - INFO - item time: 0.0090
+2024-11-22 18:25:53,604 - INFO - Class 0: Precision=0.8291, Recall=0.0888, F1 Score=0.1605
+2024-11-22 18:25:53,605 - INFO - Class 1: Precision=0.2693, Recall=0.7344, F1 Score=0.3941
+2024-11-22 18:25:53,605 - INFO - Class 2: Precision=0.2442, Recall=0.8154, F1 Score=0.3759
+2024-11-22 18:25:53,606 - INFO - Class 3: Precision=0.3045, Recall=0.8393, F1 Score=0.4468
+2024-11-22 18:25:53,606 - INFO - Macro-Averaged Metrics: Precision=0.4118, Recall=0.6195, F1 Score=0.3443
+2024-11-22 18:25:53,606 - INFO - Micro-Averaged Metrics: Precision=0.3137, Recall=0.3137, F1 Score=0.3137
+2024-11-22 18:25:53,607 - INFO - Epoch [3/50]
+2024-11-22 18:26:51,550 - INFO - Training Loss: 0.9479, Accuracy: 0.3165
+2024-11-22 18:26:51,551 - INFO - item time: 0.0090
+2024-11-22 18:26:57,974 - INFO - Class 0: Precision=0.7749, Recall=0.1151, F1 Score=0.2004
+2024-11-22 18:26:57,975 - INFO - Class 1: Precision=0.2392, Recall=0.7037, F1 Score=0.3571
+2024-11-22 18:26:57,975 - INFO - Class 2: Precision=0.2306, Recall=0.7978, F1 Score=0.3578
+2024-11-22 18:26:57,975 - INFO - Class 3: Precision=0.3100, Recall=0.6987, F1 Score=0.4294
+2024-11-22 18:26:57,976 - INFO - Macro-Averaged Metrics: Precision=0.3887, Recall=0.5788, F1 Score=0.3362
+2024-11-22 18:26:57,976 - INFO - Micro-Averaged Metrics: Precision=0.3099, Recall=0.3099, F1 Score=0.3099
+2024-11-22 18:26:57,976 - INFO - Epoch [4/50]
+2024-11-22 18:27:56,415 - INFO - Training Loss: 0.9400, Accuracy: 0.3270
+2024-11-22 18:27:56,416 - INFO - item time: 0.0091
+2024-11-22 18:28:02,744 - INFO - Class 0: Precision=0.8053, Recall=0.1080, F1 Score=0.1905
+2024-11-22 18:28:02,744 - INFO - Class 1: Precision=0.2302, Recall=0.7784, F1 Score=0.3553
+2024-11-22 18:28:02,744 - INFO - Class 2: Precision=0.2604, Recall=0.7535, F1 Score=0.3870
+2024-11-22 18:28:02,745 - INFO - Class 3: Precision=0.3101, Recall=0.7598, F1 Score=0.4405
+2024-11-22 18:28:02,745 - INFO - Macro-Averaged Metrics: Precision=0.4015, Recall=0.5999, F1 Score=0.3433
+2024-11-22 18:28:02,746 - INFO - Micro-Averaged Metrics: Precision=0.3153, Recall=0.3153, F1 Score=0.3153
+2024-11-22 18:28:02,746 - INFO - Epoch [5/50]
+2024-11-22 18:29:00,924 - INFO - Training Loss: 0.9596, Accuracy: 0.3231
+2024-11-22 18:29:00,925 - INFO - item time: 0.0090
+2024-11-22 18:29:07,132 - INFO - Class 0: Precision=0.7851, Recall=0.1073, F1 Score=0.1888
+2024-11-22 18:29:07,132 - INFO - Class 1: Precision=0.2479, Recall=0.7048, F1 Score=0.3668
+2024-11-22 18:29:07,133 - INFO - Class 2: Precision=0.2333, Recall=0.8127, F1 Score=0.3626
+2024-11-22 18:29:07,133 - INFO - Class 3: Precision=0.3111, Recall=0.7405, F1 Score=0.4382
+2024-11-22 18:29:07,133 - INFO - Macro-Averaged Metrics: Precision=0.3944, Recall=0.5913, F1 Score=0.3391
+2024-11-22 18:29:07,134 - INFO - Micro-Averaged Metrics: Precision=0.3113, Recall=0.3113, F1 Score=0.3113
+2024-11-22 18:29:07,134 - INFO - Epoch [6/50]
+2024-11-22 18:30:05,339 - INFO - Training Loss: 0.9446, Accuracy: 0.3242
+2024-11-22 18:30:05,340 - INFO - item time: 0.0091
+2024-11-22 18:30:11,651 - INFO - Class 0: Precision=0.7917, Recall=0.1913, F1 Score=0.3081
+2024-11-22 18:30:11,652 - INFO - Class 1: Precision=0.2754, Recall=0.6807, F1 Score=0.3921
+2024-11-22 18:30:11,652 - INFO - Class 2: Precision=0.2340, Recall=0.8185, F1 Score=0.3640
+2024-11-22 18:30:11,653 - INFO - Class 3: Precision=0.3264, Recall=0.6754, F1 Score=0.4401
+2024-11-22 18:30:11,653 - INFO - Macro-Averaged Metrics: Precision=0.4069, Recall=0.5915, F1 Score=0.3761
+2024-11-22 18:30:11,653 - INFO - Micro-Averaged Metrics: Precision=0.3591, Recall=0.3591, F1 Score=0.3591
+2024-11-22 18:30:11,654 - INFO - Epoch [7/50]
+2024-11-22 18:31:09,714 - INFO - Training Loss: 0.9330, Accuracy: 0.3252
+2024-11-22 18:31:09,715 - INFO - item time: 0.0090
+2024-11-22 18:31:16,033 - INFO - Class 0: Precision=0.7974, Recall=0.1347, F1 Score=0.2305
+2024-11-22 18:31:16,033 - INFO - Class 1: Precision=0.2355, Recall=0.7197, F1 Score=0.3549
+2024-11-22 18:31:16,033 - INFO - Class 2: Precision=0.2318, Recall=0.7848, F1 Score=0.3579
+2024-11-22 18:31:16,034 - INFO - Class 3: Precision=0.3284, Recall=0.6926, F1 Score=0.4456
+2024-11-22 18:31:16,034 - INFO - Macro-Averaged Metrics: Precision=0.3983, Recall=0.5830, F1 Score=0.3472
+2024-11-22 18:31:16,034 - INFO - Micro-Averaged Metrics: Precision=0.3229, Recall=0.3229, F1 Score=0.3229
+2024-11-22 18:31:16,035 - INFO - Epoch [8/50]
+2024-11-22 18:32:14,132 - INFO - Training Loss: 0.9483, Accuracy: 0.3163
+2024-11-22 18:32:14,133 - INFO - item time: 0.0090
+2024-11-22 18:32:20,344 - INFO - Class 0: Precision=0.7832, Recall=0.1414, F1 Score=0.2396
+2024-11-22 18:32:20,344 - INFO - Class 1: Precision=0.2590, Recall=0.6940, F1 Score=0.3772
+2024-11-22 18:32:20,345 - INFO - Class 2: Precision=0.2293, Recall=0.8075, F1 Score=0.3572
+2024-11-22 18:32:20,345 - INFO - Class 3: Precision=0.3195, Recall=0.7125, F1 Score=0.4412
+2024-11-22 18:32:20,346 - INFO - Macro-Averaged Metrics: Precision=0.3978, Recall=0.5889, F1 Score=0.3538
+2024-11-22 18:32:20,346 - INFO - Micro-Averaged Metrics: Precision=0.3297, Recall=0.3297, F1 Score=0.3297
+2024-11-22 18:32:20,346 - INFO - Epoch [9/50]
+2024-11-22 18:33:18,474 - INFO - Training Loss: 0.9172, Accuracy: 0.3226
+2024-11-22 18:33:18,475 - INFO - item time: 0.0091
+2024-11-22 18:33:24,761 - INFO - Class 0: Precision=0.8105, Recall=0.1300, F1 Score=0.2241
+2024-11-22 18:33:24,761 - INFO - Class 1: Precision=0.2804, Recall=0.6705, F1 Score=0.3954
+2024-11-22 18:33:24,761 - INFO - Class 2: Precision=0.2377, Recall=0.8305, F1 Score=0.3696
+2024-11-22 18:33:24,762 - INFO - Class 3: Precision=0.3189, Recall=0.8278, F1 Score=0.4605
+2024-11-22 18:33:24,762 - INFO - Macro-Averaged Metrics: Precision=0.4119, Recall=0.6147, F1 Score=0.3624
+2024-11-22 18:33:24,762 - INFO - Micro-Averaged Metrics: Precision=0.3358, Recall=0.3358, F1 Score=0.3358
+2024-11-22 18:33:24,763 - INFO - Epoch [10/50]
+2024-11-22 18:34:22,928 - INFO - Training Loss: 0.9120, Accuracy: 0.3260
+2024-11-22 18:34:22,928 - INFO - item time: 0.0091
+2024-11-22 18:34:29,318 - INFO - Class 0: Precision=0.7993, Recall=0.1201, F1 Score=0.2088
+2024-11-22 18:34:29,319 - INFO - Class 1: Precision=0.2720, Recall=0.6340, F1 Score=0.3807
+2024-11-22 18:34:29,319 - INFO - Class 2: Precision=0.2197, Recall=0.8527, F1 Score=0.3494
+2024-11-22 18:34:29,320 - INFO - Class 3: Precision=0.3141, Recall=0.7482, F1 Score=0.4424
+2024-11-22 18:34:29,320 - INFO - Macro-Averaged Metrics: Precision=0.4013, Recall=0.5888, F1 Score=0.3453
+2024-11-22 18:34:29,320 - INFO - Micro-Averaged Metrics: Precision=0.3182, Recall=0.3182, F1 Score=0.3182
+2024-11-22 18:34:29,320 - INFO - Epoch [11/50]
+2024-11-22 18:35:27,533 - INFO - Training Loss: 0.9158, Accuracy: 0.3239
+2024-11-22 18:35:27,533 - INFO - item time: 0.0091
+2024-11-22 18:35:33,849 - INFO - Class 0: Precision=0.8231, Recall=0.0975, F1 Score=0.1744
+2024-11-22 18:35:33,849 - INFO - Class 1: Precision=0.2463, Recall=0.7618, F1 Score=0.3723
+2024-11-22 18:35:33,850 - INFO - Class 2: Precision=0.2593, Recall=0.7799, F1 Score=0.3892
+2024-11-22 18:35:33,850 - INFO - Class 3: Precision=0.3113, Recall=0.8324, F1 Score=0.4531
+2024-11-22 18:35:33,850 - INFO - Macro-Averaged Metrics: Precision=0.4100, Recall=0.6179, F1 Score=0.3473
+2024-11-22 18:35:33,851 - INFO - Micro-Averaged Metrics: Precision=0.3180, Recall=0.3180, F1 Score=0.3180
+2024-11-22 18:35:33,851 - INFO - Epoch [12/50]
+2024-11-22 18:36:32,528 - INFO - Training Loss: 0.8880, Accuracy: 0.3406
+2024-11-22 18:36:32,528 - INFO - item time: 0.0091
+2024-11-22 18:36:38,808 - INFO - Class 0: Precision=0.7981, Recall=0.2081, F1 Score=0.3301
+2024-11-22 18:36:38,809 - INFO - Class 1: Precision=0.2682, Recall=0.7022, F1 Score=0.3882
+2024-11-22 18:36:38,809 - INFO - Class 2: Precision=0.2836, Recall=0.7194, F1 Score=0.4068
+2024-11-22 18:36:38,809 - INFO - Class 3: Precision=0.3144, Recall=0.8279, F1 Score=0.4557
+2024-11-22 18:36:38,809 - INFO - Macro-Averaged Metrics: Precision=0.4161, Recall=0.6144, F1 Score=0.3952
+2024-11-22 18:36:38,810 - INFO - Micro-Averaged Metrics: Precision=0.3813, Recall=0.3813, F1 Score=0.3813
+2024-11-22 18:36:38,810 - INFO - Epoch [13/50]
+2024-11-22 18:37:36,939 - INFO - Training Loss: 1.1115, Accuracy: 0.2785
+2024-11-22 18:37:36,939 - INFO - item time: 0.0090
+2024-11-22 18:37:43,200 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:37:43,201 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:37:43,201 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:37:43,201 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 18:37:43,202 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 18:37:43,202 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 18:37:43,203 - INFO - Epoch [14/50]
+2024-11-22 18:38:41,381 - INFO - Training Loss: 1.3863, Accuracy: 0.3248
+2024-11-22 18:38:41,382 - INFO - item time: 0.0090
+2024-11-22 18:38:47,607 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:38:47,607 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:38:47,607 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:38:47,608 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 18:38:47,608 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 18:38:47,609 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 18:38:47,609 - INFO - Epoch [15/50]
+2024-11-22 18:39:45,742 - INFO - Training Loss: 1.3863, Accuracy: 0.2965
+2024-11-22 18:39:45,742 - INFO - item time: 0.0090
+2024-11-22 18:39:52,044 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:39:52,044 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 18:39:52,044 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:39:52,045 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:39:52,045 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 18:39:52,046 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 18:39:52,046 - INFO - Epoch [16/50]
+2024-11-22 18:40:50,601 - INFO - Training Loss: 1.3863, Accuracy: 0.2828
+2024-11-22 18:40:50,602 - INFO - item time: 0.0091
+2024-11-22 18:40:56,915 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:40:56,916 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:40:56,916 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:40:56,917 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 18:40:56,917 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 18:40:56,917 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 18:40:56,918 - INFO - Epoch [17/50]
+2024-11-22 18:41:55,083 - INFO - Training Loss: 1.3863, Accuracy: 0.2486
+2024-11-22 18:41:55,083 - INFO - item time: 0.0091
+2024-11-22 18:42:01,321 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:42:01,321 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:42:01,322 - INFO - Class 2: Precision=0.0992, Recall=1.0000, F1 Score=0.1806
+2024-11-22 18:42:01,322 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:42:01,322 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 18:42:01,323 - INFO - Micro-Averaged Metrics: Precision=0.0992, Recall=0.0992, F1 Score=0.0992
+2024-11-22 18:42:01,323 - INFO - Epoch [18/50]
+2024-11-22 18:42:59,127 - INFO - Training Loss: 1.3863, Accuracy: 0.2523
+2024-11-22 18:42:59,127 - INFO - item time: 0.0090
+2024-11-22 18:43:05,415 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:43:05,416 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:43:05,416 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:43:05,417 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 18:43:05,417 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 18:43:05,417 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 18:43:05,418 - INFO - Epoch [19/50]
+2024-11-22 18:44:03,996 - INFO - Training Loss: 1.3863, Accuracy: 0.3297
+2024-11-22 18:44:03,996 - INFO - item time: 0.0091
+2024-11-22 18:44:10,243 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:44:10,243 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:44:10,244 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:44:10,244 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 18:44:10,244 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 18:44:10,245 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 18:44:10,245 - INFO - Epoch [20/50]
+2024-11-22 18:45:08,561 - INFO - Training Loss: 1.3863, Accuracy: 0.3158
+2024-11-22 18:45:08,562 - INFO - item time: 0.0091
+2024-11-22 18:45:14,864 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 18:45:14,864 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:45:14,865 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:45:14,865 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:45:14,866 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 18:45:14,866 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 18:45:14,866 - INFO - Epoch [21/50]
+2024-11-22 18:46:12,974 - INFO - Training Loss: 1.3863, Accuracy: 0.2900
+2024-11-22 18:46:12,974 - INFO - item time: 0.0091
+2024-11-22 18:46:19,277 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:46:19,277 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 18:46:19,277 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:46:19,278 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:46:19,278 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 18:46:19,278 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 18:46:19,279 - INFO - Epoch [22/50]
+2024-11-22 18:47:17,801 - INFO - Training Loss: 1.3863, Accuracy: 0.3075
+2024-11-22 18:47:17,802 - INFO - item time: 0.0091
+2024-11-22 18:47:24,089 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:47:24,089 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:47:24,090 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:47:24,090 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 18:47:24,090 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 18:47:24,091 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 18:47:24,091 - INFO - Epoch [23/50]
+2024-11-22 18:48:22,419 - INFO - Training Loss: 1.3863, Accuracy: 0.2495
+2024-11-22 18:48:22,419 - INFO - item time: 0.0091
+2024-11-22 18:48:28,795 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 18:48:28,795 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:48:28,796 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:48:28,796 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:48:28,796 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 18:48:28,796 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 18:48:28,797 - INFO - Epoch [24/50]
+2024-11-22 18:49:27,329 - INFO - Training Loss: 1.3863, Accuracy: 0.2574
+2024-11-22 18:49:27,329 - INFO - item time: 0.0091
+2024-11-22 18:49:33,709 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 18:49:33,709 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:49:33,709 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:49:33,710 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:49:33,710 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 18:49:33,710 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 18:49:33,711 - INFO - Epoch [25/50]
+2024-11-22 18:50:31,888 - INFO - Training Loss: 1.3863, Accuracy: 0.2938
+2024-11-22 18:50:31,888 - INFO - item time: 0.0091
+2024-11-22 18:50:38,165 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 18:50:38,165 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:50:38,166 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:50:38,166 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:50:38,166 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 18:50:38,167 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 18:50:38,167 - INFO - Epoch [26/50]
+2024-11-22 18:51:36,124 - INFO - Training Loss: 1.3863, Accuracy: 0.3043
+2024-11-22 18:51:36,125 - INFO - item time: 0.0090
+2024-11-22 18:51:42,437 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:51:42,438 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 18:51:42,438 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:51:42,438 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:51:42,439 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 18:51:42,439 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 18:51:42,439 - INFO - Epoch [27/50]
+2024-11-22 18:52:40,564 - INFO - Training Loss: 1.3863, Accuracy: 0.2991
+2024-11-22 18:52:40,565 - INFO - item time: 0.0091
+2024-11-22 18:52:46,844 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 18:52:46,844 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:52:46,844 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:52:46,845 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:52:46,845 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 18:52:46,845 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 18:52:46,846 - INFO - Epoch [28/50]
+2024-11-22 18:53:45,056 - INFO - Training Loss: 1.3863, Accuracy: 0.2576
+2024-11-22 18:53:45,056 - INFO - item time: 0.0091
+2024-11-22 18:53:51,410 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:53:51,410 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 18:53:51,411 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:53:51,411 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:53:51,412 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 18:53:51,412 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 18:53:51,412 - INFO - Epoch [29/50]
+2024-11-22 18:54:49,636 - INFO - Training Loss: 1.3863, Accuracy: 0.2255
+2024-11-22 18:54:49,636 - INFO - item time: 0.0091
+2024-11-22 18:54:55,797 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:54:55,798 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 18:54:55,798 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:54:55,799 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:54:55,799 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 18:54:55,799 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 18:54:55,800 - INFO - Epoch [30/50]
+2024-11-22 18:55:53,621 - INFO - Training Loss: 1.3863, Accuracy: 0.2404
+2024-11-22 18:55:53,622 - INFO - item time: 0.0090
+2024-11-22 18:55:59,846 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:55:59,846 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 18:55:59,847 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:55:59,847 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:55:59,847 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 18:55:59,848 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 18:55:59,848 - INFO - Epoch [31/50]
+2024-11-22 18:56:58,190 - INFO - Training Loss: 1.3863, Accuracy: 0.2553
+2024-11-22 18:56:58,190 - INFO - item time: 0.0091
+2024-11-22 18:57:04,462 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:57:04,462 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:57:04,463 - INFO - Class 2: Precision=0.0992, Recall=1.0000, F1 Score=0.1806
+2024-11-22 18:57:04,463 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:57:04,463 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 18:57:04,464 - INFO - Micro-Averaged Metrics: Precision=0.0992, Recall=0.0992, F1 Score=0.0992
+2024-11-22 18:57:04,464 - INFO - Epoch [32/50]
+2024-11-22 18:58:02,899 - INFO - Training Loss: 1.3863, Accuracy: 0.2054
+2024-11-22 18:58:02,900 - INFO - item time: 0.0091
+2024-11-22 18:58:09,124 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:58:09,125 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:58:09,125 - INFO - Class 2: Precision=0.0992, Recall=1.0000, F1 Score=0.1806
+2024-11-22 18:58:09,126 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:58:09,126 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 18:58:09,126 - INFO - Micro-Averaged Metrics: Precision=0.0992, Recall=0.0992, F1 Score=0.0992
+2024-11-22 18:58:09,127 - INFO - Epoch [33/50]
+2024-11-22 18:59:07,154 - INFO - Training Loss: 1.3863, Accuracy: 0.2644
+2024-11-22 18:59:07,154 - INFO - item time: 0.0090
+2024-11-22 18:59:13,435 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:59:13,436 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 18:59:13,436 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:59:13,436 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 18:59:13,437 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 18:59:13,437 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 18:59:13,437 - INFO - Epoch [34/50]
+2024-11-22 19:00:11,814 - INFO - Training Loss: 1.3863, Accuracy: 0.2343
+2024-11-22 19:00:11,815 - INFO - item time: 0.0091
+2024-11-22 19:00:18,082 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:00:18,083 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:00:18,083 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:00:18,084 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 19:00:18,084 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 19:00:18,084 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 19:00:18,085 - INFO - Epoch [35/50]
+2024-11-22 19:01:16,423 - INFO - Training Loss: 1.3863, Accuracy: 0.2268
+2024-11-22 19:01:16,423 - INFO - item time: 0.0091
+2024-11-22 19:01:22,617 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:01:22,617 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:01:22,618 - INFO - Class 2: Precision=0.0992, Recall=1.0000, F1 Score=0.1806
+2024-11-22 19:01:22,618 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:01:22,618 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 19:01:22,619 - INFO - Micro-Averaged Metrics: Precision=0.0992, Recall=0.0992, F1 Score=0.0992
+2024-11-22 19:01:22,619 - INFO - Epoch [36/50]
+2024-11-22 19:02:20,641 - INFO - Training Loss: 1.3863, Accuracy: 0.2783
+2024-11-22 19:02:20,642 - INFO - item time: 0.0090
+2024-11-22 19:02:26,935 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 19:02:26,936 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:02:26,936 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:02:26,936 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:02:26,937 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 19:02:26,937 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 19:02:26,937 - INFO - Epoch [37/50]
+2024-11-22 19:03:25,431 - INFO - Training Loss: 1.3863, Accuracy: 0.2353
+2024-11-22 19:03:25,432 - INFO - item time: 0.0091
+2024-11-22 19:03:31,704 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:03:31,705 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 19:03:31,705 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:03:31,706 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:03:31,706 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 19:03:31,706 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 19:03:31,707 - INFO - Epoch [38/50]
+2024-11-22 19:04:30,352 - INFO - Training Loss: 1.3863, Accuracy: 0.3170
+2024-11-22 19:04:30,352 - INFO - item time: 0.0091
+2024-11-22 19:04:37,368 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:04:37,368 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:04:37,368 - INFO - Class 2: Precision=0.0992, Recall=1.0000, F1 Score=0.1806
+2024-11-22 19:04:37,369 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:04:37,369 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 19:04:37,369 - INFO - Micro-Averaged Metrics: Precision=0.0992, Recall=0.0992, F1 Score=0.0992
+2024-11-22 19:04:37,370 - INFO - Epoch [39/50]
+2024-11-22 19:05:35,818 - INFO - Training Loss: 1.3863, Accuracy: 0.2727
+2024-11-22 19:05:35,819 - INFO - item time: 0.0091
+2024-11-22 19:05:42,114 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:05:42,114 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:05:42,114 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:05:42,115 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 19:05:42,115 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 19:05:42,115 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 19:05:42,116 - INFO - Epoch [40/50]
+2024-11-22 19:06:40,355 - INFO - Training Loss: 1.3863, Accuracy: 0.2890
+2024-11-22 19:06:40,355 - INFO - item time: 0.0091
+2024-11-22 19:06:46,621 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:06:46,622 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 19:06:46,622 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:06:46,622 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:06:46,622 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 19:06:46,623 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 19:06:46,623 - INFO - Epoch [41/50]
+2024-11-22 19:07:44,887 - INFO - Training Loss: 1.3863, Accuracy: 0.2964
+2024-11-22 19:07:44,888 - INFO - item time: 0.0091
+2024-11-22 19:07:51,147 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:07:51,148 - INFO - Class 1: Precision=0.0960, Recall=1.0000, F1 Score=0.1751
+2024-11-22 19:07:51,148 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:07:51,148 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:07:51,149 - INFO - Macro-Averaged Metrics: Precision=0.0240, Recall=0.2500, F1 Score=0.0438
+2024-11-22 19:07:51,149 - INFO - Micro-Averaged Metrics: Precision=0.0960, Recall=0.0960, F1 Score=0.0960
+2024-11-22 19:07:51,149 - INFO - Epoch [42/50]
+2024-11-22 19:08:49,548 - INFO - Training Loss: 1.3863, Accuracy: 0.2761
+2024-11-22 19:08:49,548 - INFO - item time: 0.0091
+2024-11-22 19:08:55,892 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:08:55,892 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:08:55,893 - INFO - Class 2: Precision=0.0992, Recall=1.0000, F1 Score=0.1806
+2024-11-22 19:08:55,893 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:08:55,893 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 19:08:55,894 - INFO - Micro-Averaged Metrics: Precision=0.0992, Recall=0.0992, F1 Score=0.0992
+2024-11-22 19:08:55,894 - INFO - Epoch [43/50]
+2024-11-22 19:09:53,758 - INFO - Training Loss: 1.3863, Accuracy: 0.2639
+2024-11-22 19:09:53,759 - INFO - item time: 0.0090
+2024-11-22 19:10:00,055 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:10:00,055 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:10:00,055 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:10:00,056 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 19:10:00,056 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 19:10:00,056 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 19:10:00,057 - INFO - Epoch [44/50]
+2024-11-22 19:10:58,981 - INFO - Training Loss: 1.3863, Accuracy: 0.2551
+2024-11-22 19:10:58,981 - INFO - item time: 0.0091
+2024-11-22 19:11:05,199 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 19:11:05,200 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:11:05,200 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:11:05,201 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:11:05,201 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 19:11:05,201 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 19:11:05,202 - INFO - Epoch [45/50]
+2024-11-22 19:12:03,961 - INFO - Training Loss: 1.3863, Accuracy: 0.2956
+2024-11-22 19:12:03,961 - INFO - item time: 0.0091
+2024-11-22 19:12:10,289 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:12:10,289 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:12:10,289 - INFO - Class 2: Precision=0.0992, Recall=1.0000, F1 Score=0.1806
+2024-11-22 19:12:10,290 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:12:10,290 - INFO - Macro-Averaged Metrics: Precision=0.0248, Recall=0.2500, F1 Score=0.0451
+2024-11-22 19:12:10,290 - INFO - Micro-Averaged Metrics: Precision=0.0992, Recall=0.0992, F1 Score=0.0992
+2024-11-22 19:12:10,291 - INFO - Epoch [46/50]
+2024-11-22 19:13:08,922 - INFO - Training Loss: 1.3863, Accuracy: 0.2817
+2024-11-22 19:13:08,923 - INFO - item time: 0.0091
+2024-11-22 19:13:15,199 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:13:15,199 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:13:15,199 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:13:15,200 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 19:13:15,200 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 19:13:15,200 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 19:13:15,201 - INFO - Epoch [47/50]
+2024-11-22 19:14:13,427 - INFO - Training Loss: 1.3863, Accuracy: 0.2962
+2024-11-22 19:14:13,427 - INFO - item time: 0.0091
+2024-11-22 19:14:19,662 - INFO - Class 0: Precision=0.6837, Recall=1.0000, F1 Score=0.8122
+2024-11-22 19:14:19,662 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:14:19,663 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:14:19,663 - INFO - Class 3: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:14:19,664 - INFO - Macro-Averaged Metrics: Precision=0.1709, Recall=0.2500, F1 Score=0.2030
+2024-11-22 19:14:19,664 - INFO - Micro-Averaged Metrics: Precision=0.6837, Recall=0.6837, F1 Score=0.6837
+2024-11-22 19:14:19,664 - INFO - Epoch [48/50]
+2024-11-22 19:15:17,628 - INFO - Training Loss: 1.3863, Accuracy: 0.2900
+2024-11-22 19:15:17,629 - INFO - item time: 0.0091
+2024-11-22 19:15:23,970 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:15:23,971 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:15:23,971 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:15:23,971 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 19:15:23,971 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 19:15:23,972 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 19:15:23,972 - INFO - Epoch [49/50]
+2024-11-22 19:16:22,047 - INFO - Training Loss: 1.3863, Accuracy: 0.2431
+2024-11-22 19:16:22,047 - INFO - item time: 0.0091
+2024-11-22 19:16:28,383 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:16:28,383 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:16:28,384 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:16:28,384 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 19:16:28,384 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 19:16:28,385 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 19:16:28,385 - INFO - Epoch [50/50]
+2024-11-22 19:17:26,871 - INFO - Training Loss: 1.3863, Accuracy: 0.2724
+2024-11-22 19:17:26,871 - INFO - item time: 0.0091
+2024-11-22 19:17:33,153 - INFO - Class 0: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:17:33,153 - INFO - Class 1: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:17:33,153 - INFO - Class 2: Precision=0.0000, Recall=0.0000, F1 Score=0.0000
+2024-11-22 19:17:33,154 - INFO - Class 3: Precision=0.1211, Recall=1.0000, F1 Score=0.2160
+2024-11-22 19:17:33,154 - INFO - Macro-Averaged Metrics: Precision=0.0303, Recall=0.2500, F1 Score=0.0540
+2024-11-22 19:17:33,154 - INFO - Micro-Averaged Metrics: Precision=0.1211, Recall=0.1211, F1 Score=0.1211
+2024-11-22 19:17:33,166 - INFO - Model saved at ./output/ablation_sincos_8head_conv15_log.txt_fold5_model.pth
+2024-11-22 19:17:33,167 - INFO - Final Metrics: Precision=0.1677, Recall=0.3291, F1 Score=0.1878
+2024-11-22 19:17:33,167 - INFO - Average item time: 0.0091

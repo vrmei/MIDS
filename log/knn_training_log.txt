@@ -1,0 +1,44 @@
+2024-11-22 12:19:24,488 - INFO - 
+Training fold 1/5
+2024-11-22 12:19:31,736 - INFO - Class weights: [0.36524884 2.61797376 2.52981183 2.06236846]
+2024-11-22 12:19:31,815 - INFO - KNN model trained successfully.
+2024-11-22 12:29:21,503 - INFO - 
+Training fold 1/1000
+2024-11-22 12:29:27,925 - INFO - Class weights: [0.36529066 2.61824119 2.52871572 2.06159844]
+2024-11-22 12:29:28,015 - INFO - KNN model trained successfully.
+2024-11-22 12:35:21,425 - INFO - Validation Accuracy: 0.6540
+2024-11-22 12:35:21,452 - INFO - Class 0: Precision=0.6950, Recall=0.9200, F1 Score=0.7918
+2024-11-22 12:35:21,452 - INFO - Class 1: Precision=0.2353, Recall=0.0585, F1 Score=0.0938
+2024-11-22 12:35:21,453 - INFO - Class 2: Precision=0.1765, Recall=0.0435, F1 Score=0.0698
+2024-11-22 12:35:21,453 - INFO - Class 3: Precision=0.2900, Recall=0.1036, F1 Score=0.1526
+2024-11-22 12:35:21,453 - INFO - Macro-Averaged Metrics: Precision=0.3492, Recall=0.2814, F1 Score=0.2770
+2024-11-22 12:35:21,477 - INFO - Micro-Averaged Metrics: Precision=0.6540, Recall=0.6540, F1 Score=0.6540
+2024-11-22 12:35:31,011 - INFO - KNN model saved at ./output/KNN_own_fold1_model.pkl
+2024-11-22 12:35:31,018 - INFO - 
+Training fold 2/1000
+2024-11-22 12:35:37,700 - INFO - Class weights: [0.3652909  2.61827853 2.52888991 2.0614518 ]
+2024-11-22 12:35:37,822 - INFO - KNN model trained successfully.
+2024-11-22 12:41:26,570 - INFO - Validation Accuracy: 0.6590
+2024-11-22 12:41:26,596 - INFO - Class 0: Precision=0.6992, Recall=0.9240, F1 Score=0.7960
+2024-11-22 12:41:26,597 - INFO - Class 1: Precision=0.2000, Recall=0.0481, F1 Score=0.0775
+2024-11-22 12:41:26,597 - INFO - Class 2: Precision=0.1333, Recall=0.0360, F1 Score=0.0567
+2024-11-22 12:41:26,597 - INFO - Class 3: Precision=0.3830, Recall=0.1379, F1 Score=0.2028
+2024-11-22 12:41:26,597 - INFO - Macro-Averaged Metrics: Precision=0.3539, Recall=0.2865, F1 Score=0.2833
+2024-11-22 12:41:26,621 - INFO - Micro-Averaged Metrics: Precision=0.6590, Recall=0.6590, F1 Score=0.6590
+2024-11-22 12:41:36,453 - INFO - KNN model saved at ./output/KNN_own_fold2_model.pkl
+2024-11-22 12:41:36,458 - INFO - 
+Training fold 3/1000
+2024-11-22 12:41:42,689 - INFO - Class weights: [0.36528533 2.61835323 2.5286925  2.06171422]
+2024-11-22 12:41:42,810 - INFO - KNN model trained successfully.
+2024-11-22 12:47:30,186 - INFO - Validation Accuracy: 0.6599
+2024-11-22 12:47:30,213 - INFO - Class 0: Precision=0.6982, Recall=0.9249, F1 Score=0.7957
+2024-11-22 12:47:30,213 - INFO - Class 1: Precision=0.2600, Recall=0.0607, F1 Score=0.0985
+2024-11-22 12:47:30,214 - INFO - Class 2: Precision=0.2979, Recall=0.0683, F1 Score=0.1111
+2024-11-22 12:47:30,214 - INFO - Class 3: Precision=0.3684, Recall=0.1661, F1 Score=0.2290
+2024-11-22 12:47:30,214 - INFO - Macro-Averaged Metrics: Precision=0.4061, Recall=0.3050, F1 Score=0.3086
+2024-11-22 12:47:30,241 - INFO - Micro-Averaged Metrics: Precision=0.6599, Recall=0.6599, F1 Score=0.6599
+2024-11-22 12:47:40,204 - INFO - KNN model saved at ./output/KNN_own_fold3_model.pkl
+2024-11-22 12:47:40,209 - INFO - 
+Training fold 4/1000
+2024-11-22 12:47:46,474 - INFO - Class weights: [0.36529938 2.61812915 2.52858799 2.06147495]
+2024-11-22 12:47:46,592 - INFO - KNN model trained successfully.

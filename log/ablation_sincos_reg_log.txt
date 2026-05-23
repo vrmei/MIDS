@@ -1,0 +1,29 @@
+2024-11-23 01:35:11,531 - INFO - 
+Training fold 1/5
+2024-11-23 01:46:03,650 - INFO - 
+Training fold 1/5
+2024-11-23 01:46:22,791 - INFO - Epoch [1/50]
+2024-11-23 01:47:17,767 - INFO - Training Loss: 0.8933, Accuracy: 0.3697
+2024-11-23 01:47:17,768 - INFO - item time: 0.0086
+2024-11-23 01:47:23,695 - INFO - Class 0: Precision=0.8863, Recall=0.2707, F1 Score=0.4147
+2024-11-23 01:47:23,696 - INFO - Class 1: Precision=0.3555, Recall=0.8768, F1 Score=0.5059
+2024-11-23 01:47:23,696 - INFO - Class 2: Precision=0.3346, Recall=0.8567, F1 Score=0.4813
+2024-11-23 01:47:23,697 - INFO - Class 3: Precision=0.3644, Recall=0.9065, F1 Score=0.5198
+2024-11-23 01:47:23,697 - INFO - Macro-Averaged Metrics: Precision=0.4852, Recall=0.7277, F1 Score=0.4804
+2024-11-23 01:47:23,697 - INFO - Micro-Averaged Metrics: Precision=0.4638, Recall=0.4638, F1 Score=0.4638
+2024-11-23 01:47:23,698 - INFO - Epoch [2/50]
+2024-11-23 01:51:05,675 - INFO - 
+Training fold 1/5
+2024-11-23 01:51:23,959 - INFO - Epoch [1/50]
+2024-11-23 01:52:15,517 - INFO - 
+Training fold 1/5
+2024-11-23 01:52:33,636 - INFO - Epoch [1/50]
+2024-11-23 01:59:54,997 - INFO - 
+Training fold 1/5
+2024-11-23 02:00:13,407 - INFO - Epoch [1/50]
+2024-11-23 02:01:01,822 - INFO - 
+Training fold 1/5
+2024-11-23 02:01:22,103 - INFO - Epoch [1/50]
+2024-11-23 02:03:23,402 - INFO - 
+Training fold 1/5
+2024-11-23 02:03:42,641 - INFO - Epoch [1/50]

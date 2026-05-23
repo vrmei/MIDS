@@ -1,0 +1,7 @@
+name: dcnn
+num_classes: 4
+window_length: 100
+num_features: 9
+stem_channels: 96
+n_res_blocks: 3
+dropout: 0.3

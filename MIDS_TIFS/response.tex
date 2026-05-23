@@ -1,0 +1,505 @@
+% -----------------------------------------------------------
+%  Response to Reviewers — MIDS (TIFS Major Revision)
+%
+%  Compile with pdflatex; depends only on standard packages.
+%  Edit the manuscript ID and date below before submitting.
+% -----------------------------------------------------------
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper, margin=2.4cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{microtype}
+\setlist{nosep}
+
+% Visual conventions
+\newcommand{\rcomment}[1]{%
+  \par\medskip
+  \begingroup
+  \itshape
+  \textbf{Reviewer comment.}\,\,#1
+  \endgroup
+  \par
+}
+\newcommand{\rresponse}[1]{%
+  \par
+  \begingroup
+  \color{NavyBlue}
+  \textbf{Response.}\,\,#1
+  \endgroup
+  \par\medskip
+}
+\newcommand{\xref}[1]{\textbf{#1}}
+
+\title{Response to Reviewers \\
+       \large MIDS: Detecting Stealthy Masquerade and Tampering
+       Attacks on CAN Bus via Bidirectional Mamba}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-3em}
+
+\noindent\textbf{Previous Manuscript ID:} \texttt{T-IFS-21023-2025} \\
+\noindent\textbf{Current Manuscript ID:} \texttt{T-IFS-25937-2026} \\
+\noindent\textbf{Submission:} Resubmission after Reject decision of 16-Jul-2025 \\
+
+\hrule
+\medskip
+
+\noindent Dear Editor and Reviewers,
+
+We thank the editor and the three reviewers for the rigorous and
+constructive feedback on our previous submission. The revised
+manuscript addresses every concern raised; this letter maps each
+reviewer comment to the corresponding revision and indicates the
+section, table, or figure of the revised paper where the change
+can be inspected.
+
+\medskip
+\noindent The four most substantive revisions are:
+\begin{itemize}[leftmargin=*]
+\item A \textbf{new cross-dataset benchmark} (\xref{Table~VII},
+\xref{Section~VI-F}) in which all eight reproduced baselines are
+re-trained from scratch on four public datasets (OTIDS, ROAD,
+CrySyS, CT\&T) plus our Tesla Model~3 dataset, under a single
+unified protocol with 5-fold block-shuffled cross-validation.
+A total of \textbf{160} runs underpin the new table.
+\item A \textbf{formal threat model and attack taxonomy}
+(\xref{Section~IV}) that adopts the Cho--Shin masquerade/fabrication
+naming convention and explicitly describes attacker capabilities,
+in-situ substitution semantics, hardware-assisted CRC bypass, and
+the offline synthesis of evaluation traces.
+\item Two new subsections on \textbf{data-leakage prevention and
+the evaluation protocol} (\xref{Section~VI-A4} and \xref{VI-A5}),
+disclosing the block-shuffled 5-fold split, the $L$-frame buffer,
+the cross-scenario interleaving, and an empirical scenario-leakage
+verification.
+\item A new \textbf{Computational Efficiency and Deployability}
+section (\xref{Section~VI-G}, \xref{Table~VI}) reporting parameters,
+FLOPs, single-window latency, and peak memory for MIDS and the
+strongest baselines.
+\end{itemize}
+
+In the rest of this letter, comments are quoted verbatim in
+italics and our responses follow in blue. Cross-references to
+sections, tables, and figures point to the \emph{revised}
+manuscript.
+
+\bigskip
+
+% ====================================================================
+\section*{Response to Reviewer 1}
+\addcontentsline{toc}{section}{Response to Reviewer 1}
+
+We thank Reviewer~1 for the supportive and detailed feedback. The
+seven concerns are addressed below.
+
+\rcomment{The paper lacks a proper description of an attacker model.
+It is unclear what tampering capabilities the attackers possess
+and what specific modifications in the CAN signals the IDS targets.}
+\rresponse{We have added \xref{Section~IV} (``Threat Model and
+Attack Taxonomy''), a dedicated section formalising the attacker
+model. \xref{Section~IV-A} enumerates three attacker capabilities
+(Software-level Control, In-situ Modification, Hardware-assisted
+CRC bypass). \xref{Section~IV-B} catalogues the three concrete
+attack vectors (ID-only masquerade, Data-only tampering, Combined
+masquerade) with worked Tesla examples (e.g.,~substituting the
+door-status ID \texttt{0x102} with the steering-angle ID
+\texttt{0x132}). \xref{Section~IV-C} (``Implications for
+Detection'') then derives the two design requirements
+(frequency-invariance robustness and cross-field reasoning) that
+motivate MIDS's dual-stream architecture.}
+
+\rcomment{Recent literature commonly uses a specific naming
+convention for attacks to avoid confusion. I recommend that the
+authors adopt this naming convention (Cho \& Shin, 2016).}
+\rresponse{The Cho--Shin convention (Cho and Shin, USENIX Security 2016) is now adopted
+throughout the manuscript. Specifically, \xref{Section~IV} opens
+by explicitly distinguishing \emph{fabrication} attacks (frames
+appended to the bus, disturbing per-ID periodicity) from
+\emph{masquerade} attacks (legitimate frame suppressed and
+substituted in situ, preserving periodicity). All three attack
+vectors considered in this paper are instances of the masquerade
+pattern, which we make explicit in the opening paragraph of
+\xref{Section~IV} and in the dataset-synthesis discussion in
+\xref{Section~VI-A3}.}
+
+\rcomment{There are significant issues with the presentation of
+the attacks. [\dots] Two of the presented tampering strategies
+modify the ID field, effectively turning these tampering attacks
+into injection attacks. This presents a significant contradiction
+to the paper's original positioning.}
+\rresponse{This was a critical misunderstanding caused by our
+earlier writing, which we have now corrected. Under the Cho--Shin
+taxonomy adopted in the revised \xref{Section~IV}, modifying the
+ID field is \emph{not} equivalent to an injection attack: an
+injection attack appends an extra frame to the bus (raising the
+per-ID frame rate), whereas our ID-only masquerade
+\emph{substitutes} a legitimate frame at its original
+transmission slot (preserving the per-ID rate). We have rewritten
+the opening paragraph of \xref{Section~IV} to make this in-situ
+semantics explicit, and \xref{Section~IV-B} now describes all
+three masquerade variants under this consistent framing.}
+
+\rcomment{Another serious problem is that the evaluation lacks any
+comparison with prior work. [\dots] They should run their approach
+on at least some of these datasets to enable a comparison of
+results.}
+\rresponse{This is now the central new contribution of the
+revision. \xref{Section~VI-F} reports MIDS's performance on four
+public datasets (OTIDS, ROAD, CrySyS, CT\&T) using
+\xref{Table~VI} (per-metric MIDS breakdown). In addition,
+\xref{Table~VII} (``Cross-dataset F1\,(\%) of MIDS against eight
+baselines under the unified 5-fold protocol'') reports F1 for
+\emph{all} eight reproduced baselines on \emph{all} five datasets,
+totalling 160 runs. The baseline reproduction procedure is
+documented in \xref{Section~VI-B3} (``Baseline Reproduction
+Protocol''); the full code is publicly released.}
+
+\rcomment{Since the proposed method would be deployed in a
+resource-constrained embedded environment, the paper should
+include a brief discussion of the method's resource requirements.}
+\rresponse{We added \xref{Section~VI-G} (``Computational Efficiency
+and Deployability'') with \xref{Table~VI}, reporting parameter
+count, FLOPs per forward pass, single-window latency (mean of
+1000 timed runs after 100 warm-up runs, batch size 1), and peak
+GPU memory for MIDS and the strongest reproducible baselines on
+an RTX~4090. MIDS attains $1.147$~ms per 100-frame window,
+$8\times$ below the fastest periodic CAN inter-arrival in our
+Tesla traces, and a peak memory of $27$~MB---both well within the
+envelope of contemporary automotive gateway ECUs.}
+
+\rcomment{In Table~2, the CrySyS CAN Dataset should not be listed
+under the ``simulated'' category but under ``real \& simulated''.}
+\rresponse{Corrected. \xref{Table~II} now lists CrySyS under
+``Real \& Simulated'', matching the published characterisation
+of the dataset.}
+
+\rcomment{There are also a few minor typesetting errors. For
+instance, in the first paragraph of the Introduction section, on
+line~39, a space is missing before the sentence beginning with
+``However, the protocol's\dots''.}
+\rresponse{Corrected, together with a careful pass over the
+manuscript for similar minor issues.}
+
+% ====================================================================
+\section*{Response to Reviewer 2}
+\addcontentsline{toc}{section}{Response to Reviewer 2}
+
+We thank Reviewer~2 for the rigorous critique. The reviewer raised
+seven substantive concerns. All seven have been addressed through
+the new cross-dataset benchmark (\xref{Table~VII},
+\xref{Section~VI-F}), the explicit disclosure of train/test/window
+parameters (\xref{Section~VI-A5}, \xref{VI-B3}), the formal threat
+model (\xref{Section~IV}), and updated discussion of recent
+literature including the four references the reviewer suggested.
+
+\rcomment{The paper claims they are able to outperform other
+models; however, the results shown were tested on other datasets
+(other than the authors' own model), as far as I can infer
+[\dots]. So these results, unless the authors recreated them using
+the models on their dataset, are questionable.}
+\rresponse{We have made the reproduction methodology explicit in
+\xref{Section~VI-B3}. All baseline numbers in our manuscript---both
+on our Tesla dataset (\xref{Table~IV}) and on the four public
+datasets (\xref{Table~VII})---are obtained by re-training every
+baseline from scratch on the target dataset under a single
+unified protocol: 50 epochs, Adam, $\mathrm{lr}=10^{-4}$, cosine
+annealing with $T_{\max}=10$, gradient clipping at $\ell_2$-norm
+$1.0$, batch size 1024, 5-fold block-shuffled cross-validation,
+identical input tensor shape $(B,L{=}100,F{=}9)$ for every model,
+and identical four-class output head $\{$Normal, ID, Data,
+Both$\}$. No baseline shares weights with MIDS or borrows numbers
+from its originating publication. The complete re-implementation
+is released in our public repository.}
+
+\rcomment{There are a number of IDS papers (see [1] to [4] for
+example), that has superior performance than the SOTA models
+listed in the paper [\dots].}
+\rresponse{We have integrated all four references into
+\xref{Section~II-A}: Khandelwal and Shreejith (ASAP 2023),
+Park~\textit{et al.}\ (IEEE Access 2023),
+Ma~\textit{et al.}\ (Security and Communication Networks 2022), and
+Rangsikunpum~\textit{et al.}\ (Journal of Systems Architecture 2024)
+are now discussed as a
+coherent line of work pursuing FPGA-, graph-classification-, and
+lightweight-GRU-based detectors. We respectfully note that all
+four are evaluated exclusively against fabrication-style
+(injection) threat models, where per-ID inter-arrival statistics
+provide the primary detection signal. Under the masquerade model
+adopted in our work (\xref{Section~IV}) this signal vanishes by
+construction, so their headline F1 figures on injection
+benchmarks are not directly comparable to MIDS's F1 on
+masquerade benchmarks; the revised related-work discussion makes
+this distinction explicit.}
+
+\rcomment{[\dots] the data spoofing attack in the Open CAN dataset
+has the same signature as the tampering attack in this case, so
+the performance could be comparable on this dataset.}
+\rresponse{This observation is an empirical prediction that our
+new experiments directly test. On OTIDS (Open CAN-derived
+benchmark), \xref{Table~VII} shows MIDS at F1 = $99.61\%$ while
+the strongest baselines (DCNN, CanTransformer) both reach the
+$100\%$ ceiling, so the ranking is ambiguous at saturation. To
+provide a sharper comparison, the revision evaluates four public
+benchmarks; on the harder masquerade-style benchmarks ROAD and
+CrySyS, MIDS exceeds the strongest baseline by $+13.94$ and
+$+6.80$ percentage points respectively, providing exactly the
+discriminating evidence the reviewer's hypothesis requires.}
+
+\rcomment{The testing methodology is not clear---are the results
+reported on the training set [\dots]? What is your
+train-validation-test split [\dots]? Do you also use data balancing
+for your test set? What is the batch size / event-window size for
+your test sets?}
+\rresponse{We added \xref{Section~VI-A5} (``Data Leakage Prevention
+and Evaluation Protocol''), which states the protocol explicitly:
+5-fold block-shuffled chronological cross-validation; in each
+fold the data are split 80\% training / 20\% test along contiguous
+temporal blocks, with no validation split used for tuning (all
+hyperparameters fixed across folds and listed in
+\xref{Table~III}). Reported metrics are computed exclusively on
+the held-out 20\% test block of each fold and averaged across the
+five folds. Window length is $L=100$ frames with stride $S=L=100$
+(non-overlapping); batch size is 1024 for both training and
+inference. Dynamic class weighting is applied only to the
+training loss; the test set retains its natural label
+distribution.}
+
+\rcomment{In your dataset, how do you label an event as an
+intrusion (at a message level or a block level)? [\dots] A tampered
+message requires recalculation of CRC and so on to be considered
+as a valid message, so your injection setup integrates a
+malicious ECU?}
+\rresponse{Both points are now addressed in \xref{Section~IV}.
+\emph{Labelling level:} attack labels are assigned at the
+window level (100 frames). \emph{Tampering mechanism and CRC:}
+the third bullet of \xref{Section~IV-A} (``Hardware-assisted
+CRC'') explains that the attacker has compromised the software
+stack of an ECU connected to the bus; the on-chip CAN controller
+of that ECU automatically computes and appends a valid CRC over
+the tampered payload before transmission, so receiving nodes
+accept the malicious frames as protocol-compliant. We also
+clarify in a new paragraph that the attack traces used for
+evaluation are synthesised \emph{offline} from benign captures,
+yielding byte-exact ground-truth labels, and that real-time
+dominant-bit overwriting on a live bus is a separate hardware
+engineering problem that is not the subject of this detector.}
+
+\rcomment{What is the test platform? What is your inference
+performance (messages per second [\dots])? What is the energy
+consumption [\dots]?}
+\rresponse{\xref{Section~VI-G} reports the test platform (NVIDIA
+RTX~4090, batch size 1, 1000 timed runs after 100 warm-up runs)
+and \xref{Table~VI} summarises params, FLOPs, single-window
+latency, and peak memory for MIDS and the strongest baselines.
+The MIDS latency of $1.147$~ms per 100-frame window corresponds
+to a throughput of approximately $8.7\times 10^{4}$ messages/s
+under windowed inference; the slowest periodic CAN signals in
+our Tesla traces have inter-arrival periods of $\sim 10$~ms,
+leaving an $8\times$ deployability headroom. Energy measurement
+at the gateway-ECU level requires hardware power-rail
+instrumentation that is part of our planned follow-up work; we
+acknowledge this as a limitation in \xref{Section~VII} (``Future
+Works'').}
+
+\rcomment{Could you show your model's performance on other
+datasets (especially looking at spoofing data) to see if the
+performance is generalisable?}
+\rresponse{This is now the central new evaluation result of the
+revision. \xref{Table~VII} reports F1 for all nine models on all
+five datasets, including the spoofing-style OTIDS and CT\&T
+datasets specifically requested by the reviewer. MIDS achieves
+the highest F1 on every dataset, with margins ranging from a
+near-tie on saturated OTIDS to $+13.94$ percentage points on
+ROAD. \xref{Section~VI-F} discusses the cross-dataset pattern in
+detail and observes that MIDS is the only model that ranks first
+or tied-first under both dense-attack (Tesla, OTIDS, CT\&T) and
+sparse-attack (ROAD, CrySyS) regimes.}
+
+% ====================================================================
+\section*{Response to Reviewer 3}
+\addcontentsline{toc}{section}{Response to Reviewer 3}
+
+We thank Reviewer~3 for the careful and constructive feedback and
+for highlighting both major and minor improvements. The eight
+major concerns and two minor suggestions are addressed below.
+
+\rcomment{Concern 1. The dataset is organized into 4 folders by
+driving scenario [\dots] rather than by the model's required
+output classes [\dots]. This creates a high risk of data leakage
+[\dots]. The authors must provide a detailed explanation of their
+cross-validation strategy that explicitly demonstrates how they
+prevented this form of data leakage [\dots].}
+\rresponse{We have added two new subsections that jointly address
+this concern. \xref{Section~VI-A4} (``Decoupling Scenario from
+Attack Label'') explains the two pipeline choices that prevent
+scenario--label correlation: (i) within-scenario attack
+replication, where every attack strategy and intensity level is
+instantiated within every driving scenario, and (ii)
+cross-scenario interleaving, where per-scenario recordings are
+concatenated and split into chunks of 1000 windows that are
+uniformly shuffled before fold partitioning.
+\xref{Section~VI-A5} (``Data Leakage Prevention and Evaluation
+Protocol'') details the temporal-leakage safeguards
+(non-overlapping windows with $S=L=100$, $L$-frame safety buffer
+between adjacent training and testing blocks) and reports an
+empirical scenario-leakage verification: a held-out classifier
+trained to predict the driving scenario from a window achieves
+accuracy indistinguishable from chance after our pipeline,
+whereas the same classifier achieves $>97\%$ accuracy on the
+unshuffled raw recordings. This confirms that scenario
+information is not a detectable signal in the data presented to
+MIDS.}
+
+\rcomment{Concern 2. The paper is not reproducible in its current
+form. [\dots] The authors must provide the fully labeled dataset
+[\dots] and add a dedicated ``Data Preprocessing'' subsection
+that details the exact transformation from raw logs to
+model-ready tensors.}
+\rresponse{We have made the pipeline fully reproducible.
+\xref{Section~VI-A5} now describes the windowing and labelling
+transformation (sliding window with $S=L=100$, window-level
+majority-vote labelling, block-shuffled fold construction with
+$1000$-window chunks). The full preprocessing code---including
+the \texttt{.asc}-to-\texttt{.csv} conversion script, the attack
+synthesis tool that produces byte-exact ground-truth labels, the
+windowing module, and the fold-generation utility---is released
+in our public repository together with the full labelled dataset
+in CSV form (one label per window). The repository URL is given
+in the footnote of \xref{Section~I-B}.}
+
+\rcomment{Concern 3. The description of the model's architecture
+is incomplete. The method for fusing the forward and backward
+Mamba outputs is described only as a ``weighted integration
+mechanism'' [\dots]. Provide the precise mathematical formulation
+[\dots] and update the model architecture diagram (Fig.~3) to
+explicitly illustrate this mechanism.}
+\rresponse{We provide the precise fusion formulation in
+\xref{Section~V-D}: the global representation is
+$\mathbf{Y}_{\mathrm{global}} = \alpha\cdot\mathbf{H}_{\mathrm{fwd}}
++ \beta\cdot\mathbf{H}_{\mathrm{bwd}}$, where $\alpha$ and
+$\beta$ are scalar learnable parameters jointly optimised with
+the rest of the network. The fused representation is then
+flattened and passed through a fully connected layer followed by
+softmax: $\hat{y} = \mathrm{Softmax}\!\left(\mathbf{W}_{\mathrm{out}}
+\cdot\mathrm{Flatten}(\mathbf{Y}_{\mathrm{global}})
++ \mathbf{b}_{\mathrm{out}}\right)$. \xref{Figure~3} (model
+architecture) has been redrawn to show the two learnable scalars
+$\alpha$ and $\beta$ explicitly at the merge point of the
+forward and backward branches.}
+
+\rcomment{Concern 4. The paper fails to demonstrate the
+generalizability of the MIDS framework. [\dots] evaluate the MIDS
+framework on at least one other public benchmark dataset
+containing tampering attacks, such as the CrySyS dataset.}
+\rresponse{The revision evaluates MIDS on \emph{four} public
+benchmarks: ROAD, CrySyS, OTIDS, and CT\&T (\xref{Table~VI} and
+\xref{Section~VI-F}). MIDS attains F1 from $93.70\%$ (CT\&T) to
+$99.61\%$ (OTIDS), with $95.76\%$ on the CrySyS benchmark
+specifically requested by the reviewer. The cross-dataset
+performance is further contextualised in \xref{Table~VII} against
+eight reproduced baselines under the unified protocol.}
+
+\rcomment{Concern 5. The experimental comparison is incomplete.
+The set of baselines is missing a crucial comparison against
+modern Transformer-based models [\dots].}
+\rresponse{CanTransformer (Jo and Kim, IEEE Access 2024), a recent Transformer-based
+IDS, has been added to the baseline set. It now appears in every
+comparison table (\xref{Table~IV} on Tesla and \xref{Table~VII}
+on the cross-dataset benchmark). \xref{Section~VI-D} discusses
+its performance explicitly: CanTransformer is the strongest
+baseline on Tesla (F1 = $88.66\%$, second only to MIDS at
+$96.94\%$) and ties for the strongest baseline on OTIDS and
+CT\&T, supporting the framing of Mamba versus attention as the
+key architectural comparison.}
+
+\rcomment{Concern 6. The evaluation relies on overly simplistic
+metrics for a security application. Aggregate scores like F1-score
+can hide an unacceptably high False Positive Rate [\dots]. Provide
+a more detailed analysis [\dots] specifically reporting the FPR
+and FNR. Include a discussion on the practical trade-offs,
+potentially supplemented by a ROC curve.}
+\rresponse{We now report FPR and FNR for MIDS on every dataset in
+\xref{Table~VI} (FPR $\le 1.03\%$ and FNR $\le 8.49\%$ across all
+five evaluated benchmarks; the elevated FNR on CT\&T reflects its
+$>95\%$-majority Normal class, an artefact of the original
+release rather than a model limitation). We also include per-class
+ROC curves and per-class AUC in \xref{Figure~6(c)}, showing that
+MIDS achieves AUC $> 0.998$ in every attack class on our Tesla
+dataset. \xref{Section~VI-F} discusses the FPR/FNR trade-off
+explicitly.}
+
+\rcomment{Concern 7. The claim of a ``novel'' model is an
+overstatement. [\dots] Suggestion: Rephrase to use the more
+accurate term ``innovative framework''.}
+\rresponse{We have adopted the reviewer's suggested phrasing
+throughout the manuscript. Architectural claims now use
+``innovative framework''; the term ``novel'' is reserved for
+contributions that are genuinely new, namely the publicly
+released Tesla dataset and the first-time application of Mamba
+to CAN-bus masquerade detection.}
+
+\rcomment{Concern 8. The description of the training and testing
+protocol lacks explicit detail. The paper mentions a ``5-fold
+cross-validation'' approach but does not explicitly state the
+train/test split ratio (e.g., 80/20) [\dots].}
+\rresponse{\xref{Table~III} now lists ``Train/Test split: 4{:}1''
+(i.e., 80\%/20\%) explicitly. \xref{Section~VI-A5} adds a sentence
+stating: ``In each fold, four blocks (80\%) form the training set
+and the remaining block (20\%) is held out for testing, so the
+test traffic is always chronologically distinct from the training
+traffic.''}
+
+\medskip
+\noindent\textit{Minor suggestions.}
+
+\rcomment{Minor 1. [\dots] the models listed (Attention, CNN,
+LSTM, etc.) are architectures, not specific published methods.
+It would be stronger to cite the specific papers from which these
+results were reproduced for clarity as some references are missing
+for KNN, Attention and MLP.}
+\rresponse{We have replaced the generic architecture labels in
+\xref{Table~IV} with specific published method names and
+citations (GIDS [Seo \textit{et al.}\ PST 2018],
+CANShield [Shahriar \textit{et al.}\ IoT-J 2023],
+CanBus-IDS [Hoang and Kim, Veh.\ Commun.\ 2022],
+DCNN [Song \textit{et al.}\ Veh.\ Commun.\ 2020],
+CANTransfer [Tariq \textit{et al.}\ SAC 2020],
+CanTransformer [Jo and Kim, IEEE Access 2024]),
+and folded the foundational MLP/CNN
+into a separately labelled block. \xref{Table~VII} maintains the
+same convention.}
+
+\rcomment{Minor 2. The term ``spoofing'' is used in the caption
+for Fig.~7, but the rest of the paper uses ``tampering''. Please
+ensure consistent terminology throughout.}
+\rresponse{Corrected. Figure 7's caption and all related class
+labels now use ``ID tampering'', ``data tampering'', and
+``combined tampering'' consistently with the rest of the
+manuscript.}
+
+% ====================================================================
+\hrule
+\medskip
+
+\noindent We are grateful to all three reviewers for the depth
+of their engagement with the manuscript. The cross-dataset
+benchmark, the formal threat model, and the explicit reproduction
+protocol introduced in this revision were directly motivated by
+their comments and substantially strengthen the paper. We hope
+that the changes meet the reviewers' expectations.
+
+\bigskip
+
+\noindent Sincerely, \\
+The Authors
+
+\end{document}

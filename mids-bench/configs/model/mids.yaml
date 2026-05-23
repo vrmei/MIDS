@@ -1,0 +1,22 @@
+# MIDS model hyperparameters (Table II of the paper, with the
+# asymmetric Mamba dims that the original code actually used).
+
+name: mids
+num_classes: 4
+window_length: 100
+num_features: 9
+embed_dim: 256
+hidden_dim: 128
+dropout: 0.3
+
+# Forward Mamba: heavier (state=16, conv=4) since causal dependencies
+# dominate. Backward Mamba: lighter (state=8, conv=2) — it's a
+# regulariser more than a primary stream.
+mamba_fwd_state: 16
+mamba_fwd_conv: 4
+mamba_bwd_state: 8
+mamba_bwd_conv: 2
+mamba_expand: 2
+
+conv_kernel_size: 3
+conv_padding: 1

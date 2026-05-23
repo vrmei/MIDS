@@ -1,0 +1,718 @@
+% =====================================================================
+% MIDS .bib (cleaned)
+%
+% Changes from previous version:
+%  - REMOVED  b3   (Cho & Shin 2016)            -> merged into b37
+%  - REMOVED  b8   (Gazdag MITM)                -> duplicate of b61
+%  - REMOVED  b36  (Song time intervals 2016)   -> duplicate of b16
+%  - REMOVED  b44  (DivaCAN)                    -> duplicate of b10
+%  - REMOVED  cho2016fingerprinting             -> merged into b37
+%  - REPLACED b37 entry: was Larson 2008, now Cho & Shin 2016
+%               (all existing \cite{b37} call sites in the paper are
+%                semantically about Cho & Shin, so this fix is safe.)
+%  - RENAMED  khandelwal2023fpga -> b62
+%             rangsikunpum2024bids -> b63
+%             park2023gidcs -> b64
+%             ma2022gru -> b65
+%
+% Net: the paper text now needs only a few minor cite-key updates:
+%   1) line 118 \cite{b36, b39, b40, b41, b3, b47}
+%      -> \cite{b39, b40, b41, b47}
+%   2) line 215 \cite{cho2016fingerprinting}  -> \cite{b37}
+%   3) line 124-132 R2 four refs: rename the four named keys to b62-b65
+% =====================================================================
+
+@inproceedings{b1,
+    author = {Stephen Checkoway and Damon McCoy and Brian Kantor and Danny Anderson and Hovav Shacham and Stefan Savage and Karl Koscher and Alexei Czeskis and Franziska Roesner and Tadayoshi Kohno},
+    title = {Comprehensive Experimental Analyses of Automotive Attack Surfaces},
+    booktitle = {20th USENIX Security Symposium (USENIX Security 11)},
+    year = {2011},
+    address = {San Francisco, CA},
+    url = {https://www.usenix.org/conference/usenix-security-11/comprehensive-experimental-analyses-automotive-attack-surfaces},
+    publisher = {USENIX Association},
+    month = aug
+}
+
+@inproceedings{b2,
+  author       = {Chung{-}Wei Lin and
+                  Alberto L. Sangiovanni{-}Vincentelli},
+  title        = {Cyber-Security for the Controller Area Network {(CAN)} Communication
+                  Protocol},
+  booktitle    = {2012 {ASE} International Conference on Cyber Security, Alexandria,
+                  VA, USA, December 14-16, 2012},
+  pages        = {1--7},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2012},
+  url          = {https://doi.org/10.1109/CyberSecurity.2012.7},
+  doi          = {10.1109/CYBERSECURITY.2012.7}
+}
+
+@inproceedings{b5,
+  author       = {Qiyan Wang and Sanjay Sawhney},
+  title        = {VeCure: {A} practical security framework to protect the {CAN} bus
+                  of vehicles},
+  booktitle    = {4th International Conference on the Internet of Things, {IOT} 2014,
+                  Cambridge, MA, USA, October 6-8, 2014},
+  pages        = {13--18},
+  publisher    = {{IEEE}},
+  year         = {2014},
+  url          = {https://doi.org/10.1109/IOT.2014.7030108},
+  doi          = {10.1109/IOT.2014.7030108}
+}
+
+@INPROCEEDINGS{b6,
+  author={Koscher, Karl and Czeskis, Alexei and Roesner, Franziska and Patel, Shwetak and Kohno, Tadayoshi and Checkoway, Stephen and McCoy, Damon and Kantor, Brian and Anderson, Danny and Shacham, Hovav and Savage, Stefan},
+  booktitle={2010 IEEE Symposium on Security and Privacy},
+  title={Experimental Security Analysis of a Modern Automobile},
+  year={2010},
+  pages={447-462},
+  doi={10.1109/SP.2010.34}
+}
+
+@article{b7,
+  author    = {Miller, C. and Valasek, C.},
+  title     = {Adventures in automotive networks and control units},
+  booktitle = {Technical report, IOActive},
+  year      = {2013}
+}
+
+@INPROCEEDINGS{b9,
+  author    = {Miller, C. and Valasek, C.},
+  booktitle = {IOActive Labs Research},
+  title     = {A Survey of Remote Automotive Attack Surfaces},
+  year      = {2014}
+}
+
+@article{b10,
+  author       = {Muneeb Hassan Khan and
+                  Abdul Rehman Javed and
+                  Zafar Iqbal and
+                  Muhammad Asim and
+                  Ali Ismail Awad},
+  title        = {DivaCAN: Detecting in-vehicle intrusion attacks on a controller area
+                  network using ensemble learning},
+  journal      = {Comput. Secur.},
+  volume       = {139},
+  pages        = {103712},
+  year         = {2024},
+  url          = {https://doi.org/10.1016/j.cose.2024.103712},
+  doi          = {10.1016/J.COSE.2024.103712}
+}
+
+@article{b11,
+  author       = {Bifta Sama Bari and Kumar Yelamarthi and Sheikh Ghafoor},
+  title        = {Intrusion Detection in Vehicle Controller Area Network {(CAN)} Bus
+                  Using Machine Learning: {A} Comparative Performance Study},
+  journal      = {Sensors},
+  volume       = {23},
+  number       = {7},
+  pages        = {3610},
+  year         = {2023},
+  doi          = {10.3390/S23073610}
+}
+
+@article{b12,
+  author       = {Yehua Wei and Can Cheng and Guoqi Xie},
+  title        = {{OFIDS}: Online Learning-Enabled and Fingerprint-Based Intrusion
+                  Detection System in Controller Area Networks},
+  journal      = {{IEEE} Trans. Dependable Secur. Comput.},
+  volume       = {20},
+  number       = {6},
+  pages        = {4607--4620},
+  year         = {2023},
+  doi          = {10.1109/TDSC.2022.3230501}
+}
+
+@article{b13,
+  author       = {Hengrun Zhang and Kai Zeng and Shuai Lin},
+  title        = {Federated Graph Neural Network for Fast Anomaly Detection in Controller
+                  Area Networks},
+  journal      = {{IEEE} Trans. Inf. Forensics Secur.},
+  volume       = {18},
+  pages        = {1566--1579},
+  year         = {2023},
+  doi          = {10.1109/TIFS.2023.3240291}
+}
+
+@article{b14,
+  author       = {Mubark Jedh and Lotfi Ben Othmane and Noor Ahmed and Bharat K. Bhargava},
+  title        = {Detection of Message Injection Attacks onto the {CAN} Bus using Similarity
+                  of Successive Messages-Sequence Graphs},
+  journal      = {CoRR},
+  volume       = {abs/2104.03763},
+  year         = {2021},
+  eprinttype   = {arXiv},
+  eprint       = {2104.03763}
+}
+
+@article{b15,
+  author       = {Riadul Islam and Rafi Ud Daula Refat and Sai Manikanta Yerram and Hafiz Malik},
+  title        = {Graph-Based Intrusion Detection System for Controller Area Networks},
+  journal      = {{IEEE} Trans. Intell. Transp. Syst.},
+  volume       = {23},
+  number       = {3},
+  pages        = {1727--1736},
+  year         = {2022},
+  doi          = {10.1109/TITS.2020.3025685}
+}
+
+@inproceedings{b16,
+  author       = {Hyun Min Song and Ha Rang Kim and Huy Kang Kim},
+  title        = {Intrusion detection system based on the analysis of time intervals
+                  of {CAN} messages for in-vehicle network},
+  booktitle    = {2016 International Conference on Information Networking, {ICOIN} 2016,
+                  Kota Kinabalu, Malaysia, January 13-15, 2016},
+  pages        = {63--68},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2016},
+  doi          = {10.1109/ICOIN.2016.7427089}
+}
+
+@article{b17,
+  author       = {Bogdan Groza and Pal{-}Stefan Murvay},
+  title        = {Efficient Intrusion Detection With Bloom Filtering in Controller Area
+                  Networks},
+  journal      = {{IEEE} Trans. Inf. Forensics Secur.},
+  volume       = {14},
+  number       = {4},
+  pages        = {1037--1051},
+  year         = {2019},
+  doi          = {10.1109/TIFS.2018.2869351}
+}
+
+@article{b18,
+  author = {H. M. Song and H. K. Kim},
+  title  = {Can Signal Extraction and Translation Dataset.},
+  url    = {https://ocslab.hksecurity.net/Datasets/can-signal-extraction-and-translation-dataset}
+}
+
+@article{b19,
+  author  = {Kang, Min-Joo and Kang, Je-Won},
+  title   = {Intrusion Detection System Using Deep Neural Network for In-Vehicle Network Security},
+  journal = {PLoS ONE},
+  volume  = {11},
+  number  = {6},
+  pages   = {e0155781},
+  year    = {2016},
+  doi     = {10.1371/journal.pone.0155781}
+}
+
+@inproceedings{b20,
+  author       = {Hyunsung Lee and Seong Hoon Jeong and Huy Kang Kim},
+  title        = {{OTIDS}: A Novel Intrusion Detection System for In-vehicle Network
+                  by Using Remote Frame},
+  booktitle    = {15th Annual Conference on Privacy, Security and Trust, {PST} 2017,
+                  Calgary, AB, Canada, August 28-30, 2017},
+  pages        = {57--66},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2017},
+  doi          = {10.1109/PST.2017.00017}
+}
+
+@article{b21,
+  author       = {Eunbi Seo and Hyun Min Song and Huy Kang Kim},
+  title        = {{GIDS}: {GAN} based Intrusion Detection System for In-Vehicle Network},
+  journal      = {CoRR},
+  volume       = {abs/1907.07377},
+  year         = {2019},
+  eprinttype   = {arXiv},
+  eprint       = {1907.07377}
+}
+
+@inproceedings{b22,
+  author       = {Christian Kaiser and Andreas Festl and Gernot Pucher and
+                  Michael Fellmann and Alexander Stocker},
+  title        = {The Vehicle Data Value Chain as a Lightweight Model to Describe Digital
+                  Vehicle Services},
+  booktitle    = {Proceedings of the 15th International Conference on Web Information
+                  Systems and Technologies, {WEBIST} 2019, Vienna, Austria, September
+                  18-20, 2019},
+  pages        = {68--79},
+  publisher    = {ScitePress},
+  year         = {2019},
+  doi          = {10.5220/0008113200680079}
+}
+
+@INPROCEEDINGS{b23,
+  author    = {Stabili, Dario and Marchetti, Mirco},
+  booktitle = {2019 IEEE 90th Vehicular Technology Conference (VTC2019-Fall)},
+  title     = {Detection of Missing CAN Messages through Inter-Arrival Time Analysis},
+  year      = {2019},
+  pages     = {1-7},
+  doi       = {10.1109/VTCFall.2019.8891068}
+}
+
+@inproceedings{b24,
+  author       = {Dupont, G. and Lekidis, A. and den Hartog, J. I. and Etalle, S.},
+  title        = {Automotive Controller Area Network (CAN) Bus Intrusion Dataset v2},
+  booktitle    = {4TU.Centre for Research Data},
+  pages        = {14},
+  year         = {2019},
+  url          = {https://doi.org/10.4121/UUID:B74B4928-C377-4585-9432-2004DFA20A5D}
+}
+
+@misc{b25,
+  doi     = {10.21227/24m9-a446},
+  author  = {Sami, Muhammad},
+  journal = {IEEE Dataport},
+  title   = {Intrusion Detection in CAN bus},
+  year    = {2019}
+}
+
+@article{b26,
+  title   = {ReCAN -- Dataset for reverse engineering of Controller Area Networks},
+  journal = {Data in Brief},
+  volume  = {29},
+  pages   = {105149},
+  year    = {2020},
+  issn    = {2352-3409},
+  doi     = {https://doi.org/10.1016/j.dib.2020.105149},
+  author  = {Mattia Zago and Stefano Longari and Andrea Tricarico and Michele Carminati and Manuel {Gil P{\'e}rez} and Gregorio {Mart{\'\i}nez P{\'e}rez} and Stefano Zanero}
+}
+
+@ARTICLE{b27,
+  author  = {Hanselmann, Markus and Strauss, Thilo and Dormann, Katharina and Ulmer, Holger},
+  journal = {IEEE Access},
+  title   = {{CANet}: An Unsupervised Intrusion Detection System for High Dimensional CAN Bus Data},
+  year    = {2020},
+  volume  = {8},
+  pages   = {58194-58205},
+  doi     = {10.1109/ACCESS.2020.2982544}
+}
+
+@INPROCEEDINGS{b28,
+  author    = {Lampe, Brooke and Meng, Weizhi},
+  booktitle = {2023 IEEE 98th Vehicular Technology Conference (VTC2023-Fall)},
+  title     = {can-train-and-test: A New CAN Intrusion Detection Dataset},
+  year      = {2023},
+  pages     = {1-7},
+  doi       = {10.1109/VTC2023-Fall60731.2023.10333756}
+}
+
+@inproceedings{b29,
+  title     = {Car hacking and defense competition on in-vehicle network},
+  author    = {Kang, Hyunjae and Kwak, Byung Il and Lee, Young Hun and Lee, Haneol and Lee, Hwejae and Kim, Huy Kang},
+  booktitle = {Workshop on Automotive and Autonomous Vehicle Security (AutoSec)},
+  volume    = {2021},
+  pages     = {25},
+  year      = {2021}
+}
+
+@misc{b30,
+  author = {University of Turku},
+  title  = {CAN bus dataset collected from a heavy-duty truck},
+  url    = {https://doi.org/10.23729/3160254e-85e9-4268-a636-5b3e54091706},
+  month  = {5},
+  year   = {2021}
+}
+
+@article{b31,
+  author    = {Dario Stabili and Luca Ferretti and Mauro Andreolini and Mirco Marchetti},
+  title     = {{DAGA}: Detecting Attacks to In-Vehicle Networks via N-Gram Analysis},
+  journal   = {{IEEE} Trans. Veh. Technol.},
+  volume    = {71},
+  number    = {11},
+  pages     = {11540--11554},
+  year      = {2022},
+  doi       = {10.1109/TVT.2022.3190721}
+}
+
+@article{b32,
+  author    = {Pollicino, Francesco and Stabili, Dario and Marchetti, Mirco},
+  title     = {Performance Comparison of Timing-Based Anomaly Detectors for Controller Area Network: A Reproducible Study},
+  year      = {2024},
+  publisher = {Association for Computing Machinery},
+  volume    = {8},
+  number    = {2},
+  issn      = {2378-962X},
+  doi       = {10.1145/3604913},
+  journal   = {ACM Trans. Cyber-Phys. Syst.},
+  month     = may,
+  articleno = {15},
+  numpages  = {24}
+}
+
+@article{b33,
+  author  = {Gazdag, Andr{\'a}s and Ferenc, Rudolf and Butty{\'a}n, Levente},
+  title   = {{CrySyS} dataset of {CAN} traffic logs containing fabrication and masquerade attacks},
+  year    = {2023},
+  journal = {Scientific Data},
+  volume  = {10},
+  doi     = {10.1038/s41597-023-02716-9}
+}
+
+@article{b34,
+  title  = {Poster: Real {ORNL} Automotive Dynamometer ({ROAD}) {CAN} Intrusion Dataset},
+  author = {Hollifield, Samuel C and Verma, Miki E and Iannacone, Michael D and Bridges, Robert A and Kay, Bill and Combs, Frank L},
+  year   = {2021}
+}
+
+@inproceedings{b35,
+  author       = {Michael M{\"u}ter and Naim Asaj},
+  title        = {Entropy-based anomaly detection for in-vehicle networks},
+  booktitle    = {{IEEE} Intelligent Vehicles Symposium (IV), 2011, Baden-Baden, Germany,
+                  June 5-9, 2011},
+  pages        = {1110--1115},
+  publisher    = {{IEEE}},
+  year         = {2011},
+  doi          = {10.1109/IVS.2011.5940552}
+}
+
+% =====================================================================
+% IMPORTANT: b37 is now Cho & Shin 2016 (was Larson 2008).
+% Existing \cite{b37} sites in the paper all refer semantically to
+% Cho & Shin's masquerade taxonomy, so this redirection makes the
+% paper consistent without touching any in-text citation.
+% =====================================================================
+@inproceedings{b37,
+  author    = {Kyong-Tak Cho and Kang G. Shin},
+  title     = {Fingerprinting Electronic Control Units for Vehicle Intrusion Detection},
+  booktitle = {25th USENIX Security Symposium (USENIX Security 16)},
+  year      = {2016},
+  isbn      = {978-1-931971-32-4},
+  address   = {Austin, TX},
+  pages     = {911--927},
+  publisher = {USENIX Association},
+  month     = aug,
+  url       = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/cho}
+}
+
+@article{b38,
+  author       = {Mee Lan Han and Byung Il Kwak and Huy Kang Kim},
+  title        = {{TOW-IDS}: Intrusion Detection System Based on Three Overlapped Wavelets
+                  for Automotive Ethernet},
+  journal      = {{IEEE} Trans. Inf. Forensics Secur.},
+  volume       = {18},
+  pages        = {411--422},
+  year         = {2023},
+  doi          = {10.1109/TIFS.2022.3221893}
+}
+
+@article{b39,
+  author       = {Pal{-}Stefan Murvay and Bogdan Groza},
+  title        = {Source Identification Using Signal Characteristics in Controller Area
+                  Networks},
+  journal      = {{IEEE} Signal Process. Lett.},
+  volume       = {21},
+  number       = {4},
+  pages        = {395--399},
+  year         = {2014},
+  doi          = {10.1109/LSP.2014.2304139}
+}
+
+@article{b40,
+  author       = {Wonsuk Choi and Hyo Jin Jo and Samuel Woo and Ji Young Chun and Jooyoung Park and Dong Hoon Lee},
+  title        = {Identifying ECUs Using Inimitable Characteristics of Signals in Controller
+                  Area Networks},
+  journal      = {{IEEE} Trans. Veh. Technol.},
+  volume       = {67},
+  number       = {6},
+  pages        = {4757--4770},
+  year         = {2018},
+  doi          = {10.1109/TVT.2018.2810232}
+}
+
+@article{b41,
+  author       = {Wonsuk Choi and Kyungho Joo and Hyo Jin Jo and Moon Chan Park and Dong Hoon Lee},
+  title        = {{VoltageIDS}: Low-Level Communication Characteristics for Automotive
+                  Intrusion Detection System},
+  journal      = {{IEEE} Trans. Inf. Forensics Secur.},
+  volume       = {13},
+  number       = {8},
+  pages        = {2114--2129},
+  year         = {2018},
+  doi          = {10.1109/TIFS.2018.2812149}
+}
+
+@inproceedings{b42,
+  author       = {Mirco Marchetti and Dario Stabili and Alessandro Guido and Michele Colajanni},
+  title        = {Evaluation of anomaly detection for in-vehicle networks through information-theoretic
+                  algorithms},
+  booktitle    = {2nd {IEEE} International Forum on Research and Technologies for Society
+                  and Industry Leveraging a better tomorrow, {RTSI} 2016, Bologna, Italy,
+                  September 7-9, 2016},
+  pages        = {1--6},
+  publisher    = {{IEEE}},
+  year         = {2016},
+  doi          = {10.1109/RTSI.2016.7740627}
+}
+
+@inproceedings{b43,
+  author       = {Adrian Taylor and Sylvain P. Leblanc and Nathalie Japkowicz},
+  title        = {Anomaly Detection in Automobile Control Network Data with Long Short-Term
+                  Memory Networks},
+  booktitle    = {2016 {IEEE} International Conference on Data Science and Advanced
+                  Analytics, {DSAA} 2016, Montreal, QC, Canada, October 17-19, 2016},
+  pages        = {130--139},
+  publisher    = {{IEEE}},
+  year         = {2016},
+  doi          = {10.1109/DSAA.2016.20}
+}
+
+@article{b45,
+  title     = {Fed-DNN-Debugger: Automatically Debugging Deep Neural Network Models in Federated Learning},
+  author    = {Duan, Shaoming and Liu, Chuanyi and Han, Peiyi and Jin, Xiaopeng and Zhang, Xinyi and Xiang, Xiayu and Pan, Hezhong},
+  journal   = {Security and Communication Networks},
+  volume    = {2023},
+  number    = {1},
+  pages     = {5968168},
+  year      = {2023},
+  publisher = {Wiley Online Library}
+}
+
+@inproceedings{b46,
+  title        = {Federated-{LSTM} based network intrusion detection method for intelligent connected vehicles},
+  author       = {Yu, Tianqi and Hua, Guodong and Wang, Huaisheng and Yang, Jianfeng and Hu, Jianling},
+  booktitle    = {ICC 2022-IEEE International Conference on Communications},
+  pages        = {4324--4329},
+  year         = {2022},
+  organization = {IEEE}
+}
+
+@ARTICLE{b47,
+  author  = {Sun, Heng and Sun, Mengsi and Weng, Jian and Liu, Zhiquan},
+  journal = {IEEE Transactions on Vehicular Technology},
+  title   = {Analysis of {ID} Sequences Similarity Using {DTW} in Intrusion Detection for {CAN} Bus},
+  year    = {2022},
+  volume  = {71},
+  number  = {10},
+  pages   = {10426-10441},
+  doi     = {10.1109/TVT.2022.3185111}
+}
+
+@ARTICLE{b48,
+  author  = {Anbalagan, Sudha and Raja, Gunasekaran and Gurumoorthy, Sugeerthi and Suresh, R. Deepak and Dev, Kapal},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  title   = {{IIDS}: Intelligent Intrusion Detection System for Sustainable Development in Autonomous Vehicles},
+  year    = {2023},
+  volume  = {24},
+  number  = {12},
+  pages   = {15866-15875},
+  doi     = {10.1109/TITS.2023.3271768}
+}
+
+@inproceedings{b49,
+  title        = {An effective in-vehicle {CAN} bus intrusion detection system using {CNN} deep learning approach},
+  author       = {Hossain, Md Delwar and Inoue, Hiroyuki and Ochiai, Hideya and Fall, Doudou and Kadobayashi, Youki},
+  booktitle    = {GLOBECOM 2020 - 2020 IEEE Global Communications Conference},
+  pages        = {1--6},
+  year         = {2020},
+  organization = {IEEE}
+}
+
+@article{b50,
+  title     = {{CANintelliIDS}: Detecting in-vehicle intrusion attacks on a controller area network using {CNN} and attention-based {GRU}},
+  author    = {Javed, Abdul Rehman and Ur Rehman, Saif and Khan, Mohib Ullah and Alazab, Mamoun and Reddy, Thippa},
+  journal   = {IEEE Transactions on Network Science and Engineering},
+  volume    = {8},
+  number    = {2},
+  pages     = {1456--1466},
+  year      = {2021},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{b51,
+  author    = {Araki, Shunsuke and Tashiro, Akiyoshi and Kakizaki, Ken'ichi and Uehara, Satoshi},
+  booktitle = {2017 IEEE International Conference on Consumer Electronics - Taiwan (ICCE-TW)},
+  title     = {A study on a secure protocol against tampering and replay attacks focused on data field of {CAN}},
+  year      = {2017},
+  pages     = {247-248},
+  doi       = {10.1109/ICCE-China.2017.7991088}
+}
+
+@ARTICLE{b52,
+  author  = {Duan, Xuting and Yan, Huiwen and Tian, Daxin and Zhou, Jianshan and Su, Jian and Hao, Wei},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  title   = {In-Vehicle {CAN} Bus Tampering Attacks Detection for Connected and Autonomous Vehicles Using an Improved Isolation Forest Method},
+  year    = {2023},
+  volume  = {24},
+  number  = {2},
+  pages   = {2122-2134},
+  doi     = {10.1109/TITS.2021.3128634}
+}
+
+@inproceedings{b53,
+  author       = {Albert Gu and Karan Goel and Christopher R{\'e}},
+  title        = {Efficiently Modeling Long Sequences with Structured State Spaces},
+  booktitle    = {The Tenth International Conference on Learning Representations, {ICLR}
+                  2022, Virtual Event, April 25-29, 2022},
+  publisher    = {OpenReview.net},
+  year         = {2022},
+  url          = {https://openreview.net/forum?id=uYLFoz1vlAC}
+}
+
+@article{b54,
+  author       = {Albert Gu and Tri Dao},
+  title        = {Mamba: Linear-Time Sequence Modeling with Selective State Spaces},
+  journal      = {CoRR},
+  volume       = {abs/2312.00752},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2312.00752},
+  doi          = {10.48550/ARXIV.2312.00752},
+  eprinttype   = {arXiv},
+  eprint       = {2312.00752}
+}
+
+@article{b55,
+  author       = {Hyunjun Jo and Deok{-}Hwan Kim},
+  title        = {Intrusion Detection Using Transformer in Controller Area Network},
+  journal      = {{IEEE} Access},
+  volume       = {12},
+  pages        = {121932--121946},
+  year         = {2024},
+  doi          = {10.1109/ACCESS.2024.3452634}
+}
+
+@ARTICLE{b56,
+  author  = {Shahriar, Md Hasan and Xiao, Yang and Moriano, Pablo and Lou, Wenjing and Hou, Y. Thomas},
+  journal = {IEEE Internet of Things Journal},
+  title   = {{CANShield}: Deep-Learning-Based Intrusion Detection Framework for Controller Area Networks at the Signal Level},
+  year    = {2023},
+  volume  = {10},
+  number  = {24},
+  pages   = {22111-22127},
+  doi     = {10.1109/JIOT.2023.3303271}
+}
+
+@article{b57,
+  author       = {Thien{-}Nu Hoang and Daehee Kim},
+  title        = {Detecting in-vehicle intrusion via semi-supervised learning-based
+                  convolutional adversarial autoencoders},
+  journal      = {Veh. Commun.},
+  volume       = {38},
+  pages        = {100520},
+  year         = {2022},
+  doi          = {10.1016/J.VEHCOM.2022.100520}
+}
+
+@inproceedings{b58,
+  author       = {Shahroz Tariq and Sangyup Lee and Simon S. Woo},
+  title        = {{CANTransfer}: transfer learning based intrusion detection on a controller
+                  area network using convolutional {LSTM} network},
+  booktitle    = {{SAC} '20: The 35th {ACM/SIGAPP} Symposium on Applied Computing, online
+                  event, [Brno, Czech Republic], March 30 - April 3, 2020},
+  pages        = {1048--1055},
+  publisher    = {{ACM}},
+  year         = {2020},
+  doi          = {10.1145/3341105.3373868}
+}
+
+@article{b59,
+  author       = {Hyun Min Song and Jiyoung Woo and Huy Kang Kim},
+  title        = {In-vehicle network intrusion detection using deep convolutional neural
+                  network},
+  journal      = {Veh. Commun.},
+  volume       = {21},
+  year         = {2020},
+  doi          = {10.1016/J.VEHCOM.2019.100198}
+}
+
+@inproceedings{b60,
+  author       = {Eunbi Seo and Hyun Min Song and Huy Kang Kim},
+  title        = {{GIDS}: {GAN} based Intrusion Detection System for In-Vehicle Network},
+  booktitle    = {16th Annual Conference on Privacy, Security and Trust, {PST} 2018,
+                  Belfast, Northern Ireland, UK, August 28-30, 2018},
+  pages        = {1--6},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2018},
+  doi          = {10.1109/PST.2018.8514157}
+}
+
+@inproceedings{b61,
+  author    = {Andr{\'a}s Gazdag and Csongor Ferenczi and Levente Butty{\'a}n},
+  title     = {Development of a Man-in-the-Middle Attack Device for the {CAN} Bus},
+  booktitle = {Proceedings of the 1st Conference on Information Technology and Data Science},
+  year      = {2020},
+  volume    = {2874},
+  series    = {CEUR Workshop Proceedings},
+  location  = {Debrecen, Hungary},
+  month     = {Nov 6--8},
+  url       = {http://ceur-ws.org/Vol-2874/paper11.pdf}
+}
+
+% ---------------------------------------------------------------------
+% New entries added in response to Reviewer 2's recommendations.
+% Renamed from named keys (khandelwal2023fpga, etc.) to bXX format
+% for consistency with the rest of the bibliography.
+% ---------------------------------------------------------------------
+
+@inproceedings{b62,
+  author    = {Khandelwal, Shashwat and Shreejith, Shanker},
+  title     = {Real-Time Zero-Day Intrusion Detection System
+               for Automotive Controller Area Network on {FPGAs}},
+  booktitle = {2023 IEEE 34th International Conference on
+               Application-specific Systems, Architectures
+               and Processors (ASAP)},
+  year      = {2023},
+  pages     = {139--146},
+  doi       = {10.1109/ASAP57973.2023.00033}
+}
+
+@article{b63,
+  author    = {Rangsikunpum, Auangkun and Amiri, Sam and Ost, Luciano},
+  title     = {{BIDS}: An Efficient Intrusion Detection System
+               for In-Vehicle Networks Using a Two-Stage
+               Binarised Neural Network on Low-Cost {FPGA}},
+  journal   = {Journal of Systems Architecture},
+  year      = {2024},
+  doi       = {10.1016/j.sysarc.2024.103285}
+}
+
+@article{b64,
+  author    = {Park, Sung Bum and Jo, Hyo Jin and Lee, Dong Hoon},
+  title     = {{G-IDCS}: Graph-Based Intrusion Detection
+               and Classification System for {CAN} Protocol},
+  journal   = {IEEE Access},
+  volume    = {11},
+  pages     = {39213--39227},
+  year      = {2023},
+  doi       = {10.1109/ACCESS.2023.3268519}
+}
+
+@article{b65,
+  author    = {Ma, Haoyu and Cao, Jianbo and Mi, Bo and
+               Huang, Darong and Liu, Yang and Li, Shaoqian},
+  title     = {A {GRU}-Based Lightweight System for {CAN}
+               Intrusion Detection in Real Time},
+  journal   = {Security and Communication Networks},
+  volume    = {2022},
+  number    = {1},
+  pages     = {5827056},
+  year      = {2022},
+  doi       = {10.1155/2022/5827056}
+}
+
+@inproceedings{b66,
+  author    = {Dario Stabili and Mirco Marchetti and Michele Colajanni},
+  title     = {Detecting attacks to internal vehicle networks
+               through {H}amming distance},
+  booktitle = {2017 {AEIT} International Annual Conference},
+  pages     = {1--6},
+  year      = {2017},
+  doi       = {10.23919/AEIT.2017.8240550}
+}
+
+@inproceedings{b67,
+  author    = {Md Hasan Shahriar and Wenjing Lou and Y. Thomas Hou},
+  title     = {{CANtropy}: Time Series Feature Extraction-Based
+               Intrusion Detection Systems for Controller Area Networks},
+  booktitle = {Proceedings of the {VehicleSec} Workshop},
+  year      = {2023}
+}
+
+@misc{b68,
+  author       = {{AUTOSAR Consortium}},
+  title        = {Specification of Secure Onboard Communication Protocol
+                  ({SecOC})},
+  howpublished = {AUTOSAR Standard, Release R23-11},
+  year         = {2023}
+}
+
+@inproceedings{b69,
+  author    = {Khaled Serag and Rohit Bhatia and Akram Faqih and
+               Muslum Ozgur Ozmen and Vireshwar Kumar and
+               Z. Berkay Celik and Dongyao Xu},
+  title     = {{ZBCAN}: A Zero-Byte {CAN} Defense System},
+  booktitle = {32nd {USENIX} Security Symposium ({USENIX} Security 23)},
+  year      = {2023}
+}

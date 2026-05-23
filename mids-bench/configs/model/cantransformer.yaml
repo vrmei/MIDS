@@ -1,0 +1,10 @@
+name: cantransformer
+num_classes: 4
+window_length: 100
+num_features: 9
+d_model: 128
+nhead: 4
+num_layers: 4
+dim_feedforward: 256
+dropout: 0.1
+activation: gelu
