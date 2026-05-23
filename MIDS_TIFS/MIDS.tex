@@ -146,7 +146,7 @@ In recent studies, researchers have focused on the CAN protocol's fixed ID frequ
 
 Although these methods can identify anomalous behaviors to some extent, they struggle with complex, non-periodic attacks. Consequently, machine learning (ML) and deep learning (DL) techniques have gained prominence. ML-based systems, such as those using Random Forest and SVM \cite{b38}, offer greater flexibility than rule-based methods but often require manual feature engineering.
 
-With the rapid development of DL, its capabilities in feature extraction and time-series processing have introduced new paradigms. For instance, \cite{b19} applied Deep Belief Networks (DBN) to classify messages, while \cite{b43} leveraged LSTM networks to predict temporal sequences. Generative approaches (GANs) \cite{b21}, ensemble learning \cite{b44}, and federated learning \cite{b46, b47} have also been explored. Additionally, CNN-based architectures \cite{b48, b49, b50} have been widely adopted to capture spatial features within CAN data. However, as these models grow in complexity, balancing detection accuracy with real-time hardware constraints becomes a critical challenge. To address this, recent work has explored specialized 
+With the rapid development of DL, its capabilities in feature extraction and time-series processing have introduced new paradigms. For instance, \cite{b19} applied Deep Belief Networks (DBN) to classify messages, while \cite{b43} leveraged LSTM networks to predict temporal sequences. Generative approaches (GANs) \cite{b21} and federated learning \cite{b46, b47} have also been explored. Additionally, CNN-based architectures \cite{b48, b49, b50} have been widely adopted to capture spatial features within CAN data. However, as these models grow in complexity, balancing detection accuracy with real-time hardware constraints becomes a critical challenge. To address this, recent work has explored specialized 
 architectures along several complementary axes. Khandelwal 
 and Shreejith~\cite{b62} and Rangsikunpum 
 \textit{et al.}~\cite{b63} target 
@@ -550,7 +550,7 @@ We first compare MIDS with state-of-the-art (SOTA) models in our tampering attac
 \subsubsection{Baseline Reproduction Protocol}
 \label{sec:repro}
 
-To ensure that the performance figures reported in Table~\ref{tab1} 
+To ensure that the performance figures reported in Table~\ref{tab4}
 reflect a faithful comparison on our Tesla Model~3 dataset rather 
 than an aggregation of numbers borrowed from the original 
 publications, every baseline above was re-trained from scratch 
@@ -598,7 +598,7 @@ To comprehensively evaluate the model’s performance, we adopted macro-weighted
 
 \subsubsection{Dataset}
 
-In accordance with our threat model, we primarily utilize the tampering dataset detailed in Section~\ref{sec:dataset_design} for comparison in Sections~\ref{sec:mids_exp}, \ref{sec:compare_exp}, and \ref{sec:ablation_exp}. To ensure the generalization ability of our model, we also evaluate its performance on a public dataset, as discussed in Section~\ref{sec:exp_public}.
+In accordance with our threat model, we primarily utilize the tampering dataset detailed in Section~\ref{sec:dataset_design} for comparison in Sections~\ref{sec:mids_exp}, \ref{sec:sota_comp}, and \ref{subsec:ablation}. To ensure the generalization ability of our model, we also evaluate its performance on a public dataset, as discussed in Section~\ref{sec:exp_public}.
 
 In implementing ID tampering attacks within our dataset, identifying critical CAN signals for tampering is essential. To achieve this, we employed fuzzing techniques, which led us to identify two key signals: the door status signal (ID 0x102) and the steering angle signal (ID 0x132). Manipulating these signals could potentially create unsafe scenarios, such as allowing the doors to open while driving or presenting incorrect steering information. These findings are further corroborated by the detailed descriptions of these signals in the Tesla Model 3's CAN database. Based on these analyses, we are confident that these signals have a significant impact on the vehicle's safety and operational integrity.
 
@@ -608,7 +608,7 @@ We first evaluate MIDS on our tampering attack dataset. Fig.~\ref{fig:f1} illust
 
 Subfigure (b) shows the macro Precision, Recall, and F1 score throughout the training process, displaying the same trend as in Subfigure (a). Subfigure (c) presents the ROC curves for MIDS under different tampering strategies. As shown, MIDS achieves an AUC of over 0.998 in all categories, demonstrating its robustness in distinguishing tampering attacks.
 
-Subfigure (d) compares MIDS's performance with that of SOTA models, while Subfigure (e) illustrates MIDS's performance on public datasets. A detailed discussion of these results is provided in Sections~\ref{sec:compare_exp} and \ref{sec:exp_public}.
+Subfigure (d) compares MIDS's performance with that of SOTA models, while Subfigure (e) illustrates MIDS's performance on public datasets. A detailed discussion of these results is provided in Sections~\ref{sec:sota_comp} and \ref{sec:exp_public}.
 
 Finally, Subfigure (f) presents the confusion matrix for classification results across four types of tampering strategies: beginning tampering, ID tampering, data tampering, and combined tampering. MIDS demonstrates high accuracy in each category, further validating its effectiveness in detecting various tampering attacks.
 
